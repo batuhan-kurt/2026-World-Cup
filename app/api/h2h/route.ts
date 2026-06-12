@@ -2,7 +2,10 @@ import fs from "fs";
 import path from "path";
 import { NextResponse } from "next/server";
 
-const dataFilePath = path.join(process.cwd(), "data", "h2h_cache.json");
+const isVercel = process.env.VERCEL || process.env.NEXT_PUBLIC_VERCEL_ENV;
+const dataFilePath = isVercel 
+  ? path.join("/tmp", "h2h_cache.json")
+  : path.join(process.cwd(), "data", "h2h_cache.json");
 
 export async function GET(req: Request) {
   try {

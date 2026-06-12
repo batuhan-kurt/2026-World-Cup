@@ -2,7 +2,10 @@ import fs from "fs";
 import path from "path";
 import { NextResponse } from "next/server";
 
-const dataFilePath = path.join(process.cwd(), "data", "predictions.json");
+const isVercel = process.env.VERCEL || process.env.NEXT_PUBLIC_VERCEL_ENV;
+const dataFilePath = isVercel 
+  ? path.join("/tmp", "predictions.json")
+  : path.join(process.cwd(), "data", "predictions.json");
 
 export async function GET() {
   try {
