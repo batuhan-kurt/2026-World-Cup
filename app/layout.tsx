@@ -22,6 +22,10 @@ export const metadata: Metadata = {
   description: "2026 FIFA Dünya Kupası'nı canlı takip et. Maç skorları, istatistikler, takım bilgileri ve daha fazlası.",
   keywords: "2026 Dünya Kupası, FIFA, futbol, canlı skor, maç istatistikleri",
   authors: [{ name: "World Cup Dashboard" }],
+  appleWebApp: {
+    title: "WC 2026",
+    statusBarStyle: "black-translucent",
+  },
   openGraph: {
     title: "2026 Dünya Kupası Dashboard",
     description: "Canlı skorlar, istatistikler ve maç detayları",
@@ -58,8 +62,8 @@ export default function RootLayout({
             </div>
 
             {/* Ana İçerik */}
-            <main className="flex-1 overflow-y-auto overflow-x-hidden p-4 md:p-8 pb-36 md:pb-8">
-              <div className="max-w-7xl mx-auto h-full">
+            <main className="flex-1 overflow-y-auto overflow-x-hidden p-4 md:p-8">
+              <div className="max-w-7xl mx-auto min-h-full pb-36 md:pb-8">
                 {children}
               </div>
             </main>
