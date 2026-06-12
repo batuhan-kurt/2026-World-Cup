@@ -80,17 +80,17 @@ export function H2HAnalysis({ team1Id, team2Id, team1Name, team2Name }: Props) {
         </h3>
         
         <div className="flex justify-between items-end mb-2 px-1">
-           <div className="flex flex-col">
-              <span className="text-2xl font-black text-electric-400">{t1Percent}%</span>
-              <span className="text-xs font-bold text-slate-500 uppercase">{team1Name}</span>
+           <div className="flex flex-col items-start w-[30%]">
+              <span className="text-2xl md:text-3xl font-black text-electric-400">{t1Percent}%</span>
+              <span className="text-[9px] md:text-xs font-bold text-slate-500 uppercase truncate w-full">{team1Name}</span>
            </div>
-           <div className="flex flex-col items-center">
-              <span className="text-xl font-bold text-slate-300">{drawPercent}%</span>
-              <span className="text-[10px] font-bold text-slate-500 uppercase">Beraberlik</span>
+           <div className="flex flex-col items-center w-[40%]">
+              <span className="text-xl md:text-2xl font-bold text-slate-300">{drawPercent}%</span>
+              <span className="text-[9px] md:text-xs font-bold text-slate-500 uppercase text-center w-full truncate">Beraberlik</span>
            </div>
-           <div className="flex flex-col items-end">
-              <span className="text-2xl font-black text-rose-400">{t2Percent}%</span>
-              <span className="text-xs font-bold text-slate-500 uppercase">{team2Name}</span>
+           <div className="flex flex-col items-end w-[30%]">
+              <span className="text-2xl md:text-3xl font-black text-rose-400">{t2Percent}%</span>
+              <span className="text-[9px] md:text-xs font-bold text-slate-500 uppercase truncate w-full text-right">{team2Name}</span>
            </div>
         </div>
         

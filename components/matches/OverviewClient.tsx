@@ -615,13 +615,21 @@ export default function OverviewClient({ fixtures, liveMatches = [] }: { fixture
                 {/* H2H Tab Content */}
                 {modalTab === "h2h" && (
                   (() => {
-                    const t1Config = WC_2026_CONFIG.teams.find(t => t.name === selectedMatch.team1);
-                    const t2Config = WC_2026_CONFIG.teams.find(t => t.name === selectedMatch.team2);
+                    const t1Config = WC_2026_CONFIG.teams.find(t => t.turkishName === selectedMatch.team1 || t.name === selectedMatch.team1);
+                    const t2Config = WC_2026_CONFIG.teams.find(t => t.turkishName === selectedMatch.team2 || t.name === selectedMatch.team2);
                     
                     if (!t1Config || !t2Config) {
                       return (
-                        <div className="flex flex-col items-center justify-center p-12 text-slate-500">
-                           <p>Bu takımlar için analiz verisi bulunamadı.</p>
+                        <div className="w-full max-w-4xl mx-auto">
+                          <div className="bg-white/5 border border-white/5 border-dashed rounded-2xl p-12 flex flex-col items-center justify-center text-center">
+                             <div className="w-16 h-16 bg-white/5 rounded-full flex items-center justify-center mb-4">
+                                <TrendingUp className="w-8 h-8 text-slate-400" />
+                             </div>
+                             <h4 className="text-xl font-bold text-slate-300 mb-2">Henüz Açıklanmadı</h4>
+                             <p className="text-sm text-slate-500 max-w-sm">
+                                Bu eşleşme için detaylı form ve geçmiş analiz verileri henüz oluşturulmadı.
+                             </p>
+                          </div>
                         </div>
                       );
                     }

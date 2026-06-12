@@ -18,11 +18,12 @@ import {
 const NAV_ITEMS = [
   { name: "Genel", href: "/", icon: Home },
   { name: "Favori", href: "/favoriler", icon: Heart },
-  { name: "Gruplar", href: "/gruplar", icon: Trophy },
+  { name: "Puan Dur.", href: "/gruplar", icon: Trophy },
   { name: "Simüle", href: "/simulasyon", icon: Gamepad2 },
   { name: "Tahmin", href: "/tahminler", icon: Dices },
-  { name: "Turnuva", href: "/bilgiler", icon: BookOpen },
+  { name: "Piyasa Değ.", href: "/bilgiler", icon: BookOpen },
   { name: "İstat", href: "/istatistikler", icon: BarChart3 },
+  { name: "Kadrolar", href: "/takimlar", icon: Users },
 ];
 
 export function MobileNav() {

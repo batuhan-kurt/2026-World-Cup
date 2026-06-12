@@ -11,7 +11,7 @@ export default async function TeamsPage() {
     <div className="space-y-6 animate-slide-up">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
         <div>
-          <h2 className="font-display text-3xl font-black text-white">Takımlar</h2>
+          <h2 className="font-display text-3xl font-black text-white">Kadrolar</h2>
           <p className="text-sm text-slate-400 mt-1">2026 Dünya Kupası'na katılacak takımların tam kadrosu ve detayları.</p>
         </div>
       </div>

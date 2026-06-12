@@ -28,7 +28,7 @@ export default function GroupsClient({ groups, fixtures, fullSquads }: { groups:
     <div className="space-y-8 animate-slide-up relative">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
-          <h2 className="font-display text-3xl font-black text-white flex items-center gap-3">Gruplar {isValidating && <RefreshCw className="w-5 h-5 text-electric-500 animate-spin" />}</h2>
+          <h2 className="font-display text-3xl font-black text-white flex items-center gap-3">Puan Durumu {isValidating && <RefreshCw className="w-5 h-5 text-electric-500 animate-spin" />}</h2>
           <p className="text-sm text-slate-400 mt-1">2026 Dünya Kupası Resmi Grupları ve Fikstürü</p>
         </div>
       </div>

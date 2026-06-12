@@ -15,17 +15,7 @@ if (!globalAny.apiFootballDailyMap) {
 
 const API_FOOTBALL_HOST = "v3.football.api-sports.io";
 
-/**
- * Football-Data.org takım adlarını API-Football ile eşleştirmek için yardımcı fonksiyon
- */
-function normalizeTeamName(name: string) {
-  if (!name) return "";
-  const n = name.toLowerCase();
-  if (n.includes("south korea") || n.includes("korea republic")) return "south korea";
-  if (n.includes("czech") || n.includes("czechia")) return "czech republic";
-  if (n.includes("bosnia")) return "bosnia";
-  return n;
-}
+import { normalizeApiTeamName } from "./team-mapper";
 
 /**
  * Football-Data.org maç ID'sini API-Football ID'sine dönüştürür
@@ -56,13 +46,13 @@ async function getApiFootballFixtureId(dateStr: string, homeTeam: string, awayTe
 
   // Önbellekteki günlük maçlardan takım adlarına göre eşleşeni bul
   const dailyFixtures = globalAny.apiFootballDailyMap[dateOnly] || [];
-  const normHome = normalizeTeamName(homeTeam);
-  const normAway = normalizeTeamName(awayTeam);
+  const normHome = normalizeApiTeamName(homeTeam);
+  const normAway = normalizeApiTeamName(awayTeam);
 
   const matched = dailyFixtures.find((f: any) => {
     if (!f.teams || !f.teams.home || !f.teams.away) return false;
-    const fHome = normalizeTeamName(f.teams.home.name);
-    const fAway = normalizeTeamName(f.teams.away.name);
+    const fHome = normalizeApiTeamName(f.teams.home.name);
+    const fAway = normalizeApiTeamName(f.teams.away.name);
     return (fHome.includes(normHome) || normHome.includes(fHome)) && 
            (fAway.includes(normAway) || normAway.includes(fAway));
   });

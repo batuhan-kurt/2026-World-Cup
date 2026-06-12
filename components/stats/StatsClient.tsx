@@ -4,6 +4,7 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { Goal, Target, ShieldAlert, BarChart3, TrendingUp, Users, Shield, Square } from "lucide-react";
 import { WC_2026_CONFIG } from "@/lib/wc2026-config";
+import { findCanonicalTeam } from "@/lib/team-mapper";
 
 import useSWR from "swr";
 
@@ -15,7 +16,7 @@ export function StatsClient() {
 
   const getTurkishName = (name: string) => {
     if (!name) return "";
-    const team = WC_2026_CONFIG.teams.find(t => t.name.toLowerCase() === name.toLowerCase());
+    const team = findCanonicalTeam(name);
     return team ? team.turkishName : name;
   };
 
@@ -62,13 +63,13 @@ export function StatsClient() {
 
       <div className="flex border-b border-white/5 bg-black/20 rounded-t-2xl overflow-hidden mt-8">
         <button 
-          className={cn("flex-1 py-4 text-xs font-bold uppercase tracking-wider transition-colors flex items-center justify-center gap-2", activeTab === "players" ? "text-electric-400 border-b-2 border-electric-400 bg-electric-500/10" : "text-slate-500 hover:text-slate-300 hover:bg-white/5")}
+          className={cn("flex-1 p-2 sm:py-4 text-[10px] sm:text-xs font-bold uppercase tracking-wider transition-colors flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2", activeTab === "players" ? "text-electric-400 border-b-2 border-electric-400 bg-electric-500/10" : "text-slate-500 hover:text-slate-300 hover:bg-white/5")}
           onClick={() => setActiveTab("players")}
         >
           <Users className="w-4 h-4" /> Oyuncu İstatistikleri
         </button>
         <button 
-          className={cn("flex-1 py-4 text-xs font-bold uppercase tracking-wider transition-colors flex items-center justify-center gap-2", activeTab === "teams" ? "text-electric-400 border-b-2 border-electric-400 bg-electric-500/10" : "text-slate-500 hover:text-slate-300 hover:bg-white/5")}
+          className={cn("flex-1 p-2 sm:py-4 text-[10px] sm:text-xs font-bold uppercase tracking-wider transition-colors flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2", activeTab === "teams" ? "text-electric-400 border-b-2 border-electric-400 bg-electric-500/10" : "text-slate-500 hover:text-slate-300 hover:bg-white/5")}
           onClick={() => setActiveTab("teams")}
         >
           <Shield className="w-4 h-4" /> Takım İstatistikleri
@@ -92,7 +93,7 @@ export function StatsClient() {
                           <span className="text-sm font-bold text-slate-500 w-4">{idx + 1}.</span>
                           <div className="flex flex-col">
                             <span className="text-sm font-bold text-white">{scorer.name}</span>
-                            <span className="text-[10px] text-slate-400">{scorer.team}</span>
+                            <span className="text-[10px] text-slate-400">{getTurkishName(scorer.team)}</span>
                           </div>
                         </div>
                         <div className="flex items-center gap-2 px-3 py-1 bg-blue-500/20 rounded-lg">
@@ -127,7 +128,7 @@ export function StatsClient() {
                           <span className="text-sm font-bold text-slate-500 w-4">{idx + 1}.</span>
                           <div className="flex flex-col">
                             <span className="text-sm font-bold text-white">{assister.name}</span>
-                            <span className="text-[10px] text-slate-400">{assister.team}</span>
+                            <span className="text-[10px] text-slate-400">{getTurkishName(assister.team)}</span>
                           </div>
                         </div>
                         <div className="flex items-center gap-2 px-3 py-1 bg-emerald-500/20 rounded-lg">

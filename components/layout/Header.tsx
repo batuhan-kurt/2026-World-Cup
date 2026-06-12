@@ -12,12 +12,12 @@ import {
 const NAV_ITEMS = [
   { name: "Genel Bakış", href: "/", icon: Home, color: "text-electric-400" },
   { name: "Favori Takım", href: "/favoriler", icon: Heart, color: "text-rose-400" },
-  { name: "Gruplar", href: "/gruplar", icon: Trophy, color: "text-gold-400" },
+  { name: "Puan Durumu", href: "/gruplar", icon: Trophy, color: "text-gold-400" },
   { name: "Simülasyon", href: "/simulasyon", icon: Gamepad2, color: "text-purple-400" },
   { name: "Tahminler", href: "/tahminler", icon: Dices, color: "text-emerald-400" },
-  { name: "Turnuva Bilgileri", href: "/bilgiler", icon: BookOpen, color: "text-sky-400" },
+  { name: "Piyasa Değerleri", href: "/bilgiler", icon: BookOpen, color: "text-sky-400" },
   { name: "İstatistikler", href: "/istatistikler", icon: BarChart3, color: "text-orange-400" },
-  { name: "Takımlar", href: "/takimlar", icon: Users, color: "text-indigo-400" },
+  { name: "Kadrolar", href: "/takimlar", icon: Users, color: "text-indigo-400" },
   { name: "Katılan Takımlar", href: "/katilan-takimlar", icon: Trophy, color: "text-teal-400" },
 ];
 

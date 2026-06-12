@@ -28,11 +28,12 @@ export const metadata: Metadata = {
     type: "website",
     locale: "tr_TR",
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
   themeColor: "#050810",
 };
 
@@ -57,7 +58,7 @@ export default function RootLayout({
             </div>
 
             {/* Ana İçerik */}
-            <main className="flex-1 overflow-y-auto overflow-x-hidden p-4 md:p-8 pb-8">
+            <main className="flex-1 overflow-y-auto overflow-x-hidden p-4 md:p-8 pb-24 md:pb-8">
               <div className="max-w-7xl mx-auto h-full">
                 {children}
               </div>

@@ -21,20 +21,20 @@ export function InfoClient({ teams, players }: { teams: any[], players: any[] })
     <div className="space-y-6 animate-slide-up">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
         <div>
-          <h2 className="font-display text-3xl font-black text-white">Turnuva Bilgileri</h2>
+          <h2 className="font-display text-3xl font-black text-white">Piyasa Değerleri</h2>
           <p className="text-sm text-slate-400 mt-1">En Değerli Milli Takımlar ve Kadrolar</p>
         </div>
       </div>
       
       <div className="flex border-b border-white/5 bg-black/20 rounded-t-2xl overflow-hidden">
         <button 
-          className={cn("flex-1 py-4 text-xs font-bold uppercase tracking-wider transition-colors flex items-center justify-center gap-2", activeTab === "teams" ? "text-electric-400 border-b-2 border-electric-400 bg-electric-500/10" : "text-slate-500 hover:text-slate-300 hover:bg-white/5")}
+          className={cn("flex-1 p-2 sm:py-4 text-[10px] sm:text-xs font-bold uppercase tracking-wider transition-colors flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2", activeTab === "teams" ? "text-electric-400 border-b-2 border-electric-400 bg-electric-500/10" : "text-slate-500 hover:text-slate-300 hover:bg-white/5")}
           onClick={() => setActiveTab("teams")}
         >
           <Shield className="w-4 h-4" /> En Değerli Takımlar
         </button>
         <button 
-          className={cn("flex-1 py-4 text-xs font-bold uppercase tracking-wider transition-colors flex items-center justify-center gap-2", activeTab === "players" ? "text-electric-400 border-b-2 border-electric-400 bg-electric-500/10" : "text-slate-500 hover:text-slate-300 hover:bg-white/5")}
+          className={cn("flex-1 p-2 sm:py-4 text-[10px] sm:text-xs font-bold uppercase tracking-wider transition-colors flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2", activeTab === "players" ? "text-electric-400 border-b-2 border-electric-400 bg-electric-500/10" : "text-slate-500 hover:text-slate-300 hover:bg-white/5")}
           onClick={() => { setActiveTab("players"); setCurrentPage(1); }}
         >
           <Users className="w-4 h-4" /> En Değerli Oyuncular

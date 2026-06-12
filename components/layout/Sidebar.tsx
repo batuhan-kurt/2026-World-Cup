@@ -21,12 +21,12 @@ import {
 const NAV_ITEMS = [
   { name: "Genel Bakış", href: "/", icon: Home },
   { name: "Favori Takım", href: "/favoriler", icon: Heart },
-  { name: "Takımlar", href: "/takimlar", icon: Users },
+  { name: "Kadrolar", href: "/takimlar", icon: Users },
   { name: "Katılan Takımlar", href: "/katilan-takimlar", icon: Target },
-  { name: "Gruplar", href: "/gruplar", icon: Trophy },
+  { name: "Puan Durumu", href: "/gruplar", icon: Trophy },
   { name: "Simülasyon", href: "/simulasyon", icon: Gamepad2 },
   { name: "Tahminler", href: "/tahminler", icon: Dices },
-  { name: "Turnuva Bilgileri", href: "/bilgiler", icon: BookOpen },
+  { name: "Piyasa Değerleri", href: "/bilgiler", icon: BookOpen },
   { name: "İstatistikler", href: "/istatistikler", icon: BarChart3 },
 ];
 
