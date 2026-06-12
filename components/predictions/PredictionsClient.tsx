@@ -154,26 +154,27 @@ export default function PredictionsClient({ fixtures, groups, players = [] }: { 
 
   if (!isAuthenticated) {
     return (
-      <div className="min-h-[60vh] flex items-center justify-center p-4 animate-slide-up">
-        <form onSubmit={handleLogin} className="glass-panel w-full max-w-md p-8 rounded-3xl flex flex-col items-center gap-6 text-center border-t border-white/10 shadow-[0_0_50px_rgba(59,130,246,0.15)] relative overflow-hidden">
+      <div className="min-h-[70vh] flex items-center justify-center p-4 animate-slide-up">
+        <form onSubmit={handleLogin} className="glass-panel w-full max-w-md p-6 md:p-8 rounded-3xl flex flex-col items-center gap-5 text-center border-t border-white/10 shadow-[0_0_50px_rgba(59,130,246,0.15)] relative overflow-hidden">
            <div className="absolute top-0 right-0 w-48 h-48 bg-electric-500/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-           <div className="w-16 h-16 bg-white/5 rounded-full flex items-center justify-center relative z-10 border border-white/10">
-              <Lock className="w-8 h-8 text-electric-400" />
+           <div className="w-14 h-14 bg-white/5 rounded-full flex items-center justify-center relative z-10 border border-white/10">
+              <Lock className="w-7 h-7 text-electric-400" />
            </div>
-           <div className="relative z-10 w-full space-y-2">
-             <h2 className="text-2xl font-black text-white font-display">Tahminlere Giriş</h2>
+           <div className="relative z-10 w-full space-y-1">
+             <h2 className="text-xl md:text-2xl font-black text-white font-display">Tahminlere Giriş</h2>
              <p className="text-slate-400 text-sm">Bu alana erişmek için lütfen parolayı girin.</p>
            </div>
            
-           <div className="w-full relative z-10 space-y-4">
+           <div className="w-full relative z-10 space-y-3">
              <input 
                type="password"
                value={password}
                onChange={e => setPassword(e.target.value)}
                placeholder="Parolayı girin..."
+               autoComplete="current-password"
                className="w-full bg-black/50 border border-white/10 rounded-xl py-4 px-4 text-center text-white focus:outline-none focus:border-electric-500 text-lg tracking-widest transition-colors"
              />
-             {passwordError && <p className="text-red-400 text-sm font-bold animate-shake">{passwordError}</p>}
+             {passwordError && <p className="text-red-400 text-sm font-bold">{passwordError}</p>}
              
              <button type="submit" className="w-full bg-electric-600 hover:bg-electric-500 text-white font-bold py-4 rounded-xl transition-all shadow-[0_0_15px_rgba(37,99,235,0.3)]">
                Giriş Yap
@@ -196,7 +197,7 @@ export default function PredictionsClient({ fixtures, groups, players = [] }: { 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         
         {/* Tahmin Ekleme Formu */}
-        <div className="glass-panel rounded-2xl overflow-hidden lg:col-span-1 h-fit sticky top-24">
+        <div className="glass-panel rounded-2xl overflow-hidden lg:col-span-1 h-fit lg:sticky lg:top-24">
           <div className="bg-electric-600/20 border-b border-electric-500/30 p-6 flex flex-col gap-4">
             <h3 className="font-display text-xl font-bold text-white flex items-center gap-2">
               <Target className="w-5 h-5 text-electric-400" /> Tahminini Yap

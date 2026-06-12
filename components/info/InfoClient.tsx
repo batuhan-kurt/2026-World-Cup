@@ -49,8 +49,9 @@ export function InfoClient({ teams, players }: { teams: any[], players: any[] })
                  <img src={team.logo} className="w-24 h-24 object-contain grayscale" alt={team.name} />
               </div>
               <div className="flex justify-between items-start">
-                <h3 className="text-2xl font-black text-white font-display flex items-center gap-3 relative z-10">
-                  <span className="text-electric-500 text-sm">{idx + 1}.</span> {team.name}
+                <h3 className="text-lg md:text-2xl font-black text-white font-display flex items-center gap-2 relative z-10 min-w-0">
+                  <span className="text-electric-500 text-sm shrink-0">{idx + 1}.</span> 
+                  <span className="truncate">{team.name}</span>
                 </h3>
               </div>
               <div className="space-y-3 relative z-10 mt-2">
@@ -117,8 +118,8 @@ export function InfoClient({ teams, players }: { teams: any[], players: any[] })
           </div>
 
           {/* Pagination */}
-          <div className="flex items-center justify-between bg-white/5 p-4 rounded-2xl border border-white/10">
-             <span className="text-sm text-slate-400">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between bg-white/5 p-3 md:p-4 rounded-2xl border border-white/10 gap-3">
+             <span className="text-xs md:text-sm text-slate-400">
                Toplam <strong className="text-white">{players.length}</strong> oyuncudan <strong className="text-white">{(currentPage - 1) * playersPerPage + 1}-{Math.min(currentPage * playersPerPage, players.length)}</strong> arası gösteriliyor.
              </span>
              <div className="flex items-center gap-2">

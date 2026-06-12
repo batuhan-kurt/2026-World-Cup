@@ -60,9 +60,9 @@ export function FavoritesClient({ teams, players, fixtures, groups }: { teams: a
   return (
     <div className="space-y-8 animate-slide-up pb-20">
       {/* Header */}
-      <div className="glass-panel p-8 rounded-3xl border border-electric-500/30 relative overflow-hidden flex flex-col md:flex-row items-center gap-8 group">
+      <div className="glass-panel p-4 md:p-8 rounded-3xl border border-electric-500/30 relative overflow-hidden flex flex-col md:flex-row items-center gap-4 md:gap-8 group">
          
-         <div className="w-24 h-24 md:w-32 md:h-32 shrink-0 relative z-10 p-2 bg-white/5 rounded-full border-4 border-electric-500/20 shadow-[0_0_50px_rgba(37,99,235,0.2)]">
+         <div className="w-20 h-20 md:w-32 md:h-32 shrink-0 relative z-10 p-2 bg-white/5 rounded-full border-4 border-electric-500/20 shadow-[0_0_50px_rgba(37,99,235,0.2)]">
             <img src={teamData.logo} className="w-full h-full object-cover rounded-full" />
          </div>
          

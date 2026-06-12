@@ -298,9 +298,9 @@ export default function OverviewClient({ fixtures, liveMatches = [] }: { fixture
                     {f.score || "VS"}
                   </div>
                   {f.referee && (
-                    <div className="mt-2 text-[10px] text-slate-400 font-bold uppercase tracking-wider whitespace-nowrap flex items-center gap-1.5 bg-black/20 px-2.5 py-1 rounded-full border border-white/10">
-                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-slate-500"><path d="M12 10a4 4 0 1 1-4-4h8" /><path d="M16 6v4" /><path d="M8 2h8" /></svg>
-                      {f.referee.split(" ").slice(-1)[0]}
+                    <div className="mt-2 text-[10px] text-slate-400 font-bold uppercase tracking-wider flex items-center gap-1.5 bg-black/20 px-2.5 py-1 rounded-full border border-white/10 mx-auto w-fit max-w-full overflow-hidden">
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-slate-500 shrink-0"><path d="M12 10a4 4 0 1 1-4-4h8" /><path d="M16 6v4" /><path d="M8 2h8" /></svg>
+                      <span className="truncate">{f.referee.split(" ").slice(-1)[0]}</span>
                     </div>
                   )}
                 </div>
@@ -329,26 +329,26 @@ export default function OverviewClient({ fixtures, liveMatches = [] }: { fixture
       {selectedMatch && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-fade-in" onClick={() => setSelectedMatch(null)}>
           <div 
-            className="glass-panel w-full max-w-3xl relative animate-slide-up border border-electric-500/30 shadow-[0_0_50px_rgba(59,130,246,0.15)] flex flex-col overflow-hidden"
+            className="glass-panel w-full max-w-3xl relative animate-slide-up border border-electric-500/30 shadow-[0_0_50px_rgba(59,130,246,0.15)] flex flex-col overflow-hidden max-h-[90vh] md:max-h-[85vh]"
             onClick={e => e.stopPropagation()}
           >
             <button 
-              className="absolute top-4 right-4 p-2 bg-white/5 hover:bg-red-500/20 text-slate-400 hover:text-red-400 rounded-full transition-colors z-10"
+              className="absolute top-3 right-3 md:top-4 md:right-4 p-2 bg-black/60 hover:bg-red-500/20 text-slate-400 hover:text-red-400 rounded-full transition-colors z-20 border border-white/10"
               onClick={() => setSelectedMatch(null)}
             >
               <X className="w-5 h-5" />
             </button>
             
             {/* Modal Header */}
-            <div className="p-8 border-b border-white/5 bg-gradient-to-b from-white/5 to-transparent">
-               <div className="text-center text-electric-400 font-bold text-xs uppercase tracking-widest mb-4">
+            <div className="p-4 md:p-8 border-b border-white/5 bg-gradient-to-b from-white/5 to-transparent">
+               <div className="text-center text-electric-400 font-bold text-[10px] uppercase tracking-widest mb-3">
                   {selectedMatch.stage} • {selectedMatch.date} • {selectedMatch.time} TSİ
                </div>
                
-               <div className="flex items-center justify-between px-4">
-                  <div className="flex flex-col items-center flex-1 gap-4">
-                     <img src={selectedMatch.team1Logo} alt={selectedMatch.team1} className="w-20 h-16 object-contain drop-shadow-xl" />
-                     <span className="font-display font-black text-2xl text-white text-center">{selectedMatch.team1}</span>
+               <div className="flex items-center justify-between px-2 md:px-4">
+                  <div className="flex flex-col items-center flex-1 gap-2 md:gap-4">
+                     <img src={selectedMatch.team1Logo} alt={selectedMatch.team1} className="w-14 h-12 md:w-20 md:h-16 object-contain drop-shadow-xl" />
+                     <span className="font-display font-black text-base md:text-2xl text-white text-center leading-tight">{selectedMatch.team1}</span>
                   </div>
                   
                   <div className="px-6 flex flex-col items-center gap-2">
@@ -374,39 +374,39 @@ export default function OverviewClient({ fixtures, liveMatches = [] }: { fixture
                      )}
                   </div>
                   
-                  <div className="flex flex-col items-center flex-1 gap-4">
-                     <img src={selectedMatch.team2Logo} alt={selectedMatch.team2} className="w-20 h-16 object-contain drop-shadow-xl" />
-                     <span className="font-display font-black text-2xl text-white text-center">{selectedMatch.team2}</span>
+                  <div className="flex flex-col items-center flex-1 gap-2 md:gap-4">
+                     <img src={selectedMatch.team2Logo} alt={selectedMatch.team2} className="w-14 h-12 md:w-20 md:h-16 object-contain drop-shadow-xl" />
+                     <span className="font-display font-black text-base md:text-2xl text-white text-center leading-tight">{selectedMatch.team2}</span>
                   </div>
                </div>
             </div>
             
             {/* Modal Body - Tabs */}
-            <div className="p-8 bg-black/20 flex-1 overflow-y-auto">
-               <div className="flex border-b border-white/10 mb-6 gap-2">
+            <div className="p-3 md:p-8 bg-black/20 flex-1 overflow-y-auto">
+               <div className="flex border-b border-white/10 mb-4 md:mb-6 overflow-x-auto hide-scrollbar">
                   <button 
                     onClick={() => setModalTab("h2h")}
-                    className={cn("px-6 py-3 border-b-2 font-bold text-sm flex items-center gap-2 transition-colors", modalTab === "h2h" ? "border-electric-500 text-electric-400" : "border-transparent text-slate-500 hover:text-slate-300")}
+                    className={cn("px-3 md:px-6 py-3 border-b-2 font-bold text-xs md:text-sm flex items-center gap-1 md:gap-2 transition-colors whitespace-nowrap shrink-0", modalTab === "h2h" ? "border-electric-500 text-electric-400" : "border-transparent text-slate-500 hover:text-slate-300")}
                   >
-                     <TrendingUp className="w-4 h-4" /> Analiz
+                     <TrendingUp className="w-3.5 h-3.5" /> Analiz
                   </button>
                   <button 
                     onClick={() => setModalTab("lineups")}
-                    className={cn("px-6 py-3 border-b-2 font-bold text-sm flex items-center gap-2 transition-colors", modalTab === "lineups" ? "border-electric-500 text-electric-400" : "border-transparent text-slate-500 hover:text-slate-300")}
+                    className={cn("px-3 md:px-6 py-3 border-b-2 font-bold text-xs md:text-sm flex items-center gap-1 md:gap-2 transition-colors whitespace-nowrap shrink-0", modalTab === "lineups" ? "border-electric-500 text-electric-400" : "border-transparent text-slate-500 hover:text-slate-300")}
                   >
-                     <Users className="w-4 h-4" /> İlk 11'ler
+                     <Users className="w-3.5 h-3.5" /> İlk 11'ler
                   </button>
                   <button 
                     onClick={() => setModalTab("stats")}
-                    className={cn("px-6 py-3 border-b-2 font-bold text-sm flex items-center gap-2 transition-colors", modalTab === "stats" ? "border-electric-500 text-electric-400" : "border-transparent text-slate-500 hover:text-slate-300")}
+                    className={cn("px-3 md:px-6 py-3 border-b-2 font-bold text-xs md:text-sm flex items-center gap-1 md:gap-2 transition-colors whitespace-nowrap shrink-0", modalTab === "stats" ? "border-electric-500 text-electric-400" : "border-transparent text-slate-500 hover:text-slate-300")}
                   >
-                     <BarChart3 className="w-4 h-4" /> İstatistikler
+                     <BarChart3 className="w-3.5 h-3.5" /> İstatistikler
                   </button>
                   <button 
                     onClick={() => setModalTab("details")}
-                    className={cn("px-6 py-3 border-b-2 font-bold text-sm flex items-center gap-2 transition-colors", modalTab === "details" ? "border-electric-500 text-electric-400" : "border-transparent text-slate-500 hover:text-slate-300")}
+                    className={cn("px-3 md:px-6 py-3 border-b-2 font-bold text-xs md:text-sm flex items-center gap-1 md:gap-2 transition-colors whitespace-nowrap shrink-0", modalTab === "details" ? "border-electric-500 text-electric-400" : "border-transparent text-slate-500 hover:text-slate-300")}
                   >
-                     <Activity className="w-4 h-4" /> Detay
+                     <Activity className="w-3.5 h-3.5" /> Detay
                   </button>
                </div>
                

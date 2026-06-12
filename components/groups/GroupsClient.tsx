@@ -143,11 +143,11 @@ export default function GroupsClient({ groups, fixtures, fullSquads }: { groups:
                     </span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <div className="font-bold text-slate-200 text-lg flex-1 flex items-center gap-3">
-                      <img src={f.team1Logo} className="w-8 h-6 object-contain" /> {f.team1}
+                    <div className="font-bold text-slate-200 text-sm md:text-lg flex-1 flex items-center gap-2">
+                      <img src={f.team1Logo} className="w-7 h-5 md:w-8 md:h-6 object-contain shrink-0" /> <span className="truncate">{f.team1}</span>
                     </div>
                     <div className="flex flex-col items-center gap-1 mx-4">
-                      <div className="text-xl font-black text-white bg-black/40 px-5 py-2 rounded-lg border border-white/10 shadow-inner group-hover:border-electric-500/30 transition-colors min-w-[80px] text-center">
+                      <div className="text-sm md:text-xl font-black text-white bg-black/40 px-3 md:px-5 py-2 rounded-lg border border-white/10 shadow-inner group-hover:border-electric-500/30 transition-colors min-w-[60px] md:min-w-[80px] text-center">
                         {f.score || "VS"}
                       </div>
                       {(f.status === "1H" || f.status === "2H" || f.status === "HT" || f.status === "LIVE") && (
@@ -164,8 +164,8 @@ export default function GroupsClient({ groups, fixtures, fullSquads }: { groups:
                         </div>
                       )}
                     </div>
-                    <div className="font-bold text-slate-200 text-lg flex-1 flex items-center justify-end gap-3">
-                      {f.team2} <img src={f.team2Logo} className="w-8 h-6 object-contain" />
+                    <div className="font-bold text-slate-200 text-sm md:text-lg flex-1 flex items-center justify-end gap-2">
+                      <span className="truncate">{f.team2}</span> <img src={f.team2Logo} className="w-7 h-5 md:w-8 md:h-6 object-contain shrink-0" />
                     </div>
                   </div>
                 </div>
@@ -189,14 +189,14 @@ export default function GroupsClient({ groups, fixtures, fullSquads }: { groups:
               <X className="w-5 h-5" />
             </button>
 
-            <div className="p-8">
-              <div className="flex flex-col md:flex-row gap-8 items-start mb-10">
-                <div className="w-32 h-24 rounded-xl overflow-hidden bg-white/5 border border-white/10 flex items-center justify-center shrink-0 p-2 shadow-2xl">
+            <div className="p-4 md:p-8">
+              <div className="flex flex-col md:flex-row gap-4 md:gap-8 items-start mb-6 md:mb-10">
+                <div className="w-20 h-16 md:w-32 md:h-24 rounded-xl overflow-hidden bg-white/5 border border-white/10 flex items-center justify-center shrink-0 p-2 shadow-2xl">
                   <img src={selectedTeamData.logo} alt={selectedTeamData.name} className="w-full h-full object-contain" />
                 </div>
                 
                 <div className="flex-1">
-                  <h2 className="text-4xl font-black text-white font-display mb-2">{selectedTeamData.name}</h2>
+                  <h2 className="text-2xl md:text-4xl font-black text-white font-display mb-2">{selectedTeamData.name}</h2>
                   <div className="flex items-center gap-2 text-slate-400 text-sm mb-6">
                     <span className="px-2.5 py-1 rounded-md bg-electric-500/20 text-electric-400 font-semibold border border-electric-500/30">
                       FIFA Dünya Kupası 2026
