@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "name": "Brezilya",
+    "countryCode": "br",
+    "group": "A",
+    "logo": "https://media.api-sports.io/football/teams/6.png",
+    "coach": "Dorival Junior",
+    "fifaRanking": 5,
+    "titles": 5,
+    "players": [
+      { "id": 101, "name": "Alisson", "position": "GK", "number": 1, "club": "Liverpool" },
+      { "id": 102, "name": "Danilo", "position": "DEF", "number": 2, "club": "Juventus" },
+      { "id": 103, "name": "Marquinhos", "position": "DEF", "number": 4, "club": "PSG" },
+      { "id": 104, "name": "Gabriel", "position": "DEF", "number": 3, "club": "Arsenal" },
+      { "id": 105, "name": "Rodrygo", "position": "MID", "number": 11, "club": "Real Madrid" },
+      { "id": 106, "name": "Casemiro", "position": "MID", "number": 5, "club": "Man United" },
+      { "id": 107, "name": "Lucas Paquetá", "position": "MID", "number": 10, "club": "West Ham" },
+      { "id": 108, "name": "Raphinha", "position": "FWD", "number": 22, "club": "Barcelona" },
+      { "id": 109, "name": "Vinicius Jr.", "position": "FWD", "number": 7, "club": "Real Madrid" },
+      { "id": 110, "name": "Endrick", "position": "FWD", "number": 9, "club": "Real Madrid" },
+      { "id": 111, "name": "Savinho", "position": "FWD", "number": 17, "club": "Man City" }
+    ],
+    "stats": { "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 9, "goalsAgainst": 2, "points": 9 },
+    "stadiums": ["MetLife Stadium", "SoFi Stadium"]
+  },
+  {
+    "id": 2,
+    "name": "Almanya",
+    "countryCode": "de",
+    "group": "B",
+    "logo": "https://media.api-sports.io/football/teams/25.png",
+    "coach": "Julian Nagelsmann",
+    "fifaRanking": 16,
+    "titles": 4,
+    "players": [
+      { "id": 201, "name": "Manuel Neuer", "position": "GK", "number": 1, "club": "Bayern" },
+      { "id": 202, "name": "Kimmich", "position": "DEF", "number": 6, "club": "Bayern" },
+      { "id": 203, "name": "Rüdiger", "position": "DEF", "number": 2, "club": "Real Madrid" },
+      { "id": 204, "name": "Schlotterbeck", "position": "DEF", "number": 5, "club": "Dortmund" },
+      { "id": 205, "name": "Musiala", "position": "MID", "number": 10, "club": "Bayern" },
+      { "id": 206, "name": "Wirtz", "position": "MID", "number": 17, "club": "Bayer Leverkusen" },
+      { "id": 207, "name": "Gündoğan", "position": "MID", "number": 21, "club": "Barcelona" },
+      { "id": 208, "name": "Havertz", "position": "FWD", "number": 7, "club": "Arsenal" }
+    ],
+    "stats": { "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 7, "goalsAgainst": 4, "points": 7 },
+    "stadiums": ["SoFi Stadium", "AT&T Stadium"]
+  },
+  {
+    "id": 3,
+    "name": "Fransa",
+    "countryCode": "fr",
+    "group": "C",
+    "logo": "https://media.api-sports.io/football/teams/2.png",
+    "coach": "Didier Deschamps",
+    "fifaRanking": 2,
+    "titles": 2,
+    "players": [
+      { "id": 301, "name": "Maignan", "position": "GK", "number": 1, "club": "AC Milan" },
+      { "id": 302, "name": "Pavard", "position": "DEF", "number": 2, "club": "Inter Milan" },
+      { "id": 303, "name": "Saliba", "position": "DEF", "number": 4, "club": "Arsenal" },
+      { "id": 304, "name": "Tchouaméni", "position": "MID", "number": 8, "club": "Real Madrid" },
+      { "id": 305, "name": "Griezmann", "position": "MID", "number": 7, "club": "Atletico" },
+      { "id": 306, "name": "Mbappé", "position": "FWD", "number": 10, "club": "Real Madrid" },
+      { "id": 307, "name": "Dembélé", "position": "FWD", "number": 11, "club": "PSG" }
+    ],
+    "stats": { "played": 2, "won": 1, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 2, "points": 4 },
+    "stadiums": ["AT&T Stadium", "Rose Bowl"]
+  },
+  {
+    "id": 4,
+    "name": "Arjantin",
+    "countryCode": "ar",
+    "group": "C",
+    "logo": "https://media.api-sports.io/football/teams/26.png",
+    "coach": "Lionel Scaloni",
+    "fifaRanking": 1,
+    "titles": 3,
+    "players": [
+      { "id": 401, "name": "E. Martínez", "position": "GK", "number": 23, "club": "Aston Villa" },
+      { "id": 402, "name": "Molina", "position": "DEF", "number": 26, "club": "Atletico" },
+      { "id": 403, "name": "Romero", "position": "DEF", "number": 13, "club": "Spurs" },
+      { "id": 404, "name": "De Paul", "position": "MID", "number": 7, "club": "Atletico" },
+      { "id": 405, "name": "Mac Allister", "position": "MID", "number": 10, "club": "Liverpool" },
+      { "id": 406, "name": "Messi", "position": "FWD", "number": 10, "club": "Inter Miami" },
+      { "id": 407, "name": "Álvarez", "position": "FWD", "number": 9, "club": "Atletico" }
+    ],
+    "stats": { "played": 2, "won": 1, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 3, "points": 4 },
+    "stadiums": ["AT&T Stadium", "Rose Bowl"]
+  },
+  {
+    "id": 5,
+    "name": "İspanya",
+    "countryCode": "es",
+    "group": "D",
+    "logo": "https://media.api-sports.io/football/teams/9.png",
+    "coach": "Luis de la Fuente",
+    "fifaRanking": 3,
+    "titles": 1,
+    "players": [
+      { "id": 501, "name": "Unai Simón", "position": "GK", "number": 1, "club": "Athletic" },
+      { "id": 502, "name": "Carvajal", "position": "DEF", "number": 2, "club": "Real Madrid" },
+      { "id": 503, "name": "Pedri", "position": "MID", "number": 8, "club": "Barcelona" },
+      { "id": 504, "name": "Gavi", "position": "MID", "number": 6, "club": "Barcelona" },
+      { "id": 505, "name": "Yamal", "position": "FWD", "number": 19, "club": "Barcelona" },
+      { "id": 506, "name": "Morata", "position": "FWD", "number": 9, "club": "AC Milan" }
+    ],
+    "stats": { "played": 2, "won": 2, "drawn": 0, "lost": 0, "goalsFor": 6, "goalsAgainst": 1, "points": 6 },
+    "stadiums": ["Rose Bowl", "SoFi Stadium"]
+  }
+]

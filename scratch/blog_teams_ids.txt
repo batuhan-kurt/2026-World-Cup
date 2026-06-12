@@ -1,0 +1,4 @@
+Scotland: 1108
+Curaçao: 5530
+Haiti: 2386
+Jordan: 1548

@@ -1,0 +1,737 @@
+[
+  {
+    "team1": "Meksika",
+    "team2": "Güney Afrika",
+    "date": "11 Haziran 2026",
+    "venue": "Aztek Stadyumu, Meksiko<br>**Hakem**: Wilton Sampaio ( Brezilya)",
+    "lineIdx": 241
+  },
+  {
+    "team1": "Güney Kore",
+    "team2": "Çekya",
+    "date": "11 Haziran 2026",
+    "venue": "Akron Stadyumu, Zapopan<br>**Hakem**: Amin Mohamed Omar ( Mısır)",
+    "lineIdx": 254
+  },
+  {
+    "team1": "Çekya",
+    "team2": "Güney Afrika",
+    "date": "18 Haziran 2026",
+    "venue": "Mercedes-Benz Stadyumu, Atlanta",
+    "lineIdx": 269
+  },
+  {
+    "team1": "Meksika",
+    "team2": "Güney Kore",
+    "date": "18 Haziran 2026",
+    "venue": "Akron Stadyumu, Zapopan",
+    "lineIdx": 282
+  },
+  {
+    "team1": "Çekya",
+    "team2": "Meksika",
+    "date": "24 Haziran 2026",
+    "venue": "Aztek Stadyumu, Meksiko",
+    "lineIdx": 297
+  },
+  {
+    "team1": "Güney Afrika",
+    "team2": "Güney Kore",
+    "date": "24 Haziran 2026",
+    "venue": "BBVA Stadyumu, Guadalupe",
+    "lineIdx": 310
+  },
+  {
+    "team1": "Kanada",
+    "team2": "Bosna-Hersek",
+    "date": "12 Haziran 2026",
+    "venue": "BMO Field, Toronto",
+    "lineIdx": 340
+  },
+  {
+    "team1": "Katar",
+    "team2": "İsviçre",
+    "date": "13 Haziran 2026",
+    "venue": "Levi's Stadyumu, Santa Clara",
+    "lineIdx": 353
+  },
+  {
+    "team1": "İsviçre",
+    "team2": "Bosna-Hersek",
+    "date": "18 Haziran 2026",
+    "venue": "SoFi Stadyumu, Inglewood",
+    "lineIdx": 368
+  },
+  {
+    "team1": "Kanada",
+    "team2": "Katar",
+    "date": "18 Haziran 2026",
+    "venue": "BC Place, Vancouver",
+    "lineIdx": 381
+  },
+  {
+    "team1": "İsviçre",
+    "team2": "Kanada",
+    "date": "24 Haziran 2026",
+    "venue": "BC Place, Vancouver",
+    "lineIdx": 396
+  },
+  {
+    "team1": "Bosna-Hersek",
+    "team2": "Katar",
+    "date": "24 Haziran 2026",
+    "venue": "Lumen Field, Seattle",
+    "lineIdx": 409
+  },
+  {
+    "team1": "Brezilya",
+    "team2": "Fas",
+    "date": "13 Haziran 2026",
+    "venue": "MetLife Stadyumu, East Rutherford",
+    "lineIdx": 437
+  },
+  {
+    "team1": "Haiti",
+    "team2": "İskoçya",
+    "date": "13 Haziran 2026",
+    "venue": "Gillette Stadyumu, Foxborough",
+    "lineIdx": 450
+  },
+  {
+    "team1": "Brezilya",
+    "team2": "Haiti",
+    "date": "19 Haziran 2026",
+    "venue": "Lincoln Financial Field, Philadelphia",
+    "lineIdx": 465
+  },
+  {
+    "team1": "İskoçya",
+    "team2": "Fas",
+    "date": "19 Haziran 2026",
+    "venue": "Gillette Stadyumu, Foxborough",
+    "lineIdx": 478
+  },
+  {
+    "team1": "İskoçya",
+    "team2": "Brezilya",
+    "date": "24 Haziran 2026",
+    "venue": "Hard Rock Stadyumu, Miami Gardens",
+    "lineIdx": 493
+  },
+  {
+    "team1": "Fas",
+    "team2": "Haiti",
+    "date": "24 Haziran 2026",
+    "venue": "Mercedes-Benz Stadyumu, Atlanta",
+    "lineIdx": 506
+  },
+  {
+    "team1": "ABD",
+    "team2": "Paraguay",
+    "date": "12 Haziran 2026",
+    "venue": "SoFi Stadyumu, Inglewood",
+    "lineIdx": 536
+  },
+  {
+    "team1": "Avustralya",
+    "team2": "Türkiye",
+    "date": "13 Haziran 2026",
+    "venue": "BC Place, Vancouver",
+    "lineIdx": 549
+  },
+  {
+    "team1": "Türkiye",
+    "team2": "Paraguay",
+    "date": "19 Haziran 2026",
+    "venue": "Levi's Stadyumu, Santa Clara",
+    "lineIdx": 564
+  },
+  {
+    "team1": "ABD",
+    "team2": "Avustralya",
+    "date": "19 Haziran 2026",
+    "venue": "Lumen Field, Seattle",
+    "lineIdx": 577
+  },
+  {
+    "team1": "Türkiye",
+    "team2": "ABD",
+    "date": "25 Haziran 2026",
+    "venue": "SoFi Stadyumu, Inglewood",
+    "lineIdx": 592
+  },
+  {
+    "team1": "Paraguay",
+    "team2": "Avustralya",
+    "date": "25 Haziran 2026",
+    "venue": "Levi's Stadyumu, Santa Clara",
+    "lineIdx": 605
+  },
+  {
+    "team1": "Fildişi Sahili",
+    "team2": "Ekvador",
+    "date": "14 Haziran 2026",
+    "venue": "Lincoln Financial Field, Philadelphia",
+    "lineIdx": 633
+  },
+  {
+    "team1": "Almanya",
+    "team2": "Curaçao",
+    "date": "14 Haziran 2026",
+    "venue": "NRG Stadyumu, Houston",
+    "lineIdx": 646
+  },
+  {
+    "team1": "Almanya",
+    "team2": "Fildişi Sahili",
+    "date": "20 Haziran 2026",
+    "venue": "BMO Field, Toronto",
+    "lineIdx": 661
+  },
+  {
+    "team1": "Ekvador",
+    "team2": "Curaçao",
+    "date": "20 Haziran 2026",
+    "venue": "Arrowhead Stadyumu, Kansas City",
+    "lineIdx": 674
+  },
+  {
+    "team1": "Curaçao",
+    "team2": "Fildişi Sahili",
+    "date": "25 Haziran 2026",
+    "venue": "Lincoln Financial Field, Philadelphia",
+    "lineIdx": 689
+  },
+  {
+    "team1": "Ekvador",
+    "team2": "Almanya",
+    "date": "25 Haziran 2026",
+    "venue": "MetLife Stadyumu, East Rutherford",
+    "lineIdx": 702
+  },
+  {
+    "team1": "Hollanda",
+    "team2": "Japonya",
+    "date": "14 Haziran 2026",
+    "venue": "AT&T Stadyumu, Arlington",
+    "lineIdx": 730
+  },
+  {
+    "team1": "İsveç",
+    "team2": "Tunus",
+    "date": "14 Haziran 2026",
+    "venue": "BBVA Stadyumu, Guadalupe",
+    "lineIdx": 743
+  },
+  {
+    "team1": "Hollanda",
+    "team2": "İsveç",
+    "date": "20 Haziran 2026",
+    "venue": "NRG Stadyumu, Houston",
+    "lineIdx": 758
+  },
+  {
+    "team1": "Tunus",
+    "team2": "Japonya",
+    "date": "20 Haziran 2026",
+    "venue": "BBVA Stadyumu, Guadalupe",
+    "lineIdx": 771
+  },
+  {
+    "team1": "Japonya",
+    "team2": "İsveç",
+    "date": "25 Haziran 2026",
+    "venue": "AT&T Stadyumu, Arlington",
+    "lineIdx": 786
+  },
+  {
+    "team1": "Tunus",
+    "team2": "Hollanda",
+    "date": "25 Haziran 2026",
+    "venue": "Arrowhead Stadyumu, Kansas City",
+    "lineIdx": 799
+  },
+  {
+    "team1": "Belçika",
+    "team2": "Mısır",
+    "date": "15 Haziran 2026",
+    "venue": "Lumen Field, Seattle",
+    "lineIdx": 827
+  },
+  {
+    "team1": "İran",
+    "team2": "Yeni Zelanda",
+    "date": "15 Haziran 2026",
+    "venue": "SoFi Stadyumu, Inglewood",
+    "lineIdx": 840
+  },
+  {
+    "team1": "Belçika",
+    "team2": "İran",
+    "date": "21 Haziran 2026",
+    "venue": "SoFi Stadyumu, Inglewood",
+    "lineIdx": 855
+  },
+  {
+    "team1": "Yeni Zelanda",
+    "team2": "Mısır",
+    "date": "21 Haziran 2026",
+    "venue": "BC Place, Vancouver",
+    "lineIdx": 868
+  },
+  {
+    "team1": "Mısır",
+    "team2": "İran",
+    "date": "26 Haziran 2026",
+    "venue": "Lumen Field, Seattle",
+    "lineIdx": 883
+  },
+  {
+    "team1": "Yeni Zelanda",
+    "team2": "Belçika",
+    "date": "26 Haziran 2026",
+    "venue": "BC Place, Vancouver",
+    "lineIdx": 896
+  },
+  {
+    "team1": "İspanya",
+    "team2": "Yeşil Burun Adaları",
+    "date": "15 Haziran 2026",
+    "venue": "Mercedes-Benz Stadyumu, Atlanta",
+    "lineIdx": 924
+  },
+  {
+    "team1": "Suudi Arabistan",
+    "team2": "Uruguay",
+    "date": "15 Haziran 2026",
+    "venue": "Hard Rock Stadyumu, Miami Gardens",
+    "lineIdx": 937
+  },
+  {
+    "team1": "İspanya",
+    "team2": "Suudi Arabistan",
+    "date": "21 Haziran 2026",
+    "venue": "Mercedes-Benz Stadyumu, Atlanta",
+    "lineIdx": 952
+  },
+  {
+    "team1": "Uruguay",
+    "team2": "Yeşil Burun Adaları",
+    "date": "21 Haziran 2026",
+    "venue": "Hard Rock Stadyumu, Miami Gardens",
+    "lineIdx": 965
+  },
+  {
+    "team1": "Yeşil Burun Adaları",
+    "team2": "Suudi Arabistan",
+    "date": "26 Haziran 2026",
+    "venue": "NRG Stadyumu, Houston",
+    "lineIdx": 980
+  },
+  {
+    "team1": "Uruguay",
+    "team2": "İspanya",
+    "date": "26 Haziran 2026",
+    "venue": "Akron Stadyumu, Zapopan",
+    "lineIdx": 993
+  },
+  {
+    "team1": "Fransa",
+    "team2": "Senegal",
+    "date": "16 Haziran 2026",
+    "venue": "MetLife Stadyumu, East Rutherford",
+    "lineIdx": 1021
+  },
+  {
+    "team1": "Irak",
+    "team2": "Norveç",
+    "date": "16 Haziran 2026",
+    "venue": "Gillette Stadyumu, Foxborough",
+    "lineIdx": 1034
+  },
+  {
+    "team1": "Fransa",
+    "team2": "Irak",
+    "date": "22 Haziran 2026",
+    "venue": "Lincoln Financial Field, Philadelphia",
+    "lineIdx": 1049
+  },
+  {
+    "team1": "Norveç",
+    "team2": "Senegal",
+    "date": "22 Haziran 2026",
+    "venue": "MetLife Stadyumu, East Rutherford",
+    "lineIdx": 1062
+  },
+  {
+    "team1": "Norveç",
+    "team2": "Fransa",
+    "date": "26 Haziran 2026",
+    "venue": "Gillette Stadyumu, Foxborough",
+    "lineIdx": 1077
+  },
+  {
+    "team1": "Senegal",
+    "team2": "Irak",
+    "date": "26 Haziran 2026",
+    "venue": "BMO Field, Toronto",
+    "lineIdx": 1090
+  },
+  {
+    "team1": "Arjantin",
+    "team2": "Cezayir",
+    "date": "16 Haziran 2026",
+    "venue": "Arrowhead Stadyumu, Kansas City",
+    "lineIdx": 1118
+  },
+  {
+    "team1": "Avusturya",
+    "team2": "Ürdün",
+    "date": "16 Haziran 2026",
+    "venue": "Levi's Stadyumu, Santa Clara",
+    "lineIdx": 1131
+  },
+  {
+    "team1": "Arjantin",
+    "team2": "Avusturya",
+    "date": "22 Haziran 2026",
+    "venue": "AT&T Stadyumu, Arlington",
+    "lineIdx": 1146
+  },
+  {
+    "team1": "Ürdün",
+    "team2": "Cezayir",
+    "date": "22 Haziran 2026",
+    "venue": "Levi's Stadyumu, Santa Clara",
+    "lineIdx": 1159
+  },
+  {
+    "team1": "Cezayir",
+    "team2": "Avusturya",
+    "date": "27 Haziran 2026",
+    "venue": "Arrowhead Stadyumu, Kansas City",
+    "lineIdx": 1174
+  },
+  {
+    "team1": "Ürdün",
+    "team2": "Arjantin",
+    "date": "27 Haziran 2026",
+    "venue": "AT&T Stadyumu, Arlington",
+    "lineIdx": 1187
+  },
+  {
+    "team1": "Portekiz",
+    "team2": "Kongo DC",
+    "date": "17 Haziran 2026",
+    "venue": "NRG Stadyumu, Houston",
+    "lineIdx": 1215
+  },
+  {
+    "team1": "Özbekistan",
+    "team2": "Kolombiya",
+    "date": "17 Haziran 2026",
+    "venue": "Aztek Stadyumu, Meksiko",
+    "lineIdx": 1228
+  },
+  {
+    "team1": "Portekiz",
+    "team2": "Özbekistan",
+    "date": "23 Haziran 2026",
+    "venue": "NRG Stadyumu, Houston",
+    "lineIdx": 1243
+  },
+  {
+    "team1": "Kolombiya",
+    "team2": "Kongo DC",
+    "date": "23 Haziran 2026",
+    "venue": "Akron Stadyumu, Zapopan",
+    "lineIdx": 1256
+  },
+  {
+    "team1": "Kolombiya",
+    "team2": "Portekiz",
+    "date": "27 Haziran 2026",
+    "venue": "Hard Rock Stadyumu, Miami Gardens",
+    "lineIdx": 1271
+  },
+  {
+    "team1": "Kongo DC",
+    "team2": "Özbekistan",
+    "date": "27 Haziran 2026",
+    "venue": "Mercedes-Benz Stadyumu, Atlanta",
+    "lineIdx": 1284
+  },
+  {
+    "team1": "İngiltere",
+    "team2": "Hırvatistan",
+    "date": "17 Haziran 2026",
+    "venue": "AT&T Stadyumu, Arlington",
+    "lineIdx": 1312
+  },
+  {
+    "team1": "Gana",
+    "team2": "Panama",
+    "date": "17 Haziran 2026",
+    "venue": "BMO Field, Toronto",
+    "lineIdx": 1325
+  },
+  {
+    "team1": "İngiltere",
+    "team2": "Gana",
+    "date": "23 Haziran 2026",
+    "venue": "Gillette Stadyumu, Foxborough",
+    "lineIdx": 1340
+  },
+  {
+    "team1": "Panama",
+    "team2": "Hırvatistan",
+    "date": "23 Haziran 2026",
+    "venue": "BMO Field, Toronto",
+    "lineIdx": 1353
+  },
+  {
+    "team1": "Panama",
+    "team2": "İngiltere",
+    "date": "27 Haziran 2026",
+    "venue": "MetLife Stadyumu, East Rutherford",
+    "lineIdx": 1368
+  },
+  {
+    "team1": "Hırvatistan",
+    "team2": "Gana",
+    "date": "27 Haziran 2026",
+    "venue": "Lincoln Financial Field, Philadelphia",
+    "lineIdx": 1381
+  },
+  {
+    "team1": "A Grubu 2.si",
+    "team2": "B Grubu 2.si",
+    "date": "28 Haziran 2026",
+    "venue": "SoFi Stadyumu, Inglewood",
+    "lineIdx": 2045
+  },
+  {
+    "team1": "C Grubu 1.si",
+    "team2": "F Grubu 2.si",
+    "date": "29 Haziran 2026",
+    "venue": "NRG Stadyumu, Houston",
+    "lineIdx": 2060
+  },
+  {
+    "team1": "E Grubu 1.si",
+    "team2": "A/B/C/D/F Grubu 3.sü",
+    "date": "29 Haziran 2026",
+    "venue": "Gillette Stadyumu, Foxborough",
+    "lineIdx": 2075
+  },
+  {
+    "team1": "F Grubu 1.si",
+    "team2": "C Grubu 2.si",
+    "date": "29 Haziran 2026",
+    "venue": "BBVA Stadyumu, Guadalupe",
+    "lineIdx": 2090
+  },
+  {
+    "team1": "E Grubu 2.si",
+    "team2": "I Grubu 2.si",
+    "date": "30 Haziran 2026",
+    "venue": "AT&T Stadyumu, Arlington",
+    "lineIdx": 2105
+  },
+  {
+    "team1": "I Grubu 1.si",
+    "team2": "C/D/F/G/H Grubu 3.sü",
+    "date": "30 Haziran 2026",
+    "venue": "MetLife Stadyumu, East Rutherford",
+    "lineIdx": 2120
+  },
+  {
+    "team1": "A Grubu 1.si",
+    "team2": "C/E/F/H/I Grubu 3.sü",
+    "date": "30 Haziran 2026",
+    "venue": "Aztek Stadyumu, Meksiko",
+    "lineIdx": 2135
+  },
+  {
+    "team1": "A Grubu 2.si",
+    "team2": "B Grubu 2.si",
+    "date": "28 Haziran 2026",
+    "venue": "SoFi Stadyumu, Inglewood",
+    "lineIdx": 2150
+  },
+  {
+    "team1": "L Grubu 1.si",
+    "team2": "E/H/I/J/K Grubu 3.sü",
+    "date": "1 Temmuz 2026",
+    "venue": "Mercedes-Benz Stadyumu, Atlanta",
+    "lineIdx": 2165
+  },
+  {
+    "team1": "G Grubu 1.si",
+    "team2": "A/E/H/I/J Grubu 3.sü",
+    "date": "1 Temmuz 2026",
+    "venue": "Lumen Field, Seattle",
+    "lineIdx": 2180
+  },
+  {
+    "team1": "D Grubu 1.si",
+    "team2": "B/E/F/I/J Grubu 3.sü",
+    "date": "1 Temmuz 2026",
+    "venue": "Levi's Stadyumu, Santa Clara",
+    "lineIdx": 2195
+  },
+  {
+    "team1": "H Grubu 1.si",
+    "team2": "J Grubu 2.si",
+    "date": "2 Temmuz 2026",
+    "venue": "SoFi Stadyumu, Inglewood",
+    "lineIdx": 2210
+  },
+  {
+    "team1": "K Grubu 2.si",
+    "team2": "L Grubu 2.si",
+    "date": "2 Temmuz 2026",
+    "venue": "BMO Field, Toronto",
+    "lineIdx": 2225
+  },
+  {
+    "team1": "B Grubu 1.si",
+    "team2": "E/F/G/I/J Grubu 3.sü",
+    "date": "2 Temmuz 2026",
+    "venue": "BC Place, Vancouver",
+    "lineIdx": 2240
+  },
+  {
+    "team1": "D Grubu 2.si",
+    "team2": "G Grubu 2.si",
+    "date": "3 Temmuz 2026",
+    "venue": "AT&T Stadyumu, Arlington",
+    "lineIdx": 2255
+  },
+  {
+    "team1": "J Grubu 1.si",
+    "team2": "H Grubu 2.si",
+    "date": "3 Temmuz 2026",
+    "venue": "Hard Rock Stadyumu, Miami Gardens",
+    "lineIdx": 2270
+  },
+  {
+    "team1": "K Grubu 1.si",
+    "team2": "D/E/I/J/L Grubu 3.sü",
+    "date": "3 Temmuz 2026",
+    "venue": "Arrowhead Stadyumu, Kansas City",
+    "lineIdx": 2285
+  },
+  {
+    "team1": "73\\. Maç kazananı",
+    "team2": "75\\. Maç kazananı",
+    "date": "4 Temmuz 2026",
+    "venue": "NRG Stadyumu, Houston",
+    "lineIdx": 2300
+  },
+  {
+    "team1": "74\\. Maç kazananı",
+    "team2": "77\\. Maç kazananı",
+    "date": "4 Temmuz 2026",
+    "venue": "Lincoln Financial Field, Philadelphia",
+    "lineIdx": 2315
+  },
+  {
+    "team1": "79\\. Maç kazananı",
+    "team2": "80\\. Maç kazananı",
+    "date": "5 Temmuz 2026",
+    "venue": "Aztek Stadyumu, Meksiko",
+    "lineIdx": 2330
+  },
+  {
+    "team1": "76\\. Maç kazananı",
+    "team2": "78\\. Maç kazananı",
+    "date": "5 Temmuz 2026",
+    "venue": "MetLife Stadyumu, East Rutherford",
+    "lineIdx": 2345
+  },
+  {
+    "team1": "83\\. Maç kazananı",
+    "team2": "84\\. Maç kazananı",
+    "date": "6 Temmuz 2026",
+    "venue": "AT&T Stadyumu, Arlington",
+    "lineIdx": 2360
+  },
+  {
+    "team1": "81\\. Maç kazananı",
+    "team2": "82\\. Maç kazananı",
+    "date": "6 Temmuz 2026",
+    "venue": "Lumen Field, Seattle",
+    "lineIdx": 2375
+  },
+  {
+    "team1": "86\\. Maç kazananı",
+    "team2": "88\\. Maç kazananı",
+    "date": "7 Temmuz 2026",
+    "venue": "Mercedes-Benz Stadyumu, Atlanta",
+    "lineIdx": 2390
+  },
+  {
+    "team1": "85\\. Maç kazananı",
+    "team2": "87\\. Maç kazananı",
+    "date": "7 Temmuz 2026",
+    "venue": "BC Place, Vancouver",
+    "lineIdx": 2405
+  },
+  {
+    "team1": "89\\. Maç kazananı",
+    "team2": "90\\. Maç kazananı",
+    "date": "9 Temmuz 2026",
+    "venue": "Gillette Stadyumu, Foxborough",
+    "lineIdx": 2420
+  },
+  {
+    "team1": "93\\. Maç kazananı",
+    "team2": "94\\. Maç kazananı",
+    "date": "10 Temmuz 2026",
+    "venue": "SoFi Stadyumu, Inglewood",
+    "lineIdx": 2435
+  },
+  {
+    "team1": "91\\. Maç kazananı",
+    "team2": "92\\. Maç kazananı",
+    "date": "11 Temmuz 2026",
+    "venue": "Hard Rock Stadyumu, Miami Gardens",
+    "lineIdx": 2450
+  },
+  {
+    "team1": "95\\. Maç kazananı",
+    "team2": "96\\. Maç kazananı",
+    "date": "11 Temmuz 2026",
+    "venue": "Arrowhead Stadyumu, Kansas City",
+    "lineIdx": 2465
+  },
+  {
+    "team1": "97\\. Maç kazananı",
+    "team2": "98\\. Maç kazananı",
+    "date": "14 Temmuz 2026",
+    "venue": "AT&T Stadyumu, Arlington",
+    "lineIdx": 2480
+  },
+  {
+    "team1": "99\\. Maç kazananı",
+    "team2": "100\\. Maç kazananı",
+    "date": "15 Temmuz 2026",
+    "venue": "Mercedes-Benz Stadyumu, Atlanta",
+    "lineIdx": 2495
+  },
+  {
+    "team1": "101\\. Maç kaybedeni",
+    "team2": "102\\. Maç kaybedeni",
+    "date": "18 Temmuz 2026",
+    "venue": "Hard Rock Stadyumu, Miami Gardens",
+    "lineIdx": 2510
+  },
+  {
+    "team1": "101\\. Maç kazananı",
+    "team2": "102\\. Maç kazananı",
+    "date": "19 Temmuz 2026",
+    "venue": "MetLife Stadyumu, East Rutherford",
+    "lineIdx": 2527
+  }
+]

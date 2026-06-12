@@ -1,0 +1,1349 @@
+{
+  "groups": {
+    "Grup A": [
+      "Meksika",
+      "Güney Afrika",
+      "Güney Kore",
+      "Çekya"
+    ],
+    "Grup B": [
+      "Kanada",
+      "Bosna-Hersek",
+      "Katar",
+      "İsviçre"
+    ],
+    "Grup C": [
+      "Brezilya",
+      "Fas",
+      "Haiti",
+      "İskoçya"
+    ],
+    "Grup D": [
+      "ABD",
+      "Paraguay",
+      "Avustralya",
+      "Türkiye"
+    ],
+    "Grup E": [
+      "Almanya",
+      "Curaçao",
+      "Fildişi Sahili",
+      "Ekvador"
+    ],
+    "Grup F": [
+      "Hollanda",
+      "Japonya",
+      "İsveç",
+      "Tunus"
+    ],
+    "Grup G": [
+      "Belçika",
+      "Mısır",
+      "İran",
+      "Yeni Zelanda"
+    ],
+    "Grup H": [
+      "İspanya",
+      "Yeşil Burun Adaları",
+      "Suudi Arabistan",
+      "Uruguay"
+    ],
+    "Grup I": [
+      "Fransa",
+      "Senegal",
+      "Irak",
+      "Norveç"
+    ],
+    "Grup J": [
+      "Arjantin",
+      "Cezayir",
+      "Avusturya",
+      "Ürdün"
+    ],
+    "Grup K": [
+      "Portekiz",
+      "Kongo DC",
+      "Özbekistan",
+      "Kolombiya"
+    ],
+    "Grup L": [
+      "İngiltere",
+      "Hırvatistan",
+      "Gana",
+      "Panama"
+    ]
+  },
+  "fixtures": [
+    {
+      "stage": "Grup A",
+      "date": "11 Haziran 2026",
+      "time": "22.00",
+      "team1": "Meksika",
+      "team2": "Güney Afrika",
+      "score": "VS",
+      "venue": "Aztek Stadyumu, Meksiko"
+    },
+    {
+      "stage": "Grup A",
+      "date": "12 Haziran 2026",
+      "time": "05.00",
+      "team1": "Güney Kore",
+      "team2": "Çekya",
+      "score": "VS",
+      "venue": "Akron Stadyumu, Zapopan"
+    },
+    {
+      "stage": "Grup A",
+      "date": "18 Haziran 2026",
+      "time": "19.00",
+      "team1": "Çekya",
+      "team2": "Güney Afrika",
+      "score": "VS",
+      "venue": "Mercedes-Benz Stadyumu, Atlanta"
+    },
+    {
+      "stage": "Grup A",
+      "date": "19 Haziran 2026",
+      "time": "04.00",
+      "team1": "Meksika",
+      "team2": "Güney Kore",
+      "score": "VS",
+      "venue": "Akron Stadyumu, Zapopan"
+    },
+    {
+      "stage": "Grup A",
+      "date": "25 Haziran 2026",
+      "time": "04.00",
+      "team1": "Çekya",
+      "team2": "Meksika",
+      "score": "VS",
+      "venue": "Aztek Stadyumu, Meksiko"
+    },
+    {
+      "stage": "Grup A",
+      "date": "25 Haziran 2026",
+      "time": "04.00",
+      "team1": "Güney Afrika",
+      "team2": "Güney Kore",
+      "score": "VS",
+      "venue": "BBVA Stadyumu, Guadalupe"
+    },
+    {
+      "stage": "Grup B",
+      "date": "12 Haziran 2026",
+      "time": "22.00",
+      "team1": "Kanada",
+      "team2": "Bosna-Hersek",
+      "score": "VS",
+      "venue": "BMO Field, Toronto"
+    },
+    {
+      "stage": "Grup B",
+      "date": "13 Haziran 2026",
+      "time": "22.00",
+      "team1": "Katar",
+      "team2": "İsviçre",
+      "score": "VS",
+      "venue": "Levi's Stadyumu, Santa Clara"
+    },
+    {
+      "stage": "Grup B",
+      "date": "18 Haziran 2026",
+      "time": "22.00",
+      "team1": "İsviçre",
+      "team2": "Bosna-Hersek",
+      "score": "VS",
+      "venue": "SoFi Stadyumu, Inglewood"
+    },
+    {
+      "stage": "Grup B",
+      "date": "19 Haziran 2026",
+      "time": "01.00",
+      "team1": "Kanada",
+      "team2": "Katar",
+      "score": "VS",
+      "venue": "BC Place, Vancouver"
+    },
+    {
+      "stage": "Grup B",
+      "date": "24 Haziran 2026",
+      "time": "22.00",
+      "team1": "İsviçre",
+      "team2": "Kanada",
+      "score": "VS",
+      "venue": "BC Place, Vancouver"
+    },
+    {
+      "stage": "Grup B",
+      "date": "24 Haziran 2026",
+      "time": "22.00",
+      "team1": "Bosna-Hersek",
+      "team2": "Katar",
+      "score": "VS",
+      "venue": "Lumen Field, Seattle"
+    },
+    {
+      "stage": "Grup C",
+      "date": "14 Haziran 2026",
+      "time": "01.00",
+      "team1": "Brezilya",
+      "team2": "Fas",
+      "score": "VS",
+      "venue": "MetLife Stadyumu, East Rutherford"
+    },
+    {
+      "stage": "Grup C",
+      "date": "14 Haziran 2026",
+      "time": "04.00",
+      "team1": "Haiti",
+      "team2": "İskoçya",
+      "score": "VS",
+      "venue": "Gillette Stadyumu, Foxborough"
+    },
+    {
+      "stage": "Grup C",
+      "date": "20 Haziran 2026",
+      "time": "04.00",
+      "team1": "Brezilya",
+      "team2": "Haiti",
+      "score": "VS",
+      "venue": "Lincoln Financial Field, Philadelphia"
+    },
+    {
+      "stage": "Grup C",
+      "date": "20 Haziran 2026",
+      "time": "01.00",
+      "team1": "İskoçya",
+      "team2": "Fas",
+      "score": "VS",
+      "venue": "Gillette Stadyumu, Foxborough"
+    },
+    {
+      "stage": "Grup C",
+      "date": "25 Haziran 2026",
+      "time": "01.00",
+      "team1": "İskoçya",
+      "team2": "Brezilya",
+      "score": "VS",
+      "venue": "Hard Rock Stadyumu, Miami Gardens"
+    },
+    {
+      "stage": "Grup C",
+      "date": "25 Haziran 2026",
+      "time": "01.00",
+      "team1": "Fas",
+      "team2": "Haiti",
+      "score": "VS",
+      "venue": "Mercedes-Benz Stadyumu, Atlanta"
+    },
+    {
+      "stage": "Grup D",
+      "date": "13 Haziran 2026",
+      "time": "04.00",
+      "team1": "ABD",
+      "team2": "Paraguay",
+      "score": "VS",
+      "venue": "SoFi Stadyumu, Inglewood"
+    },
+    {
+      "stage": "Grup D",
+      "date": "14 Haziran 2026",
+      "time": "07.00",
+      "team1": "Avustralya",
+      "team2": "Türkiye",
+      "score": "VS",
+      "venue": "BC Place, Vancouver"
+    },
+    {
+      "stage": "Grup D",
+      "date": "20 Haziran 2026",
+      "time": "06.00",
+      "team1": "Türkiye",
+      "team2": "Paraguay",
+      "score": "VS",
+      "venue": "Levi's Stadyumu, Santa Clara"
+    },
+    {
+      "stage": "Grup D",
+      "date": "19 Haziran 2026",
+      "time": "22.00",
+      "team1": "ABD",
+      "team2": "Avustralya",
+      "score": "VS",
+      "venue": "Lumen Field, Seattle"
+    },
+    {
+      "stage": "Grup D",
+      "date": "26 Haziran 2026",
+      "time": "05.00",
+      "team1": "Türkiye",
+      "team2": "ABD",
+      "score": "VS",
+      "venue": "SoFi Stadyumu, Inglewood"
+    },
+    {
+      "stage": "Grup D",
+      "date": "26 Haziran 2026",
+      "time": "05.00",
+      "team1": "Paraguay",
+      "team2": "Avustralya",
+      "score": "VS",
+      "venue": "Levi's Stadyumu, Santa Clara"
+    },
+    {
+      "stage": "Grup E",
+      "date": "15 Haziran 2026",
+      "time": "02.00",
+      "team1": "Fildişi Sahili",
+      "team2": "Ekvador",
+      "score": "VS",
+      "venue": "Lincoln Financial Field, Philadelphia"
+    },
+    {
+      "stage": "Grup E",
+      "date": "14 Haziran 2026",
+      "time": "20.00",
+      "team1": "Almanya",
+      "team2": "Curaçao",
+      "score": "VS",
+      "venue": "NRG Stadyumu, Houston"
+    },
+    {
+      "stage": "Grup E",
+      "date": "20 Haziran 2026",
+      "time": "23.00",
+      "team1": "Almanya",
+      "team2": "Fildişi Sahili",
+      "score": "VS",
+      "venue": "BMO Field, Toronto"
+    },
+    {
+      "stage": "Grup E",
+      "date": "21 Haziran 2026",
+      "time": "03.00",
+      "team1": "Ekvador",
+      "team2": "Curaçao",
+      "score": "VS",
+      "venue": "Arrowhead Stadyumu, Kansas City"
+    },
+    {
+      "stage": "Grup E",
+      "date": "25 Haziran 2026",
+      "time": "23.00",
+      "team1": "Curaçao",
+      "team2": "Fildişi Sahili",
+      "score": "VS",
+      "venue": "Lincoln Financial Field, Philadelphia"
+    },
+    {
+      "stage": "Grup E",
+      "date": "25 Haziran 2026",
+      "time": "23.00",
+      "team1": "Ekvador",
+      "team2": "Almanya",
+      "score": "VS",
+      "venue": "MetLife Stadyumu, East Rutherford"
+    },
+    {
+      "stage": "Grup F",
+      "date": "14 Haziran 2026",
+      "time": "23.00",
+      "team1": "Hollanda",
+      "team2": "Japonya",
+      "score": "VS",
+      "venue": "AT&T Stadyumu, Arlington"
+    },
+    {
+      "stage": "Grup F",
+      "date": "15 Haziran 2026",
+      "time": "05.00",
+      "team1": "İsveç",
+      "team2": "Tunus",
+      "score": "VS",
+      "venue": "BBVA Stadyumu, Guadalupe"
+    },
+    {
+      "stage": "Grup F",
+      "date": "20 Haziran 2026",
+      "time": "20.00",
+      "team1": "Hollanda",
+      "team2": "İsveç",
+      "score": "VS",
+      "venue": "NRG Stadyumu, Houston"
+    },
+    {
+      "stage": "Grup F",
+      "date": "21 Haziran 2026",
+      "time": "07.00",
+      "team1": "Tunus",
+      "team2": "Japonya",
+      "score": "VS",
+      "venue": "BBVA Stadyumu, Guadalupe"
+    },
+    {
+      "stage": "Grup F",
+      "date": "26 Haziran 2026",
+      "time": "02.00",
+      "team1": "Japonya",
+      "team2": "İsveç",
+      "score": "VS",
+      "venue": "AT&T Stadyumu, Arlington"
+    },
+    {
+      "stage": "Grup F",
+      "date": "26 Haziran 2026",
+      "time": "02.00",
+      "team1": "Tunus",
+      "team2": "Hollanda",
+      "score": "VS",
+      "venue": "Arrowhead Stadyumu, Kansas City"
+    },
+    {
+      "stage": "Grup G",
+      "date": "15 Haziran 2026",
+      "time": "22.00",
+      "team1": "Belçika",
+      "team2": "Mısır",
+      "score": "VS",
+      "venue": "Lumen Field, Seattle"
+    },
+    {
+      "stage": "Grup G",
+      "date": "16 Haziran 2026",
+      "time": "04.00",
+      "team1": "İran",
+      "team2": "Yeni Zelanda",
+      "score": "VS",
+      "venue": "SoFi Stadyumu, Inglewood"
+    },
+    {
+      "stage": "Grup G",
+      "date": "21 Haziran 2026",
+      "time": "22.00",
+      "team1": "Belçika",
+      "team2": "İran",
+      "score": "VS",
+      "venue": "SoFi Stadyumu, Inglewood"
+    },
+    {
+      "stage": "Grup G",
+      "date": "22 Haziran 2026",
+      "time": "04.00",
+      "team1": "Yeni Zelanda",
+      "team2": "Mısır",
+      "score": "VS",
+      "venue": "BC Place, Vancouver"
+    },
+    {
+      "stage": "Grup G",
+      "date": "27 Haziran 2026",
+      "time": "06.00",
+      "team1": "Mısır",
+      "team2": "İran",
+      "score": "VS",
+      "venue": "Lumen Field, Seattle"
+    },
+    {
+      "stage": "Grup G",
+      "date": "27 Haziran 2026",
+      "time": "06.00",
+      "team1": "Yeni Zelanda",
+      "team2": "Belçika",
+      "score": "VS",
+      "venue": "BC Place, Vancouver"
+    },
+    {
+      "stage": "Grup H",
+      "date": "15 Haziran 2026",
+      "time": "19.00",
+      "team1": "İspanya",
+      "team2": "Yeşil Burun Adaları",
+      "score": "VS",
+      "venue": "Mercedes-Benz Stadyumu, Atlanta"
+    },
+    {
+      "stage": "Grup H",
+      "date": "16 Haziran 2026",
+      "time": "01.00",
+      "team1": "Suudi Arabistan",
+      "team2": "Uruguay",
+      "score": "VS",
+      "venue": "Hard Rock Stadyumu, Miami Gardens"
+    },
+    {
+      "stage": "Grup H",
+      "date": "21 Haziran 2026",
+      "time": "19.00",
+      "team1": "İspanya",
+      "team2": "Suudi Arabistan",
+      "score": "VS",
+      "venue": "Mercedes-Benz Stadyumu, Atlanta"
+    },
+    {
+      "stage": "Grup H",
+      "date": "22 Haziran 2026",
+      "time": "01.00",
+      "team1": "Uruguay",
+      "team2": "Yeşil Burun Adaları",
+      "score": "VS",
+      "venue": "Hard Rock Stadyumu, Miami Gardens"
+    },
+    {
+      "stage": "Grup H",
+      "date": "27 Haziran 2026",
+      "time": "03.00",
+      "team1": "Yeşil Burun Adaları",
+      "team2": "Suudi Arabistan",
+      "score": "VS",
+      "venue": "NRG Stadyumu, Houston"
+    },
+    {
+      "stage": "Grup H",
+      "date": "27 Haziran 2026",
+      "time": "03.00",
+      "team1": "Uruguay",
+      "team2": "İspanya",
+      "score": "VS",
+      "venue": "Akron Stadyumu, Zapopan"
+    },
+    {
+      "stage": "Grup I",
+      "date": "16 Haziran 2026",
+      "time": "22.00",
+      "team1": "Fransa",
+      "team2": "Senegal",
+      "score": "VS",
+      "venue": "MetLife Stadyumu, East Rutherford"
+    },
+    {
+      "stage": "Grup I",
+      "date": "17 Haziran 2026",
+      "time": "01.00",
+      "team1": "Irak",
+      "team2": "Norveç",
+      "score": "VS",
+      "venue": "Gillette Stadyumu, Foxborough"
+    },
+    {
+      "stage": "Grup I",
+      "date": "23 Haziran 2026",
+      "time": "00.00",
+      "team1": "Fransa",
+      "team2": "Irak",
+      "score": "VS",
+      "venue": "Lincoln Financial Field, Philadelphia"
+    },
+    {
+      "stage": "Grup I",
+      "date": "23 Haziran 2026",
+      "time": "03.00",
+      "team1": "Norveç",
+      "team2": "Senegal",
+      "score": "VS",
+      "venue": "MetLife Stadyumu, East Rutherford"
+    },
+    {
+      "stage": "Grup I",
+      "date": "26 Haziran 2026",
+      "time": "22.00",
+      "team1": "Norveç",
+      "team2": "Fransa",
+      "score": "VS",
+      "venue": "Gillette Stadyumu, Foxborough"
+    },
+    {
+      "stage": "Grup I",
+      "date": "26 Haziran 2026",
+      "time": "22.00",
+      "team1": "Senegal",
+      "team2": "Irak",
+      "score": "VS",
+      "venue": "BMO Field, Toronto"
+    },
+    {
+      "stage": "Grup J",
+      "date": "17 Haziran 2026",
+      "time": "04.00",
+      "team1": "Arjantin",
+      "team2": "Cezayir",
+      "score": "VS",
+      "venue": "Arrowhead Stadyumu, Kansas City"
+    },
+    {
+      "stage": "Grup J",
+      "date": "17 Haziran 2026",
+      "time": "07.00",
+      "team1": "Avusturya",
+      "team2": "Ürdün",
+      "score": "VS",
+      "venue": "Levi's Stadyumu, Santa Clara"
+    },
+    {
+      "stage": "Grup J",
+      "date": "22 Haziran 2026",
+      "time": "20.00",
+      "team1": "Arjantin",
+      "team2": "Avusturya",
+      "score": "VS",
+      "venue": "AT&T Stadyumu, Arlington"
+    },
+    {
+      "stage": "Grup J",
+      "date": "23 Haziran 2026",
+      "time": "06.00",
+      "team1": "Ürdün",
+      "team2": "Cezayir",
+      "score": "VS",
+      "venue": "Levi's Stadyumu, Santa Clara"
+    },
+    {
+      "stage": "Grup J",
+      "date": "28 Haziran 2026",
+      "time": "05.00",
+      "team1": "Cezayir",
+      "team2": "Avusturya",
+      "score": "VS",
+      "venue": "Arrowhead Stadyumu, Kansas City"
+    },
+    {
+      "stage": "Grup J",
+      "date": "28 Haziran 2026",
+      "time": "05.00",
+      "team1": "Ürdün",
+      "team2": "Arjantin",
+      "score": "VS",
+      "venue": "AT&T Stadyumu, Arlington"
+    },
+    {
+      "stage": "Grup K",
+      "date": "17 Haziran 2026",
+      "time": "20.00",
+      "team1": "Portekiz",
+      "team2": "Kongo DC",
+      "score": "VS",
+      "venue": "NRG Stadyumu, Houston"
+    },
+    {
+      "stage": "Grup K",
+      "date": "18 Haziran 2026",
+      "time": "05.00",
+      "team1": "Özbekistan",
+      "team2": "Kolombiya",
+      "score": "VS",
+      "venue": "Aztek Stadyumu, Meksiko"
+    },
+    {
+      "stage": "Grup K",
+      "date": "23 Haziran 2026",
+      "time": "20.00",
+      "team1": "Portekiz",
+      "team2": "Özbekistan",
+      "score": "VS",
+      "venue": "NRG Stadyumu, Houston"
+    },
+    {
+      "stage": "Grup K",
+      "date": "24 Haziran 2026",
+      "time": "05.00",
+      "team1": "Kolombiya",
+      "team2": "Kongo DC",
+      "score": "VS",
+      "venue": "Akron Stadyumu, Zapopan"
+    },
+    {
+      "stage": "Grup K",
+      "date": "28 Haziran 2026",
+      "time": "02.30",
+      "team1": "Kolombiya",
+      "team2": "Portekiz",
+      "score": "VS",
+      "venue": "Hard Rock Stadyumu, Miami Gardens"
+    },
+    {
+      "stage": "Grup K",
+      "date": "28 Haziran 2026",
+      "time": "02.30",
+      "team1": "Kongo DC",
+      "team2": "Özbekistan",
+      "score": "VS",
+      "venue": "Mercedes-Benz Stadyumu, Atlanta"
+    },
+    {
+      "stage": "Grup L",
+      "date": "17 Haziran 2026",
+      "time": "23.00",
+      "team1": "İngiltere",
+      "team2": "Hırvatistan",
+      "score": "VS",
+      "venue": "AT&T Stadyumu, Arlington"
+    },
+    {
+      "stage": "Grup L",
+      "date": "18 Haziran 2026",
+      "time": "02.00",
+      "team1": "Gana",
+      "team2": "Panama",
+      "score": "VS",
+      "venue": "BMO Field, Toronto"
+    },
+    {
+      "stage": "Grup L",
+      "date": "23 Haziran 2026",
+      "time": "23.00",
+      "team1": "İngiltere",
+      "team2": "Gana",
+      "score": "VS",
+      "venue": "Gillette Stadyumu, Foxborough"
+    },
+    {
+      "stage": "Grup L",
+      "date": "24 Haziran 2026",
+      "time": "02.00",
+      "team1": "Panama",
+      "team2": "Hırvatistan",
+      "score": "VS",
+      "venue": "BMO Field, Toronto"
+    },
+    {
+      "stage": "Grup L",
+      "date": "28 Haziran 2026",
+      "time": "00.00",
+      "team1": "Panama",
+      "team2": "İngiltere",
+      "score": "VS",
+      "venue": "MetLife Stadyumu, East Rutherford"
+    },
+    {
+      "stage": "Grup L",
+      "date": "28 Haziran 2026",
+      "time": "00.00",
+      "team1": "Hırvatistan",
+      "team2": "Gana",
+      "score": "VS",
+      "venue": "Lincoln Financial Field, Philadelphia"
+    },
+    {
+      "stage": "Son 32",
+      "date": "28 Haziran 2026",
+      "time": "22.00",
+      "team1": "A Grubu 2.si",
+      "team2": "B Grubu 2.si",
+      "score": "VS",
+      "venue": "SoFi Stadyumu, Inglewood"
+    },
+    {
+      "stage": "Son 32",
+      "date": "29 Haziran 2026",
+      "time": "20.00",
+      "team1": "C Grubu 1.si",
+      "team2": "F Grubu 2.si",
+      "score": "VS",
+      "venue": "NRG Stadyumu, Houston"
+    },
+    {
+      "stage": "Son 32",
+      "date": "29 Haziran 2026",
+      "time": "23.30",
+      "team1": "E Grubu 1.si",
+      "team2": "A/B/C/D/F Grubu 3.sü",
+      "score": "VS",
+      "venue": "Gillette Stadyumu, Foxborough"
+    },
+    {
+      "stage": "Son 32",
+      "date": "30 Haziran 2026",
+      "time": "04.00",
+      "team1": "F Grubu 1.si",
+      "team2": "C Grubu 2.si",
+      "score": "VS",
+      "venue": "BBVA Stadyumu, Guadalupe"
+    },
+    {
+      "stage": "Son 32",
+      "date": "30 Haziran 2026",
+      "time": "20.00",
+      "team1": "E Grubu 2.si",
+      "team2": "I Grubu 2.si",
+      "score": "VS",
+      "venue": "AT&T Stadyumu, Arlington"
+    },
+    {
+      "stage": "Son 32",
+      "date": "1 Temmuz 2026",
+      "time": "00.00",
+      "team1": "I Grubu 1.si",
+      "team2": "C/D/F/G/H Grubu 3.sü",
+      "score": "VS",
+      "venue": "MetLife Stadyumu, East Rutherford"
+    },
+    {
+      "stage": "Son 32",
+      "date": "1 Temmuz 2026",
+      "time": "04.00",
+      "team1": "A Grubu 1.si",
+      "team2": "C/E/F/H/I Grubu 3.sü",
+      "score": "VS",
+      "venue": "Aztek Stadyumu, Meksiko"
+    },
+    {
+      "stage": "Son 32",
+      "date": "28 Haziran 2026",
+      "time": "22.00",
+      "team1": "A Grubu 2.si",
+      "team2": "B Grubu 2.si",
+      "score": "VS",
+      "venue": "SoFi Stadyumu, Inglewood"
+    },
+    {
+      "stage": "Son 32",
+      "date": "1 Temmuz 2026",
+      "time": "19.00",
+      "team1": "L Grubu 1.si",
+      "team2": "E/H/I/J/K Grubu 3.sü",
+      "score": "VS",
+      "venue": "Mercedes-Benz Stadyumu, Atlanta"
+    },
+    {
+      "stage": "Son 32",
+      "date": "1 Temmuz 2026",
+      "time": "23.00",
+      "team1": "G Grubu 1.si",
+      "team2": "A/E/H/I/J Grubu 3.sü",
+      "score": "VS",
+      "venue": "Lumen Field, Seattle"
+    },
+    {
+      "stage": "Son 32",
+      "date": "2 Temmuz 2026",
+      "time": "03.00",
+      "team1": "D Grubu 1.si",
+      "team2": "B/E/F/I/J Grubu 3.sü",
+      "score": "VS",
+      "venue": "Levi's Stadyumu, Santa Clara"
+    },
+    {
+      "stage": "Son 32",
+      "date": "2 Temmuz 2026",
+      "time": "22.00",
+      "team1": "H Grubu 1.si",
+      "team2": "J Grubu 2.si",
+      "score": "VS",
+      "venue": "SoFi Stadyumu, Inglewood"
+    },
+    {
+      "stage": "Son 32",
+      "date": "3 Temmuz 2026",
+      "time": "02.00",
+      "team1": "K Grubu 2.si",
+      "team2": "L Grubu 2.si",
+      "score": "VS",
+      "venue": "BMO Field, Toronto"
+    },
+    {
+      "stage": "Son 32",
+      "date": "3 Temmuz 2026",
+      "time": "06.00",
+      "team1": "B Grubu 1.si",
+      "team2": "E/F/G/I/J Grubu 3.sü",
+      "score": "VS",
+      "venue": "BC Place, Vancouver"
+    },
+    {
+      "stage": "Son 32",
+      "date": "3 Temmuz 2026",
+      "time": "21.00",
+      "team1": "D Grubu 2.si",
+      "team2": "G Grubu 2.si",
+      "score": "VS",
+      "venue": "AT&T Stadyumu, Arlington"
+    },
+    {
+      "stage": "Son 32",
+      "date": "4 Temmuz 2026",
+      "time": "01.00",
+      "team1": "J Grubu 1.si",
+      "team2": "H Grubu 2.si",
+      "score": "VS",
+      "venue": "Hard Rock Stadyumu, Miami Gardens"
+    },
+    {
+      "stage": "Son 32",
+      "date": "4 Temmuz 2026",
+      "time": "04.30",
+      "team1": "K Grubu 1.si",
+      "team2": "D/E/I/J/L Grubu 3.sü",
+      "score": "VS",
+      "venue": "Arrowhead Stadyumu, Kansas City"
+    },
+    {
+      "stage": "Son 16",
+      "date": "4 Temmuz 2026",
+      "time": "20.00",
+      "team1": "73\\. Maç kazananı",
+      "team2": "75\\. Maç kazananı",
+      "score": "VS",
+      "venue": "NRG Stadyumu, Houston"
+    },
+    {
+      "stage": "Son 16",
+      "date": "5 Temmuz 2026",
+      "time": "00.00",
+      "team1": "74\\. Maç kazananı",
+      "team2": "77\\. Maç kazananı",
+      "score": "VS",
+      "venue": "Lincoln Financial Field, Philadelphia"
+    },
+    {
+      "stage": "Son 16",
+      "date": "6 Temmuz 2026",
+      "time": "03.00",
+      "team1": "79\\. Maç kazananı",
+      "team2": "80\\. Maç kazananı",
+      "score": "VS",
+      "venue": "Aztek Stadyumu, Meksiko"
+    },
+    {
+      "stage": "Son 16",
+      "date": "5 Temmuz 2026",
+      "time": "23.00",
+      "team1": "76\\. Maç kazananı",
+      "team2": "78\\. Maç kazananı",
+      "score": "VS",
+      "venue": "MetLife Stadyumu, East Rutherford"
+    },
+    {
+      "stage": "Son 16",
+      "date": "6 Temmuz 2026",
+      "time": "22.00",
+      "team1": "83\\. Maç kazananı",
+      "team2": "84\\. Maç kazananı",
+      "score": "VS",
+      "venue": "AT&T Stadyumu, Arlington"
+    },
+    {
+      "stage": "Son 16",
+      "date": "7 Temmuz 2026",
+      "time": "03.00",
+      "team1": "81\\. Maç kazananı",
+      "team2": "82\\. Maç kazananı",
+      "score": "VS",
+      "venue": "Lumen Field, Seattle"
+    },
+    {
+      "stage": "Son 16",
+      "date": "7 Temmuz 2026",
+      "time": "19.00",
+      "team1": "86\\. Maç kazananı",
+      "team2": "88\\. Maç kazananı",
+      "score": "VS",
+      "venue": "Mercedes-Benz Stadyumu, Atlanta"
+    },
+    {
+      "stage": "Son 16",
+      "date": "7 Temmuz 2026",
+      "time": "23.00",
+      "team1": "85\\. Maç kazananı",
+      "team2": "87\\. Maç kazananı",
+      "score": "VS",
+      "venue": "BC Place, Vancouver"
+    },
+    {
+      "stage": "Son 16",
+      "date": "9 Temmuz 2026",
+      "time": "23.00",
+      "team1": "89\\. Maç kazananı",
+      "team2": "90\\. Maç kazananı",
+      "score": "VS",
+      "venue": "Gillette Stadyumu, Foxborough"
+    },
+    {
+      "stage": "Son 16",
+      "date": "10 Temmuz 2026",
+      "time": "22.00",
+      "team1": "93\\. Maç kazananı",
+      "team2": "94\\. Maç kazananı",
+      "score": "VS",
+      "venue": "SoFi Stadyumu, Inglewood"
+    },
+    {
+      "stage": "Son 16",
+      "date": "12 Temmuz 2026",
+      "time": "00.00",
+      "team1": "91\\. Maç kazananı",
+      "team2": "92\\. Maç kazananı",
+      "score": "VS",
+      "venue": "Hard Rock Stadyumu, Miami Gardens"
+    },
+    {
+      "stage": "Son 16",
+      "date": "12 Temmuz 2026",
+      "time": "04.00",
+      "team1": "95\\. Maç kazananı",
+      "team2": "96\\. Maç kazananı",
+      "score": "VS",
+      "venue": "Arrowhead Stadyumu, Kansas City"
+    },
+    {
+      "stage": "Çeyrek Final",
+      "date": "10 Temmuz 2026",
+      "time": "03.00",
+      "team1": "89. Maç Kazananı",
+      "team2": "90. Maç Kazananı",
+      "score": "VS",
+      "venue": "SoFi Stadyumu, Los Angeles"
+    },
+    {
+      "stage": "Çeyrek Final",
+      "date": "11 Temmuz 2026",
+      "time": "03.00",
+      "team1": "91. Maç Kazananı",
+      "team2": "92. Maç Kazananı",
+      "score": "VS",
+      "venue": "Gillette Stadyumu, Boston"
+    },
+    {
+      "stage": "Çeyrek Final",
+      "date": "11 Temmuz 2026",
+      "time": "23.00",
+      "team1": "93. Maç Kazananı",
+      "team2": "94. Maç Kazananı",
+      "score": "VS",
+      "venue": "Hard Rock Stadyumu, Miami"
+    },
+    {
+      "stage": "Çeyrek Final",
+      "date": "12 Temmuz 2026",
+      "time": "04.00",
+      "team1": "95. Maç Kazananı",
+      "team2": "96. Maç Kazananı",
+      "score": "VS",
+      "venue": "Arrowhead Stadyumu, Kansas City"
+    },
+    {
+      "stage": "Yarı Final",
+      "date": "14 Temmuz 2026",
+      "time": "22.00",
+      "team1": "97\\. Maç kazananı",
+      "team2": "98\\. Maç kazananı",
+      "score": "VS",
+      "venue": "AT&T Stadyumu, Arlington"
+    },
+    {
+      "stage": "Yarı Final",
+      "date": "15 Temmuz 2026",
+      "time": "22.00",
+      "team1": "99\\. Maç kazananı",
+      "team2": "100\\. Maç kazananı",
+      "score": "VS",
+      "venue": "Mercedes-Benz Stadyumu, Atlanta"
+    },
+    {
+      "stage": "Üçüncülük Maçı",
+      "date": "19 Temmuz 2026",
+      "time": "00.00",
+      "team1": "101\\. Maç kaybedeni",
+      "team2": "102\\. Maç kaybedeni",
+      "score": "VS",
+      "venue": "Hard Rock Stadyumu, Miami Gardens"
+    },
+    {
+      "stage": "Final",
+      "date": "19 Temmuz 2026",
+      "time": "22.00",
+      "team1": "101\\. Maç kazananı",
+      "team2": "102\\. Maç kazananı",
+      "score": "VS",
+      "venue": "MetLife Stadyumu, East Rutherford"
+    }
+  ],
+  "teams_info": {
+    "ABD": {
+      "how_qualified": "Ev sahibi",
+      "appearances": "12.",
+      "last_app": "2022",
+      "best_result": "Yarı final ( 1930)"
+    },
+    "Kanada": {
+      "how_qualified": "Ev sahibi",
+      "appearances": "3.",
+      "last_app": "2022",
+      "best_result": "Grup aşaması ( 1986, 2022)"
+    },
+    "Meksika": {
+      "how_qualified": "Ev sahibi",
+      "appearances": "18.",
+      "last_app": "2022",
+      "best_result": "Çeyrek final ( 1970, 1986)"
+    },
+    "Japonya": {
+      "how_qualified": "AFC üçüncü tur C grubu birincisi",
+      "appearances": "8.",
+      "last_app": "2022",
+      "best_result": "Son 16 ( 2002, 2010, 2018, 2022)"
+    },
+    "Yeni Zelanda": {
+      "how_qualified": "OFC üçüncü tur kazananı",
+      "appearances": "3.",
+      "last_app": "2010",
+      "best_result": "Grup aşaması ( 1982, 2010)"
+    },
+    "İran": {
+      "how_qualified": "AFC üçüncü tur A grubu birincisi",
+      "appearances": "7.",
+      "last_app": "2022",
+      "best_result": "Grup aşaması ( 1978, 1998, 2006, 2014, 2018, 2022)"
+    },
+    "Arjantin": {
+      "how_qualified": "CONMEBOL \"2026 FIFA Dünya Kupası elemeleri (CONMEBOL)\") birincisi",
+      "appearances": "19.",
+      "last_app": "2022",
+      "best_result": "**Şampiyon** ( 1978, 1986, 2022)"
+    },
+    "Özbekistan": {
+      "how_qualified": "AFC üçüncü tur A grubu ikincisi",
+      "appearances": "1.",
+      "last_app": "-",
+      "best_result": "-"
+    },
+    "Güney Kore": {
+      "how_qualified": "AFC üçüncü tur B grubu birincisi",
+      "appearances": "12.",
+      "last_app": "2022",
+      "best_result": "Dördüncü ( 2002)"
+    },
+    "Ürdün": {
+      "how_qualified": "AFC üçüncü tur B grubu ikincisi",
+      "appearances": "1.",
+      "last_app": "-",
+      "best_result": "-"
+    },
+    "Avustralya": {
+      "how_qualified": "AFC üçüncü tur C grubu ikincisi",
+      "appearances": "7.",
+      "last_app": "2022",
+      "best_result": "Son 16 ( 2006, 2022)"
+    },
+    "Brezilya": {
+      "how_qualified": "CONMEBOL \"2026 FIFA Dünya Kupası elemeleri (CONMEBOL)\") beşincisi",
+      "appearances": "23.",
+      "last_app": "2022",
+      "best_result": "**Şampiyon** ( 1958, 1962, 1970, 1994, 2002)"
+    },
+    "Ekvador": {
+      "how_qualified": "CONMEBOL \"2026 FIFA Dünya Kupası elemeleri (CONMEBOL)\") ikincisi",
+      "appearances": "5.",
+      "last_app": "2022",
+      "best_result": "Son 16 ( 2006)"
+    },
+    "Uruguay": {
+      "how_qualified": "CONMEBOL \"2026 FIFA Dünya Kupası elemeleri (CONMEBOL)\") dördüncüsü",
+      "appearances": "15.",
+      "last_app": "2022",
+      "best_result": "**Şampiyon** ( 1930, 1950)"
+    },
+    "Kolombiya": {
+      "how_qualified": "CONMEBOL \"2026 FIFA Dünya Kupası elemeleri (CONMEBOL)\") üçüncüsü",
+      "appearances": "7.",
+      "last_app": "2018",
+      "best_result": "Çeyrek final ( 2014)"
+    },
+    "Paraguay": {
+      "how_qualified": "CONMEBOL \"2026 FIFA Dünya Kupası elemeleri (CONMEBOL)\") altıncısı",
+      "appearances": "9.",
+      "last_app": "2010",
+      "best_result": "Çeyrek final ( 2010)"
+    },
+    "Fas": {
+      "how_qualified": "CAF birinci tur E grubu birincisi",
+      "appearances": "7.",
+      "last_app": "2022",
+      "best_result": "Dördüncü ( 2022)"
+    },
+    "Tunus": {
+      "how_qualified": "CAF birinci tur H grubu birincisi",
+      "appearances": "7.",
+      "last_app": "2022",
+      "best_result": "Grup aşaması ( 1978, 1998, 2002, 2006, 2018, 2022)"
+    },
+    "Mısır": {
+      "how_qualified": "CAF birinci tur A grubu birincisi",
+      "appearances": "4.",
+      "last_app": "2018",
+      "best_result": "Grup aşaması ( 1934, 1990, 2018)"
+    },
+    "Cezayir": {
+      "how_qualified": "CAF birinci tur G grubu birincisi",
+      "appearances": "5.",
+      "last_app": "2014",
+      "best_result": "Son 16 ( 2014)"
+    },
+    "Gana": {
+      "how_qualified": "CAF birinci tur I grubu birincisi",
+      "appearances": "5.",
+      "last_app": "2022",
+      "best_result": "Çeyrek final ( 2010)"
+    },
+    "Yeşil Burun Adaları": {
+      "how_qualified": "CAF birinci tur D grubu birincisi",
+      "appearances": "1.",
+      "last_app": "-",
+      "best_result": "-"
+    },
+    "Güney Afrika": {
+      "how_qualified": "CAF birinci tur C grubu birincisi",
+      "appearances": "4.",
+      "last_app": "2010",
+      "best_result": "Grup aşaması ( 1998, 2002, 2010)"
+    },
+    "Katar": {
+      "how_qualified": "AFC dördüncü tur A grubu birincisi",
+      "appearances": "2.",
+      "last_app": "2022",
+      "best_result": "Grup aşaması ( 2022)"
+    },
+    "İngiltere": {
+      "how_qualified": "UEFA birinci tur K grubu birincisi",
+      "appearances": "17.",
+      "last_app": "2022",
+      "best_result": "**Şampiyon** ( 1966)"
+    },
+    "Suudi Arabistan": {
+      "how_qualified": "AFC dördüncü tur B grubu birincisi",
+      "appearances": "7.",
+      "last_app": "2022",
+      "best_result": "Son 16 ( 1994)"
+    },
+    "Fildişi Sahili": {
+      "how_qualified": "CAF birinci tur F grubu birincisi",
+      "appearances": "4.",
+      "last_app": "2014",
+      "best_result": "Grup aşaması ( 2006, 2010, 2014)"
+    },
+    "Senegal": {
+      "how_qualified": "CAF birinci tur B grubu birincisi",
+      "appearances": "4.",
+      "last_app": "2022",
+      "best_result": "Çeyrek final ( 2002)"
+    },
+    "Fransa": {
+      "how_qualified": "UEFA birinci tur D grubu birincisi",
+      "appearances": "17.",
+      "last_app": "2022",
+      "best_result": "**Şampiyon** ( 1998, 2018)"
+    },
+    "Hırvatistan": {
+      "how_qualified": "UEFA birinci tur L grubu birincisi",
+      "appearances": "7.",
+      "last_app": "2022",
+      "best_result": "İkinci ( 2018)"
+    },
+    "Portekiz": {
+      "how_qualified": "UEFA birinci tur F grubu birincisi",
+      "appearances": "9.",
+      "last_app": "2022",
+      "best_result": "Üçüncü ( 1966)"
+    },
+    "Norveç": {
+      "how_qualified": "UEFA birinci tur I grubu birincisi",
+      "appearances": "4.",
+      "last_app": "1998",
+      "best_result": "Son 16 ( 1938, 1998)"
+    },
+    "Almanya": {
+      "how_qualified": "UEFA birinci tur A grubu birincisi",
+      "appearances": "21.",
+      "last_app": "2022",
+      "best_result": "**Şampiyon** ( 1954, 1974, 1990, 2014)"
+    },
+    "Hollanda": {
+      "how_qualified": "UEFA birinci tur G grubu birincisi",
+      "appearances": "12.",
+      "last_app": "2022",
+      "best_result": "İkinci ( 1974, 1978, 2010)"
+    },
+    "Avusturya": {
+      "how_qualified": "UEFA birinci tur H grubu birincisi",
+      "appearances": "8.",
+      "last_app": "1998",
+      "best_result": "Üçüncü ( 1954)"
+    },
+    "Belçika": {
+      "how_qualified": "UEFA birinci tur J grubu birincisi",
+      "appearances": "15.",
+      "last_app": "2022",
+      "best_result": "Üçüncü ( 2018)"
+    },
+    "İskoçya": {
+      "how_qualified": "UEFA birinci tur C grubu birincisi",
+      "appearances": "9.",
+      "last_app": "1998",
+      "best_result": "Grup aşaması ( 1954, 1958, 1974, 1978, 1982, 1986, 1990, 1998)"
+    },
+    "İspanya": {
+      "how_qualified": "UEFA birinci tur E grubu birincisi",
+      "appearances": "17.",
+      "last_app": "2022",
+      "best_result": "**Şampiyon** ( 2010)"
+    },
+    "İsviçre": {
+      "how_qualified": "UEFA birinci tur B grubu birincisi",
+      "appearances": "13.",
+      "last_app": "2022",
+      "best_result": "Çeyrek final ( 1934, 1938, 1954)"
+    },
+    "Panama": {
+      "how_qualified": "CONCACAF üçüncü tur A grubu birincisi",
+      "appearances": "2.",
+      "last_app": "2018",
+      "best_result": "Grup aşaması ( 2018)"
+    },
+    "Curaçao": {
+      "how_qualified": "CONCACAF üçüncü tur B grubu birincisi",
+      "appearances": "1.",
+      "last_app": "-",
+      "best_result": "-"
+    },
+    "Haiti": {
+      "how_qualified": "CONCACAF üçüncü tur C grubu birincisi",
+      "appearances": "2.",
+      "last_app": "1974",
+      "best_result": "Grup aşaması ( 1974)"
+    },
+    "İsveç": {
+      "how_qualified": "UEFA elemeleri play-off B yolu kazananı",
+      "appearances": "13.",
+      "last_app": "2018",
+      "best_result": "İkinci ( 1958)"
+    },
+    "Türkiye": {
+      "how_qualified": "UEFA elemeleri play-off C yolu kazananı",
+      "appearances": "3.",
+      "last_app": "2002",
+      "best_result": "Üçüncü ( 2002)"
+    },
+    "Çekya": {
+      "how_qualified": "UEFA elemeleri play-off D yolu kazananı",
+      "appearances": "10.",
+      "last_app": "2006",
+      "best_result": "İkinci, ( 1934, 1962)"
+    },
+    "Bosna-Hersek": {
+      "how_qualified": "UEFA elemeleri play-off A yolu kazananı",
+      "appearances": "2.",
+      "last_app": "2014",
+      "best_result": "Grup aşaması ( 2014)"
+    },
+    "Kongo DC": {
+      "how_qualified": "Konfederasyonlararası play-off \"2026 FIFA Dünya Kupası elemeleri (konfederasyonlararası play-off)\") kazananı",
+      "appearances": "2.",
+      "last_app": "1974",
+      "best_result": "Grup aşaması ( 1974)"
+    },
+    "Irak": {
+      "how_qualified": "Konfederasyonlararası play-off \"2026 FIFA Dünya Kupası elemeleri (konfederasyonlararası play-off)\") kazananı",
+      "appearances": "2.",
+      "last_app": "1986",
+      "best_result": "Grup aşaması ( 1986)"
+    }
+  }
+}

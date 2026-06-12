@@ -1,0 +1,1602 @@
+[
+  {
+    "name": "Erling Haaland",
+    "position": "Centre-Forward",
+    "country": "Norway",
+    "age": "25",
+    "club": "Manchester City",
+    "value": "€200.00m"
+  },
+  {
+    "name": "Lamine Yamal",
+    "position": "Right Winger",
+    "country": "Spain",
+    "age": "18",
+    "club": "FC Barcelona",
+    "value": "€200.00m"
+  },
+  {
+    "name": "Kylian Mbappé",
+    "position": "Centre-Forward",
+    "country": "France",
+    "age": "27",
+    "club": "Real Madrid",
+    "value": "€180.00m"
+  },
+  {
+    "name": "Michael Olise",
+    "position": "Right Winger",
+    "country": "France",
+    "age": "24",
+    "club": "Bayern Munich",
+    "value": "€150.00m"
+  },
+  {
+    "name": "Pedri",
+    "position": "Central Midfield",
+    "country": "Spain",
+    "age": "23",
+    "club": "FC Barcelona",
+    "value": "€150.00m"
+  },
+  {
+    "name": "Vinicius Junior",
+    "position": "Left Winger",
+    "country": "Brazil",
+    "age": "25",
+    "club": "Real Madrid",
+    "value": "€140.00m"
+  },
+  {
+    "name": "João Neves",
+    "position": "Central Midfield",
+    "country": "Portugal",
+    "age": "21",
+    "club": "Paris Saint-Germain",
+    "value": "€140.00m"
+  },
+  {
+    "name": "Vitinha",
+    "position": "Defensive Midfield",
+    "country": "Portugal",
+    "age": "26",
+    "club": "Paris Saint-Germain",
+    "value": "€140.00m"
+  },
+  {
+    "name": "Jude Bellingham",
+    "position": "Attacking Midfield",
+    "country": "England",
+    "age": "22",
+    "club": "Real Madrid",
+    "value": "€130.00m"
+  },
+  {
+    "name": "Désiré Doué",
+    "position": "Right Winger",
+    "country": "France",
+    "age": "21",
+    "club": "Paris Saint-Germain",
+    "value": "€120.00m"
+  },
+  {
+    "name": "Declan Rice",
+    "position": "Central Midfield",
+    "country": "England",
+    "age": "27",
+    "club": "Arsenal FC",
+    "value": "€120.00m"
+  },
+  {
+    "name": "Bukayo Saka",
+    "position": "Right Winger",
+    "country": "England",
+    "age": "24",
+    "club": "Arsenal FC",
+    "value": "€110.00m"
+  },
+  {
+    "name": "Moisés Caicedo",
+    "position": "Defensive Midfield",
+    "country": "Ecuador",
+    "age": "24",
+    "club": "Chelsea FC",
+    "value": "€100.00m"
+  },
+  {
+    "name": "William Saliba",
+    "position": "Centre-Back",
+    "country": "France",
+    "age": "25",
+    "club": "Arsenal FC",
+    "value": "€100.00m"
+  },
+  {
+    "name": "Jamal Musiala",
+    "position": "Attacking Midfield",
+    "country": "Germany",
+    "age": "23",
+    "club": "Bayern Munich",
+    "value": "€100.00m"
+  },
+  {
+    "name": "Julián Alvarez",
+    "position": "Centre-Forward",
+    "country": "Argentina",
+    "age": "26",
+    "club": "Atlético de Madrid",
+    "value": "€100.00m"
+  },
+  {
+    "name": "Florian Wirtz",
+    "position": "Attacking Midfield",
+    "country": "Germany",
+    "age": "23",
+    "club": "Liverpool FC",
+    "value": "€100.00m"
+  },
+  {
+    "name": "Ousmane Dembélé",
+    "position": "Centre-Forward",
+    "country": "France",
+    "age": "29",
+    "club": "Paris Saint-Germain",
+    "value": "€100.00m"
+  },
+  {
+    "name": "Federico Valverde",
+    "position": "Central Midfield",
+    "country": "Uruguay",
+    "age": "27",
+    "club": "Real Madrid",
+    "value": "€90.00m"
+  },
+  {
+    "name": "Rayan Cherki",
+    "position": "Attacking Midfield",
+    "country": "France",
+    "age": "22",
+    "club": "Manchester City",
+    "value": "€90.00m"
+  },
+  {
+    "name": "Arda Güler",
+    "position": "Attacking Midfield",
+    "country": "Turkiye",
+    "age": "21",
+    "club": "Real Madrid",
+    "value": "€90.00m"
+  },
+  {
+    "name": "Enzo Fernández",
+    "position": "Central Midfield",
+    "country": "Argentina",
+    "age": "25",
+    "club": "Chelsea FC",
+    "value": "€90.00m"
+  },
+  {
+    "name": "Morgan Rogers",
+    "position": "Attacking Midfield",
+    "country": "England",
+    "age": "23",
+    "club": "Aston Villa",
+    "value": "€90.00m"
+  },
+  {
+    "name": "Aleksandar Pavlovic",
+    "position": "Defensive Midfield",
+    "country": "Germany",
+    "age": "22",
+    "club": "Bayern Munich",
+    "value": "€90.00m"
+  },
+  {
+    "name": "Yan Diomande",
+    "position": "Left Winger",
+    "country": "Ivory Coast",
+    "age": "19",
+    "club": "RB Leipzig",
+    "value": "€90.00m"
+  },
+  {
+    "name": "Alexander Isak",
+    "position": "Centre-Forward",
+    "country": "Sweden",
+    "age": "26",
+    "club": "Liverpool FC",
+    "value": "€85.00m"
+  },
+  {
+    "name": "Lautaro Martínez",
+    "position": "Centre-Forward",
+    "country": "Argentina",
+    "age": "28",
+    "club": "Inter Milan",
+    "value": "€85.00m"
+  },
+  {
+    "name": "Nuno Mendes",
+    "position": "Left-Back",
+    "country": "Portugal",
+    "age": "23",
+    "club": "Paris Saint-Germain",
+    "value": "€80.00m"
+  },
+  {
+    "name": "Willian Pacho",
+    "position": "Centre-Back",
+    "country": "Ecuador",
+    "age": "24",
+    "club": "Paris Saint-Germain",
+    "value": "€80.00m"
+  },
+  {
+    "name": "Achraf Hakimi",
+    "position": "Right-Back",
+    "country": "Morocco",
+    "age": "27",
+    "club": "Paris Saint-Germain",
+    "value": "€80.00m"
+  },
+  {
+    "name": "Warren Zaïre-Emery",
+    "position": "Central Midfield",
+    "country": "France",
+    "age": "20",
+    "club": "Paris Saint-Germain",
+    "value": "€80.00m"
+  },
+  {
+    "name": "Nico Paz",
+    "position": "Attacking Midfield",
+    "country": "Argentina",
+    "age": "21",
+    "club": "Como 1907",
+    "value": "€80.00m"
+  },
+  {
+    "name": "Antoine Semenyo",
+    "position": "Right Winger",
+    "country": "Ghana",
+    "age": "26",
+    "club": "Manchester City",
+    "value": "€80.00m"
+  },
+  {
+    "name": "Pau Cubarsí",
+    "position": "Centre-Back",
+    "country": "Spain",
+    "age": "19",
+    "club": "FC Barcelona",
+    "value": "€80.00m"
+  },
+  {
+    "name": "Ryan Gravenberch",
+    "position": "Defensive Midfield",
+    "country": "Netherlands",
+    "age": "24",
+    "club": "Liverpool FC",
+    "value": "€80.00m"
+  },
+  {
+    "name": "Gabriel",
+    "position": "Centre-Back",
+    "country": "Brazil",
+    "age": "28",
+    "club": "Arsenal FC",
+    "value": "€75.00m"
+  },
+  {
+    "name": "Matheus Cunha",
+    "position": "Left Winger",
+    "country": "Brazil",
+    "age": "27",
+    "club": "Manchester United",
+    "value": "€75.00m"
+  },
+  {
+    "name": "Kenan Yıldız",
+    "position": "Left Winger",
+    "country": "Turkiye",
+    "age": "21",
+    "club": "Juventus FC",
+    "value": "€75.00m"
+  },
+  {
+    "name": "Elliot Anderson",
+    "position": "Central Midfield",
+    "country": "England",
+    "age": "23",
+    "club": "Nottingham Forest",
+    "value": "€75.00m"
+  },
+  {
+    "name": "Jérémy Doku",
+    "position": "Left Winger",
+    "country": "Belgium",
+    "age": "24",
+    "club": "Manchester City",
+    "value": "€75.00m"
+  },
+  {
+    "name": "Martín Zubimendi",
+    "position": "Defensive Midfield",
+    "country": "Spain",
+    "age": "27",
+    "club": "Arsenal FC",
+    "value": "€75.00m"
+  },
+  {
+    "name": "Raphinha",
+    "position": "Left Winger",
+    "country": "Brazil",
+    "age": "29",
+    "club": "FC Barcelona",
+    "value": "€70.00m"
+  },
+  {
+    "name": "Bruno Guimarães",
+    "position": "Central Midfield",
+    "country": "Brazil",
+    "age": "28",
+    "club": "Newcastle United",
+    "value": "€70.00m"
+  },
+  {
+    "name": "Luis Díaz",
+    "position": "Left Winger",
+    "country": "Colombia",
+    "age": "29",
+    "club": "Bayern Munich",
+    "value": "€70.00m"
+  },
+  {
+    "name": "Josko Gvardiol",
+    "position": "Centre-Back",
+    "country": "Croatia",
+    "age": "24",
+    "club": "Manchester City",
+    "value": "€70.00m"
+  },
+  {
+    "name": "Bradley Barcola",
+    "position": "Left Winger",
+    "country": "France",
+    "age": "23",
+    "club": "Paris Saint-Germain",
+    "value": "€70.00m"
+  },
+  {
+    "name": "Kobbie Mainoo",
+    "position": "Central Midfield",
+    "country": "England",
+    "age": "21",
+    "club": "Manchester United",
+    "value": "€70.00m"
+  },
+  {
+    "name": "Nico O'Reilly",
+    "position": "Left-Back",
+    "country": "England",
+    "age": "21",
+    "club": "Manchester City",
+    "value": "€70.00m"
+  },
+  {
+    "name": "Alexis Mac Allister",
+    "position": "Central Midfield",
+    "country": "Argentina",
+    "age": "27",
+    "club": "Liverpool FC",
+    "value": "€70.00m"
+  },
+  {
+    "name": "Aurélien Tchouaméni",
+    "position": "Defensive Midfield",
+    "country": "France",
+    "age": "26",
+    "club": "Real Madrid",
+    "value": "€70.00m"
+  },
+  {
+    "name": "Marc Guéhi",
+    "position": "Centre-Back",
+    "country": "England",
+    "age": "25",
+    "club": "Manchester City",
+    "value": "€70.00m"
+  },
+  {
+    "name": "Dayot Upamecano",
+    "position": "Centre-Back",
+    "country": "France",
+    "age": "27",
+    "club": "Bayern Munich",
+    "value": "€70.00m"
+  },
+  {
+    "name": "Igor Thiago",
+    "position": "Centre-Forward",
+    "country": "Brazil",
+    "age": "24",
+    "club": "Brentford FC",
+    "value": "€65.00m"
+  },
+  {
+    "name": "Martin Ødegaard",
+    "position": "Attacking Midfield",
+    "country": "Norway",
+    "age": "27",
+    "club": "Arsenal FC",
+    "value": "€65.00m"
+  },
+  {
+    "name": "Viktor Gyökeres",
+    "position": "Centre-Forward",
+    "country": "Sweden",
+    "age": "28",
+    "club": "Arsenal FC",
+    "value": "€65.00m"
+  },
+  {
+    "name": "Anthony Gordon",
+    "position": "Left Winger",
+    "country": "England",
+    "age": "25",
+    "club": "Newcastle United",
+    "value": "€65.00m"
+  },
+  {
+    "name": "Eberechi Eze",
+    "position": "Attacking Midfield",
+    "country": "England",
+    "age": "27",
+    "club": "Arsenal FC",
+    "value": "€65.00m"
+  },
+  {
+    "name": "Rayan",
+    "position": "Right Winger",
+    "country": "Brazil",
+    "age": "19",
+    "club": "AFC Bournemouth",
+    "value": "€60.00m"
+  },
+  {
+    "name": "Pedro Neto",
+    "position": "Right Winger",
+    "country": "Portugal",
+    "age": "26",
+    "club": "Chelsea FC",
+    "value": "€60.00m"
+  },
+  {
+    "name": "Luka Vuskovic",
+    "position": "Centre-Back",
+    "country": "Croatia",
+    "age": "19",
+    "club": "Hamburger SV",
+    "value": "€60.00m"
+  },
+  {
+    "name": "Reece James",
+    "position": "Right-Back",
+    "country": "England",
+    "age": "26",
+    "club": "Chelsea FC",
+    "value": "€60.00m"
+  },
+  {
+    "name": "Jules Koundé",
+    "position": "Right-Back",
+    "country": "France",
+    "age": "27",
+    "club": "FC Barcelona",
+    "value": "€60.00m"
+  },
+  {
+    "name": "Cody Gakpo",
+    "position": "Left Winger",
+    "country": "Netherlands",
+    "age": "27",
+    "club": "Liverpool FC",
+    "value": "€60.00m"
+  },
+  {
+    "name": "Harry Kane",
+    "position": "Centre-Forward",
+    "country": "England",
+    "age": "32",
+    "club": "Bayern Munich",
+    "value": "€60.00m"
+  },
+  {
+    "name": "Dani Olmo",
+    "position": "Attacking Midfield",
+    "country": "Spain",
+    "age": "28",
+    "club": "FC Barcelona",
+    "value": "€60.00m"
+  },
+  {
+    "name": "Iliman Ndiaye",
+    "position": "Right Winger",
+    "country": "Senegal",
+    "age": "26",
+    "club": "Everton FC",
+    "value": "€55.00m"
+  },
+  {
+    "name": "Rúben Dias",
+    "position": "Centre-Back",
+    "country": "Portugal",
+    "age": "29",
+    "club": "Manchester City",
+    "value": "€55.00m"
+  },
+  {
+    "name": "Kai Havertz",
+    "position": "Centre-Forward",
+    "country": "Germany",
+    "age": "27",
+    "club": "Arsenal FC",
+    "value": "€55.00m"
+  },
+  {
+    "name": "Nico Schlotterbeck",
+    "position": "Centre-Back",
+    "country": "Germany",
+    "age": "26",
+    "club": "Borussia Dortmund",
+    "value": "€55.00m"
+  },
+  {
+    "name": "Nick Woltemade",
+    "position": "Centre-Forward",
+    "country": "Germany",
+    "age": "24",
+    "club": "Newcastle United",
+    "value": "€55.00m"
+  },
+  {
+    "name": "Johan Manzambi",
+    "position": "Central Midfield",
+    "country": "Switzerland",
+    "age": "20",
+    "club": "SC Freiburg",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Marc Cucurella",
+    "position": "Left-Back",
+    "country": "Spain",
+    "age": "27",
+    "club": "Chelsea FC",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Piero Hincapié",
+    "position": "Centre-Back",
+    "country": "Ecuador",
+    "age": "24",
+    "club": "Arsenal FC",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Rodri",
+    "position": "Defensive Midfield",
+    "country": "Spain",
+    "age": "29",
+    "club": "Manchester City",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Micky van de Ven",
+    "position": "Centre-Back",
+    "country": "Netherlands",
+    "age": "25",
+    "club": "Tottenham Hotspur",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Ferran Torres",
+    "position": "Centre-Forward",
+    "country": "Spain",
+    "age": "26",
+    "club": "FC Barcelona",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Tijjani Reijnders",
+    "position": "Central Midfield",
+    "country": "Netherlands",
+    "age": "27",
+    "club": "Manchester City",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Matheus Nunes",
+    "position": "Right-Back",
+    "country": "Portugal",
+    "age": "27",
+    "club": "Manchester City",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Ayyoub Bouaddi",
+    "position": "Central Midfield",
+    "country": "Morocco",
+    "age": "18",
+    "club": "LOSC Lille",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Marcus Thuram",
+    "position": "Centre-Forward",
+    "country": "France",
+    "age": "28",
+    "club": "Inter Milan",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Omar Marmoush",
+    "position": "Centre-Forward",
+    "country": "Egypt",
+    "age": "27",
+    "club": "Manchester City",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Noni Madueke",
+    "position": "Right Winger",
+    "country": "England",
+    "age": "24",
+    "club": "Arsenal FC",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Maxence Lacroix",
+    "position": "Centre-Back",
+    "country": "France",
+    "age": "26",
+    "club": "Crystal Palace",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Maghnes Akliouche",
+    "position": "Right Winger",
+    "country": "France",
+    "age": "24",
+    "club": "AS Monaco",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Felix Nmecha",
+    "position": "Central Midfield",
+    "country": "Germany",
+    "age": "25",
+    "club": "Borussia Dortmund",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Manu Koné",
+    "position": "Central Midfield",
+    "country": "France",
+    "age": "25",
+    "club": "AS Roma",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Abdukodir Khusanov",
+    "position": "Centre-Back",
+    "country": "Uzbekistan",
+    "age": "22",
+    "club": "Manchester City",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Rafael Leão",
+    "position": "Left Winger",
+    "country": "Portugal",
+    "age": "27",
+    "club": "AC Milan",
+    "value": "€50.00m"
+  },
+  {
+    "name": "Amad Diallo",
+    "position": "Right Winger",
+    "country": "Ivory Coast",
+    "age": "23",
+    "club": "Manchester United",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Jan Paul van Hecke",
+    "position": "Centre-Back",
+    "country": "Netherlands",
+    "age": "26",
+    "club": "Brighton & Hove Albion",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Joan García",
+    "position": "Goalkeeper",
+    "country": "Spain",
+    "age": "25",
+    "club": "FC Barcelona",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Donyell Malen",
+    "position": "Centre-Forward",
+    "country": "Netherlands",
+    "age": "27",
+    "club": "AS Roma",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Éderson",
+    "position": "Central Midfield",
+    "country": "Brazil",
+    "age": "26",
+    "club": "Atalanta BC",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Gabriel Martinelli",
+    "position": "Left Winger",
+    "country": "Brazil",
+    "age": "24",
+    "club": "Arsenal FC",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Amadou Onana",
+    "position": "Defensive Midfield",
+    "country": "Belgium",
+    "age": "24",
+    "club": "Aston Villa",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Ibrahima Konaté",
+    "position": "Centre-Back",
+    "country": "France",
+    "age": "27",
+    "club": "Liverpool FC",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Cristian Romero",
+    "position": "Centre-Back",
+    "country": "Argentina",
+    "age": "28",
+    "club": "Tottenham Hotspur",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Tino Livramento",
+    "position": "Right-Back",
+    "country": "England",
+    "age": "23",
+    "club": "Newcastle United",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Ibrahim Maza",
+    "position": "Attacking Midfield",
+    "country": "Algeria",
+    "age": "20",
+    "club": "Bayer 04 Leverkusen",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Malick Thiaw",
+    "position": "Centre-Back",
+    "country": "Germany",
+    "age": "24",
+    "club": "Newcastle United",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Angelo Stiller",
+    "position": "Defensive Midfield",
+    "country": "Germany",
+    "age": "25",
+    "club": "VfB Stuttgart",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Can Uzun",
+    "position": "Attacking Midfield",
+    "country": "Turkiye",
+    "age": "20",
+    "club": "Eintracht Frankfurt",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Jarell Quansah",
+    "position": "Centre-Back",
+    "country": "England",
+    "age": "23",
+    "club": "Bayer 04 Leverkusen",
+    "value": "€45.00m"
+  },
+  {
+    "name": "Ousmane Diomande",
+    "position": "Centre-Back",
+    "country": "Ivory Coast",
+    "age": "22",
+    "club": "Sporting CP",
+    "value": "€42.00m"
+  },
+  {
+    "name": "Lamine Camara",
+    "position": "Central Midfield",
+    "country": "Senegal",
+    "age": "22",
+    "club": "AS Monaco",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Nicolas Jackson",
+    "position": "Centre-Forward",
+    "country": "Senegal",
+    "age": "24",
+    "club": "Bayern Munich",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Endrick",
+    "position": "Centre-Forward",
+    "country": "Brazil",
+    "age": "19",
+    "club": "Olympique Lyon",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Christian Pulisic",
+    "position": "Right Winger",
+    "country": "United States",
+    "age": "27",
+    "club": "AC Milan",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Pape Gueye",
+    "position": "Central Midfield",
+    "country": "Senegal",
+    "age": "27",
+    "club": "Villarreal CF",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Kaishu Sano",
+    "position": "Defensive Midfield",
+    "country": "Japan",
+    "age": "25",
+    "club": "1.FSV Mainz 05",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Folarin Balogun",
+    "position": "Centre-Forward",
+    "country": "United States",
+    "age": "24",
+    "club": "AS Monaco",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Jorrel Hato",
+    "position": "Left-Back",
+    "country": "Netherlands",
+    "age": "20",
+    "club": "Chelsea FC",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Bazoumana Touré",
+    "position": "Left Winger",
+    "country": "Ivory Coast",
+    "age": "20",
+    "club": "TSG 1899 Hoffenheim",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Bart Verbruggen",
+    "position": "Goalkeeper",
+    "country": "Netherlands",
+    "age": "23",
+    "club": "Brighton & Hove Albion",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Gregor Kobel",
+    "position": "Goalkeeper",
+    "country": "Switzerland",
+    "age": "28",
+    "club": "Borussia Dortmund",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Ismael Saibari",
+    "position": "Attacking Midfield",
+    "country": "Morocco",
+    "age": "25",
+    "club": "PSV Eindhoven",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Ismaïla Sarr",
+    "position": "Right Winger",
+    "country": "Senegal",
+    "age": "28",
+    "club": "Crystal Palace",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Eric García",
+    "position": "Centre-Back",
+    "country": "Spain",
+    "age": "25",
+    "club": "FC Barcelona",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Álex Baena",
+    "position": "Left Winger",
+    "country": "Spain",
+    "age": "24",
+    "club": "Atlético de Madrid",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Nico Williams",
+    "position": "Left Winger",
+    "country": "Spain",
+    "age": "23",
+    "club": "Athletic Bilbao",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Gonçalo Inácio",
+    "position": "Centre-Back",
+    "country": "Portugal",
+    "age": "24",
+    "club": "Sporting CP",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Petar Sučić",
+    "position": "Central Midfield",
+    "country": "Croatia",
+    "age": "22",
+    "club": "Inter Milan",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Marcus Rashford",
+    "position": "Left Winger",
+    "country": "England",
+    "age": "28",
+    "club": "FC Barcelona",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Nathaniel Brown",
+    "position": "Left-Back",
+    "country": "Germany",
+    "age": "22",
+    "club": "Eintracht Frankfurt",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Alphonso Davies",
+    "position": "Left-Back",
+    "country": "Canada",
+    "age": "25",
+    "club": "Bayern Munich",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Josip Stanisic",
+    "position": "Right-Back",
+    "country": "Croatia",
+    "age": "26",
+    "club": "Bayern Munich",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Scott McTominay",
+    "position": "Central Midfield",
+    "country": "Scotland",
+    "age": "29",
+    "club": "SSC Napoli",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Jørgen Strand Larsen",
+    "position": "Centre-Forward",
+    "country": "Norway",
+    "age": "26",
+    "club": "Crystal Palace",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Ezri Konsa",
+    "position": "Centre-Back",
+    "country": "England",
+    "age": "28",
+    "club": "Aston Villa",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Lisandro Martínez",
+    "position": "Centre-Back",
+    "country": "Argentina",
+    "age": "28",
+    "club": "Manchester United",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Giuliano Simeone",
+    "position": "Right Winger",
+    "country": "Argentina",
+    "age": "23",
+    "club": "Atlético de Madrid",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Valentín Barco",
+    "position": "Central Midfield",
+    "country": "Argentina",
+    "age": "21",
+    "club": "RC Strasbourg Alsace",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Maximilian Beier",
+    "position": "Centre-Forward",
+    "country": "Germany",
+    "age": "23",
+    "club": "Borussia Dortmund",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Jamie Leweling",
+    "position": "Right Winger",
+    "country": "Germany",
+    "age": "25",
+    "club": "VfB Stuttgart",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Diogo Costa",
+    "position": "Goalkeeper",
+    "country": "Portugal",
+    "age": "26",
+    "club": "FC Porto",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Rayan Aït-Nouri",
+    "position": "Left-Back",
+    "country": "Algeria",
+    "age": "25",
+    "club": "Manchester City",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Francisco Trincão",
+    "position": "Attacking Midfield",
+    "country": "Portugal",
+    "age": "26",
+    "club": "Sporting CP",
+    "value": "€40.00m"
+  },
+  {
+    "name": "Bruno Fernandes",
+    "position": "Attacking Midfield",
+    "country": "Portugal",
+    "age": "31",
+    "club": "Manchester United",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Maxi Araújo",
+    "position": "Left-Back",
+    "country": "Uruguay",
+    "age": "26",
+    "club": "Sporting CP",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Bremer",
+    "position": "Centre-Back",
+    "country": "Brazil",
+    "age": "29",
+    "club": "Juventus FC",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Ange-Yoan Bonny",
+    "position": "Centre-Forward",
+    "country": "Ivory Coast",
+    "age": "22",
+    "club": "Inter Milan",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Noah Sadiki",
+    "position": "Central Midfield",
+    "country": "Democratic Republic of the Congo",
+    "age": "21",
+    "club": "Sunderland AFC",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Brahim Díaz",
+    "position": "Right Winger",
+    "country": "Morocco",
+    "age": "26",
+    "club": "Real Madrid",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Crysencio Summerville",
+    "position": "Left Winger",
+    "country": "Netherlands",
+    "age": "24",
+    "club": "West Ham United",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Evan Ndicka",
+    "position": "Centre-Back",
+    "country": "Ivory Coast",
+    "age": "26",
+    "club": "AS Roma",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Bilal El Khannouss",
+    "position": "Attacking Midfield",
+    "country": "Morocco",
+    "age": "22",
+    "club": "VfB Stuttgart",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Yasin Ayari",
+    "position": "Central Midfield",
+    "country": "Sweden",
+    "age": "22",
+    "club": "Brighton & Hove Albion",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Pedro Porro",
+    "position": "Right-Back",
+    "country": "Spain",
+    "age": "26",
+    "club": "Tottenham Hotspur",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Frenkie de Jong",
+    "position": "Central Midfield",
+    "country": "Netherlands",
+    "age": "29",
+    "club": "FC Barcelona",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Lucas Bergvall",
+    "position": "Central Midfield",
+    "country": "Sweden",
+    "age": "20",
+    "club": "Tottenham Hotspur",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Marc Pubill",
+    "position": "Centre-Back",
+    "country": "Spain",
+    "age": "22",
+    "club": "Atlético de Madrid",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Joshua Kimmich",
+    "position": "Defensive Midfield",
+    "country": "Germany",
+    "age": "31",
+    "club": "Bayern Munich",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Senne Lammens",
+    "position": "Goalkeeper",
+    "country": "Belgium",
+    "age": "23",
+    "club": "Manchester United",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Habib Diarra",
+    "position": "Central Midfield",
+    "country": "Senegal",
+    "age": "22",
+    "club": "Sunderland AFC",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Matias Fernandez-Pardo",
+    "position": "Centre-Forward",
+    "country": "Belgium",
+    "age": "21",
+    "club": "LOSC Lille",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Ferdi Kadıoğlu",
+    "position": "Left-Back",
+    "country": "Turkiye",
+    "age": "26",
+    "club": "Brighton & Hove Albion",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Malo Gusto",
+    "position": "Right-Back",
+    "country": "France",
+    "age": "23",
+    "club": "Chelsea FC",
+    "value": "€35.00m"
+  },
+  {
+    "name": "Joel Ordóñez",
+    "position": "Centre-Back",
+    "country": "Ecuador",
+    "age": "22",
+    "club": "Club Brugge KV",
+    "value": "€33.00m"
+  },
+  {
+    "name": "Dan Ndoye",
+    "position": "Right Winger",
+    "country": "Switzerland",
+    "age": "25",
+    "club": "Nottingham Forest",
+    "value": "€32.00m"
+  },
+  {
+    "name": "Danilo",
+    "position": "Central Midfield",
+    "country": "Brazil",
+    "age": "25",
+    "club": "Botafogo de Futebol e Regatas",
+    "value": "€32.00m"
+  },
+  {
+    "name": "Lucas Paquetá",
+    "position": "Attacking Midfield",
+    "country": "Brazil",
+    "age": "28",
+    "club": "CR Flamengo",
+    "value": "€32.00m"
+  },
+  {
+    "name": "Anthony Elanga",
+    "position": "Right Winger",
+    "country": "Sweden",
+    "age": "24",
+    "club": "Newcastle United",
+    "value": "€32.00m"
+  },
+  {
+    "name": "Antonio Nusa",
+    "position": "Left Winger",
+    "country": "Norway",
+    "age": "21",
+    "club": "RB Leipzig",
+    "value": "€32.00m"
+  },
+  {
+    "name": "Konrad Laimer",
+    "position": "Right-Back",
+    "country": "Austria",
+    "age": "29",
+    "club": "Bayern Munich",
+    "value": "€32.00m"
+  },
+  {
+    "name": "Youri Tielemans",
+    "position": "Central Midfield",
+    "country": "Belgium",
+    "age": "29",
+    "club": "Aston Villa",
+    "value": "€30.00m"
+  },
+  {
+    "name": "David Raya",
+    "position": "Goalkeeper",
+    "country": "Spain",
+    "age": "30",
+    "club": "Arsenal FC",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Rodrigo Zalazar",
+    "position": "Attacking Midfield",
+    "country": "Uruguay",
+    "age": "26",
+    "club": "SC Braga",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Andreas Schjelderup",
+    "position": "Left Winger",
+    "country": "Norway",
+    "age": "22",
+    "club": "SL Benfica",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Assane Diao",
+    "position": "Left Winger",
+    "country": "Senegal",
+    "age": "20",
+    "club": "Como 1907",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Weston McKennie",
+    "position": "Central Midfield",
+    "country": "United States",
+    "age": "27",
+    "club": "Juventus FC",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Luis Suárez",
+    "position": "Centre-Forward",
+    "country": "Colombia",
+    "age": "28",
+    "club": "Sporting CP",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Fabián Ruiz",
+    "position": "Central Midfield",
+    "country": "Spain",
+    "age": "30",
+    "club": "Paris Saint-Germain",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Ricardo Pepi",
+    "position": "Centre-Forward",
+    "country": "United States",
+    "age": "23",
+    "club": "PSV Eindhoven",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Brian Brobbey",
+    "position": "Centre-Forward",
+    "country": "Netherlands",
+    "age": "24",
+    "club": "Sunderland AFC",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Yéremy Pino",
+    "position": "Right Winger",
+    "country": "Spain",
+    "age": "23",
+    "club": "Crystal Palace",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Gavi",
+    "position": "Central Midfield",
+    "country": "Spain",
+    "age": "21",
+    "club": "FC Barcelona",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Jonathan David",
+    "position": "Centre-Forward",
+    "country": "Canada",
+    "age": "26",
+    "club": "Juventus FC",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Víctor Muñoz",
+    "position": "Left Winger",
+    "country": "Spain",
+    "age": "22",
+    "club": "CA Osasuna",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Gonçalo Ramos",
+    "position": "Centre-Forward",
+    "country": "Portugal",
+    "age": "24",
+    "club": "Paris Saint-Germain",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Tomás Araújo",
+    "position": "Centre-Back",
+    "country": "Portugal",
+    "age": "24",
+    "club": "SL Benfica",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Francisco Conceição",
+    "position": "Right Winger",
+    "country": "Portugal",
+    "age": "23",
+    "club": "Juventus FC",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Martin Baturina",
+    "position": "Attacking Midfield",
+    "country": "Croatia",
+    "age": "23",
+    "club": "Como 1907",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Charles De Ketelaere",
+    "position": "Attacking Midfield",
+    "country": "Belgium",
+    "age": "25",
+    "club": "Atalanta BC",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Ibrahim Mbaye",
+    "position": "Right Winger",
+    "country": "Senegal",
+    "age": "18",
+    "club": "Paris Saint-Germain",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Djed Spence",
+    "position": "Left-Back",
+    "country": "England",
+    "age": "25",
+    "club": "Tottenham Hotspur",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Jean-Philippe Mateta",
+    "position": "Centre-Forward",
+    "country": "France",
+    "age": "28",
+    "club": "Crystal Palace",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Malik Tillman",
+    "position": "Attacking Midfield",
+    "country": "United States",
+    "age": "24",
+    "club": "Bayer 04 Leverkusen",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Diogo Dalot",
+    "position": "Right-Back",
+    "country": "Portugal",
+    "age": "27",
+    "club": "Manchester United",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Robin Risser",
+    "position": "Goalkeeper",
+    "country": "France",
+    "age": "21",
+    "club": "RC Lens",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Barış Alper Yılmaz",
+    "position": "Left Winger",
+    "country": "Turkiye",
+    "age": "26",
+    "club": "Galatasaray",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Pape Matar Sarr",
+    "position": "Central Midfield",
+    "country": "Senegal",
+    "age": "23",
+    "club": "Tottenham Hotspur",
+    "value": "€30.00m"
+  },
+  {
+    "name": "Oscar Bobb",
+    "position": "Right Winger",
+    "country": "Norway",
+    "age": "22",
+    "club": "Fulham FC",
+    "value": "€28.00m"
+  },
+  {
+    "name": "Chris Richards",
+    "position": "Centre-Back",
+    "country": "United States",
+    "age": "26",
+    "club": "Crystal Palace",
+    "value": "€28.00m"
+  },
+  {
+    "name": "Robin Roefs",
+    "position": "Goalkeeper",
+    "country": "Netherlands",
+    "age": "23",
+    "club": "Sunderland AFC",
+    "value": "€28.00m"
+  },
+  {
+    "name": "Dean Henderson",
+    "position": "Goalkeeper",
+    "country": "England",
+    "age": "29",
+    "club": "Crystal Palace",
+    "value": "€28.00m"
+  },
+  {
+    "name": "El Hadji Malick Diouf",
+    "position": "Left-Back",
+    "country": "Senegal",
+    "age": "21",
+    "club": "West Ham United",
+    "value": "€28.00m"
+  },
+  {
+    "name": "Assan Ouédraogo",
+    "position": "Central Midfield",
+    "country": "Germany",
+    "age": "20",
+    "club": "RB Leipzig",
+    "value": "€28.00m"
+  },
+  {
+    "name": "Marquinhos",
+    "position": "Centre-Back",
+    "country": "Brazil",
+    "age": "32",
+    "club": "Paris Saint-Germain",
+    "value": "€28.00m"
+  },
+  {
+    "name": "Jonathan Tah",
+    "position": "Centre-Back",
+    "country": "Germany",
+    "age": "30",
+    "club": "Bayern Munich",
+    "value": "€28.00m"
+  },
+  {
+    "name": "Zeno Debast",
+    "position": "Centre-Back",
+    "country": "Belgium",
+    "age": "22",
+    "club": "Sporting CP",
+    "value": "€28.00m"
+  }
+]

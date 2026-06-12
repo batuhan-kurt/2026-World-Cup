@@ -1,0 +1,294 @@
+{
+  "groups": {},
+  "fixtures": [],
+  "teams_info": {
+    "ABD": {
+      "how_qualified": "Ev sahibi",
+      "appearances": "12.",
+      "last_app": "2022",
+      "best_result": "Yarı final (1930)"
+    },
+    "Kanada": {
+      "how_qualified": "Ev sahibi",
+      "appearances": "3.",
+      "last_app": "2022",
+      "best_result": "Grup aşaması (1986, 2022)"
+    },
+    "Meksika": {
+      "how_qualified": "Ev sahibi",
+      "appearances": "18.",
+      "last_app": "2022",
+      "best_result": "Çeyrek final (1970, 1986)"
+    },
+    "Japonya": {
+      "how_qualified": "AFC üçüncü tur C grubu birincisi",
+      "appearances": "8.",
+      "last_app": "2022",
+      "best_result": "Son 16 (2002, 2010, 2018, 2022)"
+    },
+    "Yeni Zelanda": {
+      "how_qualified": "OFC üçüncü tur kazananı",
+      "appearances": "3.",
+      "last_app": "2010",
+      "best_result": "Grup aşaması (1982, 2010)"
+    },
+    "İran": {
+      "how_qualified": "AFC üçüncü tur A grubu birincisi",
+      "appearances": "7.",
+      "last_app": "2022",
+      "best_result": "Grup aşaması (1978, 1998, 2006, 2014, 2018, 2022)"
+    },
+    "Arjantin": {
+      "how_qualified": "CONMEBOL birincisi",
+      "appearances": "19.",
+      "last_app": "2022",
+      "best_result": "Şampiyon (1978, 1986, 2022)"
+    },
+    "Özbekistan": {
+      "how_qualified": "AFC üçüncü tur A grubu ikincisi",
+      "appearances": "1.",
+      "last_app": "-",
+      "best_result": "-"
+    },
+    "Güney Kore": {
+      "how_qualified": "AFC üçüncü tur B grubu birincisi",
+      "appearances": "12.",
+      "last_app": "2022",
+      "best_result": "Dördüncü (2002)"
+    },
+    "Ürdün": {
+      "how_qualified": "AFC üçüncü tur B grubu ikincisi",
+      "appearances": "1.",
+      "last_app": "-",
+      "best_result": "-"
+    },
+    "Avustralya": {
+      "how_qualified": "AFC üçüncü tur C grubu ikincisi",
+      "appearances": "7.",
+      "last_app": "2022",
+      "best_result": "Son 16 (2006, 2022)"
+    },
+    "Brezilya": {
+      "how_qualified": "CONMEBOL beşincisi",
+      "appearances": "23.",
+      "last_app": "2022",
+      "best_result": "Şampiyon (1958, 1962, 1970, 1994, 2002)"
+    },
+    "Ekvador": {
+      "how_qualified": "CONMEBOL ikincisi",
+      "appearances": "5.",
+      "last_app": "2022",
+      "best_result": "Son 16 (2006)"
+    },
+    "Uruguay": {
+      "how_qualified": "CONMEBOL dördüncüsü",
+      "appearances": "15.",
+      "last_app": "2022",
+      "best_result": "Şampiyon (1930, 1950)"
+    },
+    "Kolombiya": {
+      "how_qualified": "CONMEBOL üçüncüsü",
+      "appearances": "7.",
+      "last_app": "2018",
+      "best_result": "Çeyrek final (2014)"
+    },
+    "Paraguay": {
+      "how_qualified": "CONMEBOL altıncısı",
+      "appearances": "9.",
+      "last_app": "2010",
+      "best_result": "Çeyrek final (2010)"
+    },
+    "Fas": {
+      "how_qualified": "CAF birinci tur E grubu birincisi",
+      "appearances": "7.",
+      "last_app": "2022",
+      "best_result": "Dördüncü (2022)"
+    },
+    "Tunus": {
+      "how_qualified": "CAF birinci tur H grubu birincisi",
+      "appearances": "7.",
+      "last_app": "2022",
+      "best_result": "Grup aşaması (1978, 1998, 2002, 2006, 2018, 2022)"
+    },
+    "Mısır": {
+      "how_qualified": "CAF birinci tur A grubu birincisi",
+      "appearances": "4.",
+      "last_app": "2018",
+      "best_result": "Grup aşaması (1934, 1990, 2018)"
+    },
+    "Cezayir": {
+      "how_qualified": "CAF birinci tur G grubu birincisi",
+      "appearances": "5.",
+      "last_app": "2014",
+      "best_result": "Son 16 (2014)"
+    },
+    "Gana": {
+      "how_qualified": "CAF birinci tur I grubu birincisi",
+      "appearances": "5.",
+      "last_app": "2022",
+      "best_result": "Çeyrek final (2010)"
+    },
+    "Yeşil Burun Adaları": {
+      "how_qualified": "CAF birinci tur D grubu birincisi",
+      "appearances": "1.",
+      "last_app": "-",
+      "best_result": "-"
+    },
+    "Güney Afrika": {
+      "how_qualified": "CAF birinci tur C grubu birincisi",
+      "appearances": "4.",
+      "last_app": "2010",
+      "best_result": "Grup aşaması (1998, 2002, 2010)"
+    },
+    "Katar": {
+      "how_qualified": "AFC dördüncü tur A grubu birincisi",
+      "appearances": "2.",
+      "last_app": "2022",
+      "best_result": "Grup aşaması (2022)"
+    },
+    "İngiltere": {
+      "how_qualified": "UEFA birinci tur K grubu birincisi",
+      "appearances": "17.",
+      "last_app": "2022",
+      "best_result": "Şampiyon (1966)"
+    },
+    "Suudi Arabistan": {
+      "how_qualified": "AFC dördüncü tur B grubu birincisi",
+      "appearances": "7.",
+      "last_app": "2022",
+      "best_result": "Son 16 (1994)"
+    },
+    "Fildişi Sahili": {
+      "how_qualified": "CAF birinci tur F grubu birincisi",
+      "appearances": "4.",
+      "last_app": "2014",
+      "best_result": "Grup aşaması (2006, 2010, 2014)"
+    },
+    "Senegal": {
+      "how_qualified": "CAF birinci tur B grubu birincisi",
+      "appearances": "4.",
+      "last_app": "2022",
+      "best_result": "Çeyrek final (2002)"
+    },
+    "Fransa": {
+      "how_qualified": "UEFA birinci tur D grubu birincisi",
+      "appearances": "17.",
+      "last_app": "2022",
+      "best_result": "Şampiyon (1998, 2018)"
+    },
+    "Hırvatistan": {
+      "how_qualified": "UEFA birinci tur L grubu birincisi",
+      "appearances": "7.",
+      "last_app": "2022",
+      "best_result": "İkinci (2018)"
+    },
+    "Portekiz": {
+      "how_qualified": "UEFA birinci tur F grubu birincisi",
+      "appearances": "9.",
+      "last_app": "2022",
+      "best_result": "Üçüncü (1966)"
+    },
+    "Norveç": {
+      "how_qualified": "UEFA birinci tur I grubu birincisi",
+      "appearances": "4.",
+      "last_app": "1998",
+      "best_result": "Son 16 (1938, 1998)"
+    },
+    "Almanya": {
+      "how_qualified": "UEFA birinci tur A grubu birincisi",
+      "appearances": "21.",
+      "last_app": "2022",
+      "best_result": "Şampiyon (1954, 1974, 1990, 2014)"
+    },
+    "Hollanda": {
+      "how_qualified": "UEFA birinci tur G grubu birincisi",
+      "appearances": "12.",
+      "last_app": "2022",
+      "best_result": "İkinci (1974, 1978, 2010)"
+    },
+    "Avusturya": {
+      "how_qualified": "UEFA birinci tur H grubu birincisi",
+      "appearances": "8.",
+      "last_app": "1998",
+      "best_result": "Üçüncü (1954)"
+    },
+    "Belçika": {
+      "how_qualified": "UEFA birinci tur J grubu birincisi",
+      "appearances": "15.",
+      "last_app": "2022",
+      "best_result": "Üçüncü (2018)"
+    },
+    "İskoçya": {
+      "how_qualified": "UEFA birinci tur C grubu birincisi",
+      "appearances": "9.",
+      "last_app": "1998",
+      "best_result": "Grup aşaması (1954, 1958, 1974, 1978, 1982, 1986, 1990, 1998)"
+    },
+    "İspanya": {
+      "how_qualified": "UEFA birinci tur E grubu birincisi",
+      "appearances": "17.",
+      "last_app": "2022",
+      "best_result": "Şampiyon (2010)"
+    },
+    "İsviçre": {
+      "how_qualified": "UEFA birinci tur B grubu birincisi",
+      "appearances": "13.",
+      "last_app": "2022",
+      "best_result": "Çeyrek final (1934, 1938, 1954)"
+    },
+    "Panama": {
+      "how_qualified": "CONCACAF üçüncü tur A grubu birincisi",
+      "appearances": "2.",
+      "last_app": "2018",
+      "best_result": "Grup aşaması (2018)"
+    },
+    "Curaçao": {
+      "how_qualified": "CONCACAF üçüncü tur B grubu birincisi",
+      "appearances": "1.",
+      "last_app": "-",
+      "best_result": "-"
+    },
+    "Haiti": {
+      "how_qualified": "CONCACAF üçüncü tur C grubu birincisi",
+      "appearances": "2.",
+      "last_app": "1974",
+      "best_result": "Grup aşaması (1974)"
+    },
+    "İsveç": {
+      "how_qualified": "UEFA elemeleri play-off B yolu kazananı",
+      "appearances": "13.",
+      "last_app": "2018",
+      "best_result": "İkinci (1958)"
+    },
+    "Türkiye": {
+      "how_qualified": "UEFA elemeleri play-off C yolu kazananı",
+      "appearances": "3.",
+      "last_app": "2002",
+      "best_result": "Üçüncü (2002)"
+    },
+    "Çekya": {
+      "how_qualified": "UEFA elemeleri play-off D yolu kazananı",
+      "appearances": "10.",
+      "last_app": "2006",
+      "best_result": "İkinci, (1934, 1962)"
+    },
+    "Bosna-Hersek": {
+      "how_qualified": "UEFA elemeleri play-off A yolu kazananı",
+      "appearances": "2.",
+      "last_app": "2014",
+      "best_result": "Grup aşaması (2014)"
+    },
+    "Kongo DC": {
+      "how_qualified": "Konfederasyonlararası play-off kazananı",
+      "appearances": "2.",
+      "last_app": "1974",
+      "best_result": "Grup aşaması (1974)"
+    },
+    "Irak": {
+      "how_qualified": "Konfederasyonlararası play-off kazananı",
+      "appearances": "2.",
+      "last_app": "1986",
+      "best_result": "Grup aşaması (1986)"
+    }
+  }
+}

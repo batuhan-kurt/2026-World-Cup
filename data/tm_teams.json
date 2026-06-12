@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Fransa",
+    "squad_size": "26",
+    "avg_age": "27.0",
+    "total_value": "1.52 milyar €",
+    "avg_value": "58.58 mil. €"
+  },
+  {
+    "name": "İngiltere",
+    "squad_size": "26",
+    "avg_age": "27.2",
+    "total_value": "1.36 milyar €",
+    "avg_value": "52.43 mil. €"
+  },
+  {
+    "name": "İspanya",
+    "squad_size": "26",
+    "avg_age": "26.8",
+    "total_value": "1.22 milyar €",
+    "avg_value": "47.03 mil. €"
+  },
+  {
+    "name": "Portekiz",
+    "squad_size": "26",
+    "avg_age": "28.1",
+    "total_value": "1.01 milyar €",
+    "avg_value": "38.67 mil. €"
+  },
+  {
+    "name": "Almanya",
+    "squad_size": "26",
+    "avg_age": "28.1",
+    "total_value": "947.00 mil. €",
+    "avg_value": "36.42 mil. €"
+  },
+  {
+    "name": "Brezilya",
+    "squad_size": "26",
+    "avg_age": "29.4",
+    "total_value": "928.20 mil. €",
+    "avg_value": "35.70 mil. €"
+  },
+  {
+    "name": "Arjantin",
+    "squad_size": "26",
+    "avg_age": "29.1",
+    "total_value": "807.50 mil. €",
+    "avg_value": "31.06 mil. €"
+  },
+  {
+    "name": "Hollanda",
+    "squad_size": "26",
+    "avg_age": "27.8",
+    "total_value": "754.20 mil. €",
+    "avg_value": "29.01 mil. €"
+  },
+  {
+    "name": "Norveç",
+    "squad_size": "26",
+    "avg_age": "26.8",
+    "total_value": "589.90 mil. €",
+    "avg_value": "22.69 mil. €"
+  },
+  {
+    "name": "Belçika",
+    "squad_size": "26",
+    "avg_age": "27.6",
+    "total_value": "547.50 mil. €",
+    "avg_value": "21.06 mil. €"
+  },
+  {
+    "name": "Fildişi Sahili",
+    "squad_size": "26",
+    "avg_age": "25.9",
+    "total_value": "522.10 mil. €",
+    "avg_value": "20.08 mil. €"
+  },
+  {
+    "name": "Senegal",
+    "squad_size": "26",
+    "avg_age": "27.1",
+    "total_value": "478.10 mil. €",
+    "avg_value": "18.39 mil. €"
+  },
+  {
+    "name": "Türkiye",
+    "squad_size": "26",
+    "avg_age": "27.7",
+    "total_value": "473.70 mil. €",
+    "avg_value": "18.22 mil. €"
+  },
+  {
+    "name": "Fas",
+    "squad_size": "26",
+    "avg_age": "26.6",
+    "total_value": "447.70 mil. €",
+    "avg_value": "17.22 mil. €"
+  },
+  {
+    "name": "İsveç",
+    "squad_size": "26",
+    "avg_age": "27.6",
+    "total_value": "406.08 mil. €",
+    "avg_value": "15.62 mil. €"
+  },
+  {
+    "name": "Hırvatistan",
+    "squad_size": "26",
+    "avg_age": "28.4",
+    "total_value": "387.30 mil. €",
+    "avg_value": "14.90 mil. €"
+  },
+  {
+    "name": "Amerika Birleşik Devletleri",
+    "squad_size": "26",
+    "avg_age": "26.9",
+    "total_value": "385.65 mil. €",
+    "avg_value": "14.83 mil. €"
+  },
+  {
+    "name": "Ekvador",
+    "squad_size": "26",
+    "avg_age": "26.1",
+    "total_value": "368.70 mil. €",
+    "avg_value": "14.18 mil. €"
+  },
+  {
+    "name": "Uruguay",
+    "squad_size": "26",
+    "avg_age": "28.8",
+    "total_value": "359.30 mil. €",
+    "avg_value": "13.82 mil. €"
+  },
+  {
+    "name": "İsviçre",
+    "squad_size": "26",
+    "avg_age": "28.3",
+    "total_value": "332.50 mil. €",
+    "avg_value": "12.79 mil. €"
+  },
+  {
+    "name": "Kolombiya",
+    "squad_size": "26",
+    "avg_age": "30.1",
+    "total_value": "302.35 mil. €",
+    "avg_value": "11.63 mil. €"
+  },
+  {
+    "name": "Japonya",
+    "squad_size": "26",
+    "avg_age": "27.8",
+    "total_value": "270.85 mil. €",
+    "avg_value": "10.42 mil. €"
+  },
+  {
+    "name": "Cezayir",
+    "squad_size": "26",
+    "avg_age": "26.9",
+    "total_value": "256.90 mil. €",
+    "avg_value": "9.88 mil. €"
+  },
+  {
+    "name": "Avusturya",
+    "squad_size": "26",
+    "avg_age": "28.6",
+    "total_value": "245.20 mil. €",
+    "avg_value": "9.43 mil. €"
+  },
+  {
+    "name": "Gana",
+    "squad_size": "27",
+    "avg_age": "26.8",
+    "total_value": "234.60 mil. €",
+    "avg_value": "8.69 mil. €"
+  },
+  {
+    "name": "Kanada",
+    "squad_size": "26",
+    "avg_age": "27.0",
+    "total_value": "198.65 mil. €",
+    "avg_value": "7.64 mil. €"
+  },
+  {
+    "name": "Meksika",
+    "squad_size": "26",
+    "avg_age": "27.9",
+    "total_value": "191.85 mil. €",
+    "avg_value": "7.38 mil. €"
+  },
+  {
+    "name": "Çekya",
+    "squad_size": "26",
+    "avg_age": "27.6",
+    "total_value": "188.18 mil. €",
+    "avg_value": "7.24 mil. €"
+  },
+  {
+    "name": "İskoçya",
+    "squad_size": "26",
+    "avg_age": "29.2",
+    "total_value": "170.25 mil. €",
+    "avg_value": "6.55 mil. €"
+  },
+  {
+    "name": "Paraguay",
+    "squad_size": "26",
+    "avg_age": "29.1",
+    "total_value": "153.65 mil. €",
+    "avg_value": "5.91 mil. €"
+  },
+  {
+    "name": "Bosna-Hersek",
+    "squad_size": "26",
+    "avg_age": "26.4",
+    "total_value": "151.60 mil. €",
+    "avg_value": "5.83 mil. €"
+  },
+  {
+    "name": "Demokratik Kongo Cumhuriyeti",
+    "squad_size": "26",
+    "avg_age": "29.1",
+    "total_value": "143.90 mil. €",
+    "avg_value": "5.53 mil. €"
+  },
+  {
+    "name": "Güney Kore",
+    "squad_size": "26",
+    "avg_age": "28.1",
+    "total_value": "139.05 mil. €",
+    "avg_value": "5.35 mil. €"
+  },
+  {
+    "name": "Mısır",
+    "squad_size": "26",
+    "avg_age": "29.1",
+    "total_value": "116.48 mil. €",
+    "avg_value": "4.48 mil. €"
+  },
+  {
+    "name": "Özbekistan",
+    "squad_size": "26",
+    "avg_age": "28.5",
+    "total_value": "85.33 mil. €",
+    "avg_value": "3.28 mil. €"
+  },
+  {
+    "name": "Avustralya",
+    "squad_size": "26",
+    "avg_age": "27.4",
+    "total_value": "77.45 mil. €",
+    "avg_value": "2.98 mil. €"
+  },
+  {
+    "name": "Tunus",
+    "squad_size": "26",
+    "avg_age": "26.7",
+    "total_value": "69.95 mil. €",
+    "avg_value": "2.69 mil. €"
+  },
+  {
+    "name": "Haiti",
+    "squad_size": "26",
+    "avg_age": "27.6",
+    "total_value": "55.90 mil. €",
+    "avg_value": "2.15 mil. €"
+  },
+  {
+    "name": "Yeşil Burun Adaları",
+    "squad_size": "26",
+    "avg_age": "29.7",
+    "total_value": "54.50 mil. €",
+    "avg_value": "2.10 mil. €"
+  },
+  {
+    "name": "Güney Afrika",
+    "squad_size": "26",
+    "avg_age": "26.8",
+    "total_value": "49.25 mil. €",
+    "avg_value": "1.89 mil. €"
+  },
+  {
+    "name": "Suudi Arabistan",
+    "squad_size": "26",
+    "avg_age": "28.5",
+    "total_value": "40.68 mil. €",
+    "avg_value": "1.56 mil. €"
+  },
+  {
+    "name": "Panama",
+    "squad_size": "26",
+    "avg_age": "30.5",
+    "total_value": "34.55 mil. €",
+    "avg_value": "1.33 mil. €"
+  },
+  {
+    "name": "Yeni Zelanda",
+    "squad_size": "26",
+    "avg_age": "28.1",
+    "total_value": "34.35 mil. €",
+    "avg_value": "1.32 mil. €"
+  },
+  {
+    "name": "İran",
+    "squad_size": "26",
+    "avg_age": "30.4",
+    "total_value": "32.05 mil. €",
+    "avg_value": "1.23 mil. €"
+  },
+  {
+    "name": "Curaçao",
+    "squad_size": "26",
+    "avg_age": "28.0",
+    "total_value": "25.78 mil. €",
+    "avg_value": "991 bin €"
+  },
+  {
+    "name": "Irak",
+    "squad_size": "26",
+    "avg_age": "26.9",
+    "total_value": "21.20 mil. €",
+    "avg_value": "815 bin €"
+  },
+  {
+    "name": "Ürdün",
+    "squad_size": "26",
+    "avg_age": "28.5",
+    "total_value": "20.30 mil. €",
+    "avg_value": "781 bin €"
+  },
+  {
+    "name": "Katar",
+    "squad_size": "26",
+    "avg_age": "29.5",
+    "total_value": "19.93 mil. €",
+    "avg_value": "766 bin €"
+  }
+]

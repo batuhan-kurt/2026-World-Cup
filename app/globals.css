@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-slate-200 antialiased min-h-screen overflow-x-hidden font-sans;
+    background-image: 
+      radial-gradient(circle at 15% 50%, rgba(59, 130, 246, 0.12), transparent 25%),
+      radial-gradient(circle at 85% 30%, rgba(245, 158, 11, 0.08), transparent 25%);
+    background-attachment: fixed;
+  }
+}
+
+@layer components {
+  /* Ana glass kart stili */
+  .glass-card {
+    @apply bg-surface backdrop-blur-md border border-border rounded-[24px] shadow-lg transition-all duration-300;
+  }
+  
+  .glass-card:hover {
+    @apply bg-surfaceHover border-slate-700 shadow-[0_0_20px_rgba(59,130,246,0.1)] -translate-y-1;
+  }
+
+  /* Daha belirgin glass paneller (Örn: Sidebar) */
+  .glass-panel {
+    @apply bg-surface backdrop-blur-xl border border-border shadow-[0_8px_32px_0_rgba(0,0,0,0.3)];
+    background-image: theme('backgroundImage.glass-gradient');
+  }
+  
+  /* Gradient Yazı Stilleri */
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gold-400 to-gold-600;
+  }
+  
+  .text-gradient-electric {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-electric-400 to-electric-600;
+  }
+
+  /* Durum Rozetleri vs */
+  .status-finished {
+    @apply px-2.5 py-1 rounded-md text-xs font-semibold bg-slate-800 text-slate-300 border border-slate-700;
+  }
+  .status-upcoming {
+    @apply px-2.5 py-1 rounded-md text-xs font-semibold bg-blue-900/40 text-blue-300 border border-blue-800/50;
+  }
+  .status-live {
+    @apply px-2.5 py-1 rounded-md text-xs font-bold bg-red-500/20 text-red-400 border border-red-500/30 animate-pulse;
+  }
+}
+
+/* Hide number input arrows */
+.hide-arrows::-webkit-inner-spin-button, 
+.hide-arrows::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.hide-arrows {
+  -moz-appearance: textfield;
+}
+

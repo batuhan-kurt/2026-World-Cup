@@ -1,0 +1,14 @@
+.env.local
+.env*.local
+node_modules/
+.next/
+out/
+build/
+*.log
+.DS_Store
+
+data/predictions.json
+data/h2h_cache.json
+data/hybrid_cache.json
+.env
+
