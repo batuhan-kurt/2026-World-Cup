@@ -58,7 +58,7 @@ export default function RootLayout({
             </div>
 
             {/* Ana İçerik */}
-            <main className="flex-1 overflow-y-auto overflow-x-hidden p-4 md:p-8 pb-24 md:pb-8">
+            <main className="flex-1 overflow-y-auto overflow-x-hidden p-4 md:p-8 pb-36 md:pb-8">
               <div className="max-w-7xl mx-auto h-full">
                 {children}
               </div>
