@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+export const dynamic = "force-dynamic";
 import { redis } from "@/lib/redis";
 
 const CACHE_KEY_PREFIX = "worldcup:h2h:";

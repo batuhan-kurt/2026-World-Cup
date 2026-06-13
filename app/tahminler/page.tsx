@@ -1,7 +1,6 @@
 import PredictionsClient from "@/components/predictions/PredictionsClient";
 import { getFixturesData, getGroupsData } from "@/lib/data-service";
-import fs from "fs";
-import path from "path";
+import squadsObjRaw from "@/data/wc2026-squads.json";
 
 export const revalidate = 300;
 
@@ -11,9 +10,8 @@ export default async function PredictionsPage() {
   
   let players: any[] = [];
   try {
-    const squadsPath = path.join(process.cwd(), "data", "wc2026-squads.json");
-    if (fs.existsSync(squadsPath)) {
-      const squadsObj = JSON.parse(fs.readFileSync(squadsPath, "utf-8"));
+    const squadsObj: any = squadsObjRaw;
+    if (squadsObj) {
       Object.keys(squadsObj).forEach(country => {
         const countryPlayers = squadsObj[country].players || [];
         countryPlayers.forEach((p: any) => {

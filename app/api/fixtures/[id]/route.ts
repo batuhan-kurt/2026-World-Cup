@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+export const dynamic = "force-dynamic";
 import { getHybridMatchDetails } from "@/lib/hybrid-cache";
 
 export async function GET(request: Request, { params }: { params: { id: string } }) {

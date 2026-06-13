@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+export const dynamic = "force-dynamic";
 import { redis } from "@/lib/redis";
 
 const REDIS_KEY = "worldcup:predictions";

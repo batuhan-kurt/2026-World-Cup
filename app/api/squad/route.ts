@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+export const dynamic = "force-dynamic";
 import { getSquad } from "@/lib/api";
 
 export async function GET(request: Request) {
