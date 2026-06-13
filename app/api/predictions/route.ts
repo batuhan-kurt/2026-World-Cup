@@ -1,19 +1,12 @@
-import fs from "fs";
-import path from "path";
 import { NextResponse } from "next/server";
+import { redis } from "@/lib/redis";
 
-const isVercel = process.env.VERCEL || process.env.NEXT_PUBLIC_VERCEL_ENV;
-const dataFilePath = isVercel 
-  ? path.join("/tmp", "predictions.json")
-  : path.join(process.cwd(), "data", "predictions.json");
+const REDIS_KEY = "worldcup:predictions";
 
 export async function GET() {
   try {
-    if (!fs.existsSync(dataFilePath)) {
-      fs.writeFileSync(dataFilePath, "[]");
-    }
-    const data = fs.readFileSync(dataFilePath, "utf8");
-    return NextResponse.json(JSON.parse(data));
+    const data = await redis.get(REDIS_KEY);
+    return NextResponse.json(data || []);
   } catch (error) {
     return NextResponse.json({ error: "Veri okunamadı." }, { status: 500 });
   }
@@ -23,10 +16,8 @@ export async function POST(req: Request) {
   try {
     const body = await req.json();
     
-    if (!fs.existsSync(dataFilePath)) {
-      fs.writeFileSync(dataFilePath, "[]");
-    }
-    const data = JSON.parse(fs.readFileSync(dataFilePath, "utf8"));
+    let data: any[] = (await redis.get(REDIS_KEY)) || [];
+    if (!Array.isArray(data)) data = [];
     
     const newPrediction = {
       id: Date.now().toString(),
@@ -35,7 +26,7 @@ export async function POST(req: Request) {
     };
     
     data.push(newPrediction);
-    fs.writeFileSync(dataFilePath, JSON.stringify(data, null, 2));
+    await redis.set(REDIS_KEY, data);
     
     return NextResponse.json({ success: true, prediction: newPrediction });
   } catch (error) {

@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
-
-const globalAny: any = global;
+import { redis } from "@/lib/redis";
 
 export async function GET() {
   try {
@@ -9,7 +8,10 @@ export async function GET() {
     let totalYellowCards = 0;
     let totalRedCards = 0;
     let goalScorers: Record<string, { name: string, goals: number, team: string }> = {};
-    let teamStats: Record<string, { name: string, scored: 0, conceded: 0, played: 0 }> = {};
+    let topAssists: Record<string, { name: string, assists: number, team: string }> = {};
+    let teamStats: Record<string, { name: string, scored: number, conceded: number, played: number, yellow: number, red: number }> = {};
+    let playerRatings: Record<string, { name: string, team: string, totalRating: number, count: number, photo: string }> = {};
+    let playerCards: Record<string, { name: string, team: string, yellow: number, red: number }> = {};
 
     // 1. Önce Football-Data'dan oynanan tüm maçları çekelim (Temel golleri saymak için)
     const token = process.env.FOOTBALL_DATA_TOKEN;
@@ -28,8 +30,8 @@ export async function GET() {
           if (m.status === "FINISHED" || ["IN_PLAY", "PAUSED"].includes(m.status)) {
             const hTeam = m.homeTeam?.name || "Bilinmiyor";
             const aTeam = m.awayTeam?.name || "Bilinmiyor";
-            if (!teamStats[hTeam]) teamStats[hTeam] = { name: hTeam, scored: 0, conceded: 0, played: 0 };
-            if (!teamStats[aTeam]) teamStats[aTeam] = { name: aTeam, scored: 0, conceded: 0, played: 0 };
+            if (!teamStats[hTeam]) teamStats[hTeam] = { name: hTeam, scored: 0, conceded: 0, played: 0, yellow: 0, red: 0 };
+            if (!teamStats[aTeam]) teamStats[aTeam] = { name: aTeam, scored: 0, conceded: 0, played: 0, yellow: 0, red: 0 };
             
             teamStats[hTeam].played++;
             teamStats[aTeam].played++;
@@ -48,51 +50,109 @@ export async function GET() {
       }
     }
 
-    // 2. RAM'deki Cache'den detaylı istatistikleri (Kartlar ve Oyuncular) say
-    const cachedMatches = globalAny.hybridMatchCache || {};
-    let topAssists: Record<string, { name: string, assists: number, team: string }> = {};
-    
-    Object.values(cachedMatches).forEach((match: any) => {
-      const events = match.events || [];
+    // 2. Redis'ten tüm hibrit maç detaylarını çek (Olaylar, İstatistikler, Oyuncular)
+    const keys = await redis.keys("worldcup:hybridMatch:*");
+    if (keys.length > 0) {
+      const cachedMatches = await redis.mget(...keys);
       
-      events.forEach((ev: any) => {
-        // Sarı ve Kırmızı Kart Sayımı
-        if (ev.type === "Card" || ev.type === "Kart") {
-          if (ev.detail?.includes("Yellow") || ev.detail?.includes("Sarı")) totalYellowCards++;
-          if (ev.detail?.includes("Red") || ev.detail?.includes("Kırmızı")) totalRedCards++;
-        }
+      cachedMatches.forEach((match: any) => {
+        if (!match) return;
         
-        // Gol Krallığı Sayımı (Sadece Normal Gol ve Penaltı)
-        if ((ev.type === "Goal" || ev.type === "Gol") && !ev.detail?.includes("cancelled") && !ev.detail?.includes("İptal") && !ev.detail?.includes("Own") && !ev.detail?.includes("Kendi")) {
-          const playerName = ev.player?.name;
-          const teamName = ev.team?.name;
-          const assistName = ev.assist?.name;
-
-          if (playerName) {
-            if (!goalScorers[playerName]) {
-              goalScorers[playerName] = { name: playerName, goals: 0, team: teamName };
+        const events = match.events || [];
+        const playersData = match.players || [];
+        
+        // Goller, Kartlar, Asistler
+        events.forEach((ev: any) => {
+          if (ev.type === "Card" || ev.type === "Kart") {
+            const playerName = ev.player?.name;
+            const teamName = ev.team?.name;
+            
+            if (playerName) {
+               if (!playerCards[playerName]) playerCards[playerName] = { name: playerName, team: teamName, yellow: 0, red: 0 };
             }
-            goalScorers[playerName].goals++;
-          }
+            if (teamName && !teamStats[teamName]) {
+               teamStats[teamName] = { name: teamName, scored: 0, conceded: 0, played: 0, yellow: 0, red: 0 };
+            }
 
-          if (assistName) {
-             if (!topAssists[assistName]) {
-                topAssists[assistName] = { name: assistName, assists: 0, team: teamName };
-             }
-             topAssists[assistName].assists++;
+            if (ev.detail?.includes("Yellow") || ev.detail?.includes("Sarı")) {
+                totalYellowCards++;
+                if (playerName) playerCards[playerName].yellow++;
+                if (teamName && teamStats[teamName]) teamStats[teamName].yellow = (teamStats[teamName].yellow || 0) + 1;
+            }
+            if (ev.detail?.includes("Red") || ev.detail?.includes("Kırmızı")) {
+                totalRedCards++;
+                if (playerName) playerCards[playerName].red++;
+                if (teamName && teamStats[teamName]) teamStats[teamName].red = (teamStats[teamName].red || 0) + 1;
+            }
           }
-        }
+          
+          if ((ev.type === "Goal" || ev.type === "Gol") && !ev.detail?.includes("cancelled") && !ev.detail?.includes("İptal") && !ev.detail?.includes("Own") && !ev.detail?.includes("Kendi")) {
+            const playerName = ev.player?.name;
+            const teamName = ev.team?.name;
+            const assistName = ev.assist?.name;
+
+            if (playerName) {
+              if (!goalScorers[playerName]) goalScorers[playerName] = { name: playerName, goals: 0, team: teamName };
+              goalScorers[playerName].goals++;
+            }
+            if (assistName) {
+               if (!topAssists[assistName]) topAssists[assistName] = { name: assistName, assists: 0, team: teamName };
+               topAssists[assistName].assists++;
+            }
+          }
+        });
+
+        // Oyuncu Rating'leri (Sadece API-Football'dan gelenler)
+        playersData.forEach((teamInfo: any) => {
+          const teamName = teamInfo.team?.name;
+          const players = teamInfo.players || [];
+          players.forEach((p: any) => {
+            const playerInfo = p.player;
+            const stats = p.statistics?.[0];
+            if (playerInfo && stats && stats.games?.rating) {
+              const rating = parseFloat(stats.games.rating);
+              if (!isNaN(rating)) {
+                if (!playerRatings[playerInfo.id]) {
+                  playerRatings[playerInfo.id] = {
+                    name: playerInfo.name,
+                    team: teamName,
+                    totalRating: 0,
+                    count: 0,
+                    photo: playerInfo.photo
+                  };
+                }
+                playerRatings[playerInfo.id].totalRating += rating;
+                playerRatings[playerInfo.id].count++;
+              }
+            }
+          });
+        });
       });
-    });
+    }
 
-    // En çok gol atanları sırala
+    // Sıralamalar
     const topScorers = Object.values(goalScorers).sort((a, b) => b.goals - a.goals).slice(0, 5);
     const topAssisters = Object.values(topAssists).sort((a, b) => b.assists - a.assists).slice(0, 5);
+    const topYellowCardPlayers = Object.values(playerCards).sort((a, b) => b.yellow - a.yellow).slice(0, 5);
+    const topRedCardPlayers = Object.values(playerCards).sort((a, b) => b.red - a.red).filter(p => p.red > 0).slice(0, 5);
     
-    // Takım İstatistikleri
+    // Rating Ortalamaları
+    const topRatedPlayers = Object.values(playerRatings)
+      .filter(p => p.count > 0)
+      .map(p => ({
+        name: p.name,
+        team: p.team,
+        rating: (p.totalRating / p.count).toFixed(2),
+        photo: p.photo
+      }))
+      .sort((a, b) => parseFloat(b.rating) - parseFloat(a.rating))
+      .slice(0, 5);
+
     const teamsArray = Object.values(teamStats).filter(t => t.played > 0 && t.name !== "Bilinmiyor");
     const topScoringTeams = [...teamsArray].sort((a, b) => b.scored - a.scored).slice(0, 5);
     const bestDefendingTeams = [...teamsArray].sort((a, b) => a.conceded - b.conceded).slice(0, 5);
+    const topYellowCardTeams = [...teamsArray].sort((a, b) => (b.yellow || 0) - (a.yellow || 0)).slice(0, 5);
+    const topRedCardTeams = [...teamsArray].sort((a, b) => (b.red || 0) - (a.red || 0)).filter(t => (t.red || 0) > 0).slice(0, 5);
 
     return NextResponse.json({ 
       totalMatches, 
@@ -101,8 +161,13 @@ export async function GET() {
       totalRedCards,
       topScorers,
       topAssisters,
+      topYellowCardPlayers,
+      topRedCardPlayers,
+      topRatedPlayers,
       topScoringTeams,
-      bestDefendingTeams
+      bestDefendingTeams,
+      topYellowCardTeams,
+      topRedCardTeams
     });
   } catch (error) {
     console.error("Tournament stats error:", error);

@@ -567,18 +567,33 @@ export default function OverviewClient({ fixtures, liveMatches = [] }: { fixture
                      <div className="absolute inset-y-0 left-1/2 w-px bg-white/10 -translate-x-1/2" />
                      
                      {matchEvents.map((ev: any, idx: number) => {
-                       // API'nin gönderdiği takımlar array'i ile event takım id'sini eşleştir. İsimlerle karşılaştırmak sorun çıkarabilir!
-                       const homeTeamId = fixtureDetailsData?.fixtureDetails?.homeTeam?.id || fixtureDetailsData?.fixtureDetails?.teams?.home?.id;
-                       const isHome = homeTeamId 
-                                      ? ev?.team?.id === homeTeamId 
-                                      : ev?.team?.name === selectedMatch?.team1;
+                        const apiHomeTeamId = fixtureDetailsData?.fixtureDetails?.apiHomeTeamId;
+                        let isHome = false;
+
+                        if (apiHomeTeamId) {
+                           isHome = Number(ev?.team?.id) === Number(apiHomeTeamId);
+                        } else {
+                           const evTeamName = (ev?.team?.name || "").toLowerCase();
+                           const homeTeamName = (selectedMatch?.homeTeam?.name || selectedMatch?.team1 || "").toLowerCase();
+                           isHome = evTeamName.includes(homeTeamName) || homeTeamName.includes(evTeamName) || 
+                                          (evTeamName.includes("korea") && homeTeamName.includes("kore")) ||
+                                          (evTeamName.includes("czech") && homeTeamName.includes("çek")) ||
+                                          (evTeamName.includes("bosnia") && homeTeamName.includes("bosna"));
+                        }
+                        
+                        const isSubst = ev.type === "Oyuncu Değişikliği" || ev.type === "subst";
+                        const isGoal = ev.type === "Gol" || ev.type === "Goal";
+                        const isCard = ev.type === "Kart" || ev.type === "Card";
+                        const isVar = ev.type === "VAR" || ev.type === "Var";
                        
                        return (
                          <div key={idx} className={"flex items-center gap-4 w-full " + (isHome ? "flex-row" : "flex-row-reverse")}>
                            <div className={"w-[calc(50%-2rem)] flex flex-col " + (isHome ? "items-end text-right" : "items-start text-left")}>
-                             <span className="text-sm font-bold text-white">{ev.player?.name || "Oyuncu"}</span>
-                             {ev.assist?.name && <span className="text-xs text-slate-400">Asist: {ev.assist.name}</span>}
-                             {ev.type === "subst" && ev.assist?.name && <span className="text-[10px] text-red-400">Çıkan: {ev.assist.name}</span>}
+                             <span className="text-sm font-bold text-white">
+                                {isSubst ? `Giren: ${ev.player?.name || "Oyuncu"}` : (ev.player?.name || "Oyuncu")}
+                             </span>
+                             {isGoal && ev.assist?.name && <span className="text-xs text-slate-400">Asist: {ev.assist.name}</span>}
+                             {isSubst && ev.assist?.name && <span className="text-[10px] text-red-400">Çıkan: {ev.assist.name}</span>}
                            </div>
                            
                            <div className="w-16 flex flex-col items-center justify-center shrink-0 z-10">
@@ -589,11 +604,11 @@ export default function OverviewClient({ fixtures, liveMatches = [] }: { fixture
                            </div>
                            
                            <div className={"w-[calc(50%-2rem)] flex items-center gap-2 " + (isHome ? "justify-start" : "justify-end")}>
-                             {ev.type === "Goal" && <div className="w-6 h-6 bg-green-500/20 border border-green-500/30 text-green-400 rounded-full flex items-center justify-center text-xs shadow-lg" title={ev.detail || ""}>⚽</div>}
-                             {ev.type === "Card" && ev.detail?.includes("Yellow") && <div className="w-4 h-6 bg-yellow-400 rounded-sm shadow-md border border-yellow-500" />}
-                             {ev.type === "Card" && ev.detail?.includes("Red") && <div className="w-4 h-6 bg-red-500 rounded-sm shadow-md border border-red-600" />}
-                             {ev.type === "subst" && <div className="w-6 h-6 bg-blue-500/20 border border-blue-500/30 text-blue-400 rounded-full flex items-center justify-center text-xs">🔄</div>}
-                             {ev.type === "Var" && <div className="px-2 py-0.5 bg-purple-500/20 border border-purple-500/30 text-purple-400 rounded text-xs font-bold">VAR</div>}
+                             {isGoal && <div className="w-6 h-6 bg-green-500/20 border border-green-500/30 text-green-400 rounded-full flex items-center justify-center text-xs shadow-lg" title={ev.detail || ""}>⚽</div>}
+                             {isCard && (ev.detail?.includes("Yellow") || ev.detail?.includes("Sarı")) && <div className="w-4 h-6 bg-yellow-400 rounded-sm shadow-md border border-yellow-500" />}
+                             {isCard && (ev.detail?.includes("Red") || ev.detail?.includes("Kırmızı")) && <div className="w-4 h-6 bg-red-500 rounded-sm shadow-md border border-red-600" />}
+                             {isSubst && <div className="w-6 h-6 bg-blue-500/20 border border-blue-500/30 text-blue-400 rounded-full flex items-center justify-center text-xs">🔄</div>}
+                             {isVar && <div className="px-2 py-0.5 bg-purple-500/20 border border-purple-500/30 text-purple-400 rounded text-xs font-bold">VAR</div>}
                            </div>
                          </div>
                        );

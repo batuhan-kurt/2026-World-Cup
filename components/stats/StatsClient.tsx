@@ -149,19 +149,42 @@ export function StatsClient() {
                 )}
              </div>
 
-             {/* En İyi Maç Reytingi Placeholder */}
+             {/* En Yüksek Reyting Ortalaması */}
              <div className="glass-panel p-6 border border-white/10 relative overflow-hidden group">
                 <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
-                   <span className="w-1.5 h-6 rounded-full bg-purple-500" /> En İyi Maç Reytingi
+                   <span className="w-1.5 h-6 rounded-full bg-purple-500" /> En İyi Oyuncu Reytingi
                 </h3>
                 
-                <div className="bg-black/30 border border-white/5 border-dashed rounded-xl p-8 flex flex-col items-center text-center gap-3">
-                   <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center">
-                      <TrendingUp className="w-6 h-6 text-slate-500" />
-                   </div>
-                   <div className="font-bold text-slate-300">Henüz Açıklanmadı</div>
-                   <p className="text-xs text-slate-500 max-w-xs">Maçlarda en yüksek ortalama reytinge ulaşan oyuncular listelenecektir.</p>
-                </div>
+                {statsData && statsData.topRatedPlayers && statsData.topRatedPlayers.length > 0 ? (
+                  <div className="flex flex-col gap-3">
+                    {statsData.topRatedPlayers.map((player: any, idx: number) => (
+                      <div key={idx} className="flex items-center justify-between p-3 bg-white/5 rounded-xl border border-white/5">
+                        <div className="flex items-center gap-3">
+                          <span className="text-sm font-bold text-slate-500 w-4">{idx + 1}.</span>
+                          {player.photo && (
+                            <img src={player.photo} alt={player.name} className="w-8 h-8 rounded-full border border-white/20 object-cover" />
+                          )}
+                          <div className="flex flex-col">
+                            <span className="text-sm font-bold text-white">{player.name}</span>
+                            <span className="text-[10px] text-slate-400">{getTurkishName(player.team)}</span>
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-2 px-3 py-1 bg-purple-500/20 rounded-lg">
+                          <TrendingUp className="w-4 h-4 text-purple-400" />
+                          <span className="font-bold text-purple-400">{player.rating}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="bg-black/30 border border-white/5 border-dashed rounded-xl p-8 flex flex-col items-center text-center gap-3">
+                     <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center">
+                        <TrendingUp className="w-6 h-6 text-slate-500" />
+                     </div>
+                     <div className="font-bold text-slate-300">Henüz Açıklanmadı</div>
+                     <p className="text-xs text-slate-500 max-w-xs">Maçlarda en yüksek ortalama reytinge ulaşan oyuncular listelenecektir.</p>
+                  </div>
+                )}
              </div>
 
              {/* En Çok Kalesini Gole Kapatan Kaleciler Placeholder */}
@@ -184,13 +207,33 @@ export function StatsClient() {
                 <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
                    <span className="w-1.5 h-6 rounded-full bg-yellow-400" /> En Çok Sarı Kart Görenler
                 </h3>
-                <div className="bg-black/30 border border-white/5 border-dashed rounded-xl p-8 flex flex-col items-center text-center gap-3">
-                   <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mb-2">
-                      <div className="w-4 h-6 bg-yellow-400 rounded-sm shadow-md border border-yellow-500" />
-                   </div>
-                   <div className="font-bold text-slate-300">Henüz Açıklanmadı</div>
-                   <p className="text-xs text-slate-500 max-w-xs">En çok sarı kart gören oyuncular.</p>
-                </div>
+                {statsData && statsData.topYellowCardPlayers && statsData.topYellowCardPlayers.length > 0 ? (
+                  <div className="flex flex-col gap-3">
+                    {statsData.topYellowCardPlayers.map((player: any, idx: number) => (
+                      <div key={idx} className="flex items-center justify-between p-3 bg-white/5 rounded-xl border border-white/5">
+                        <div className="flex items-center gap-3">
+                          <span className="text-sm font-bold text-slate-500 w-4">{idx + 1}.</span>
+                          <div className="flex flex-col">
+                            <span className="text-sm font-bold text-white">{player.name}</span>
+                            <span className="text-[10px] text-slate-400">{getTurkishName(player.team)}</span>
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-2 px-3 py-1 bg-yellow-500/20 rounded-lg">
+                          <div className="w-3 h-4 bg-yellow-400 rounded-[1px] shadow-sm border border-yellow-500" />
+                          <span className="font-bold text-yellow-500">{player.yellow}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="bg-black/30 border border-white/5 border-dashed rounded-xl p-8 flex flex-col items-center text-center gap-3">
+                     <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mb-2">
+                        <div className="w-4 h-6 bg-yellow-400 rounded-sm shadow-md border border-yellow-500" />
+                     </div>
+                     <div className="font-bold text-slate-300">Henüz Açıklanmadı</div>
+                     <p className="text-xs text-slate-500 max-w-xs">En çok sarı kart gören oyuncular.</p>
+                  </div>
+                )}
              </div>
 
              {/* En Çok Kırmızı Kart Gören Oyuncular */}
@@ -198,13 +241,33 @@ export function StatsClient() {
                 <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
                    <span className="w-1.5 h-6 rounded-full bg-red-600" /> En Çok Kırmızı Kart Görenler
                 </h3>
-                <div className="bg-black/30 border border-white/5 border-dashed rounded-xl p-8 flex flex-col items-center text-center gap-3">
-                   <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mb-2">
-                      <div className="w-4 h-6 bg-red-600 rounded-sm shadow-md border border-red-700" />
-                   </div>
-                   <div className="font-bold text-slate-300">Henüz Açıklanmadı</div>
-                   <p className="text-xs text-slate-500 max-w-xs">En çok kırmızı kart gören oyuncular.</p>
-                </div>
+                {statsData && statsData.topRedCardPlayers && statsData.topRedCardPlayers.length > 0 ? (
+                  <div className="flex flex-col gap-3">
+                    {statsData.topRedCardPlayers.map((player: any, idx: number) => (
+                      <div key={idx} className="flex items-center justify-between p-3 bg-white/5 rounded-xl border border-white/5">
+                        <div className="flex items-center gap-3">
+                          <span className="text-sm font-bold text-slate-500 w-4">{idx + 1}.</span>
+                          <div className="flex flex-col">
+                            <span className="text-sm font-bold text-white">{player.name}</span>
+                            <span className="text-[10px] text-slate-400">{getTurkishName(player.team)}</span>
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-2 px-3 py-1 bg-red-500/20 rounded-lg">
+                          <div className="w-3 h-4 bg-red-500 rounded-[1px] shadow-sm border border-red-600" />
+                          <span className="font-bold text-red-500">{player.red}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="bg-black/30 border border-white/5 border-dashed rounded-xl p-8 flex flex-col items-center text-center gap-3">
+                     <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mb-2">
+                        <div className="w-4 h-6 bg-red-600 rounded-sm shadow-md border border-red-700" />
+                     </div>
+                     <div className="font-bold text-slate-300">Henüz Açıklanmadı</div>
+                     <p className="text-xs text-slate-500 max-w-xs">En çok kırmızı kart gören oyuncular.</p>
+                  </div>
+                )}
              </div>
            </>
          ) : (
@@ -285,13 +348,33 @@ export function StatsClient() {
                 <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
                    <span className="w-1.5 h-6 rounded-full bg-yellow-400" /> En Çok Sarı Kart Gören Takımlar
                 </h3>
-                <div className="bg-black/30 border border-white/5 border-dashed rounded-xl p-8 flex flex-col items-center text-center gap-3">
-                   <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mb-2">
-                      <div className="w-4 h-6 bg-yellow-400 rounded-sm shadow-md border border-yellow-500" />
-                   </div>
-                   <div className="font-bold text-slate-300">Henüz Açıklanmadı</div>
-                   <p className="text-xs text-slate-500 max-w-xs">Turnuvada en çok sarı kart gören takımlar listelenecektir.</p>
-                </div>
+                {statsData && statsData.topYellowCardTeams && statsData.topYellowCardTeams.length > 0 ? (
+                  <div className="flex flex-col gap-3">
+                    {statsData.topYellowCardTeams.map((team: any, idx: number) => (
+                      <div key={idx} className="flex items-center justify-between p-3 bg-white/5 rounded-xl border border-white/5">
+                        <div className="flex items-center gap-3">
+                          <span className="text-sm font-bold text-slate-500 w-4">{idx + 1}.</span>
+                          <span className="text-sm font-bold text-white">{getTurkishName(team.name)}</span>
+                        </div>
+                        <div className="flex flex-col items-end">
+                           <div className="flex items-center gap-2 px-3 py-1 bg-yellow-500/20 rounded-lg">
+                             <div className="w-3 h-4 bg-yellow-400 rounded-[1px] shadow-sm border border-yellow-500" />
+                             <span className="font-bold text-yellow-500">{team.yellow}</span>
+                           </div>
+                           <span className="mt-1 text-[10px] text-slate-400 font-bold uppercase tracking-wider">{team.played} Maç</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="bg-black/30 border border-white/5 border-dashed rounded-xl p-8 flex flex-col items-center text-center gap-3">
+                     <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mb-2">
+                        <div className="w-4 h-6 bg-yellow-400 rounded-sm shadow-md border border-yellow-500" />
+                     </div>
+                     <div className="font-bold text-slate-300">Henüz Açıklanmadı</div>
+                     <p className="text-xs text-slate-500 max-w-xs">Turnuvada en çok sarı kart gören takımlar listelenecektir.</p>
+                  </div>
+                )}
              </div>
 
              {/* En Çok Kırmızı Kart Gören Takımlar */}
@@ -299,13 +382,33 @@ export function StatsClient() {
                 <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
                    <span className="w-1.5 h-6 rounded-full bg-red-600" /> En Çok Kırmızı Kart Gören Takımlar
                 </h3>
-                <div className="bg-black/30 border border-white/5 border-dashed rounded-xl p-8 flex flex-col items-center text-center gap-3">
-                   <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mb-2">
-                      <div className="w-4 h-6 bg-red-600 rounded-sm shadow-md border border-red-700" />
-                   </div>
-                   <div className="font-bold text-slate-300">Henüz Açıklanmadı</div>
-                   <p className="text-xs text-slate-500 max-w-xs">Turnuvada en çok kırmızı kart gören takımlar listelenecektir.</p>
-                </div>
+                {statsData && statsData.topRedCardTeams && statsData.topRedCardTeams.length > 0 ? (
+                  <div className="flex flex-col gap-3">
+                    {statsData.topRedCardTeams.map((team: any, idx: number) => (
+                      <div key={idx} className="flex items-center justify-between p-3 bg-white/5 rounded-xl border border-white/5">
+                        <div className="flex items-center gap-3">
+                          <span className="text-sm font-bold text-slate-500 w-4">{idx + 1}.</span>
+                          <span className="text-sm font-bold text-white">{getTurkishName(team.name)}</span>
+                        </div>
+                        <div className="flex flex-col items-end">
+                           <div className="flex items-center gap-2 px-3 py-1 bg-red-500/20 rounded-lg">
+                             <div className="w-3 h-4 bg-red-500 rounded-[1px] shadow-sm border border-red-600" />
+                             <span className="font-bold text-red-500">{team.red}</span>
+                           </div>
+                           <span className="mt-1 text-[10px] text-slate-400 font-bold uppercase tracking-wider">{team.played} Maç</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="bg-black/30 border border-white/5 border-dashed rounded-xl p-8 flex flex-col items-center text-center gap-3">
+                     <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mb-2">
+                        <div className="w-4 h-6 bg-red-600 rounded-sm shadow-md border border-red-700" />
+                     </div>
+                     <div className="font-bold text-slate-300">Henüz Açıklanmadı</div>
+                     <p className="text-xs text-slate-500 max-w-xs">Turnuvada en çok kırmızı kart gören takımlar listelenecektir.</p>
+                  </div>
+                )}
              </div>
            </>
          )}

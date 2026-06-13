@@ -8,14 +8,8 @@ export async function GET() {
       return NextResponse.json({ error: "API Token missing" }, { status: 500 });
     }
 
-    // Football-Data.org supports date ranges.
-    // Fetch live matches and matches for yesterday & today & tomorrow to ensure we capture all
-    const today = new Date();
-    const tomorrow = new Date(today.getTime() + 86400000).toISOString().split('T')[0];
-    const yesterday = new Date(today.getTime() - 86400000).toISOString().split('T')[0];
-    
-    // We fetch all matches within the date range, then filter by World Cup internally
-    const res = await fetch(`https://api.football-data.org/v4/matches?dateFrom=${yesterday}&dateTo=${tomorrow}`, {
+    // Fetch all 104 matches for the World Cup
+    const res = await fetch(`https://api.football-data.org/v4/competitions/WC/matches`, {
       method: "GET",
       headers: { 
         "X-Auth-Token": token 
@@ -30,10 +24,8 @@ export async function GET() {
 
     const data = await res.json();
     
-    // Filter out World Cup matches. In football-data, competition id for World Cup is 2000.
-    const wcMatches = (data.matches || []).filter((m: any) => 
-      m.competition?.id === 2000 || m.competition?.code === 'WC'
-    );
+    // API returns data.matches
+    const wcMatches = data.matches || [];
 
     return NextResponse.json({ fixtures: wcMatches });
   } catch (error) {

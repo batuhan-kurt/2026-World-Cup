@@ -1,10 +1,8 @@
 "use client";
 
-import useSWR from "swr";
+import { useState, useEffect } from "react";
 import { History, TrendingUp, HelpCircle, Activity } from "lucide-react";
 import { cn } from "@/lib/utils";
-
-const fetcher = (url: string) => fetch(url).then(res => res.json());
 
 interface Props {
   team1Id: number;
@@ -14,10 +12,22 @@ interface Props {
 }
 
 export function H2HAnalysis({ team1Id, team2Id, team1Name, team2Name }: Props) {
-  const { data, error, isLoading } = useSWR(`/api/h2h?t1=${team1Id}&t2=${team2Id}`, fetcher, {
-    revalidateOnFocus: false,
-    revalidateOnReconnect: false
-  });
+  const [data, setData] = useState<any>(null);
+  const [error, setError] = useState<any>(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    fetch(`/api/h2h?t1=${team1Id}&t2=${team2Id}&t1Name=${encodeURIComponent(team1Name)}&t2Name=${encodeURIComponent(team2Name)}`)
+      .then(res => res.json())
+      .then(data => {
+        setData(data);
+        setIsLoading(false);
+      })
+      .catch(err => {
+        setError(err);
+        setIsLoading(false);
+      });
+  }, [team1Id, team2Id, team1Name, team2Name]);
 
   if (isLoading) {
     return (
@@ -30,33 +40,50 @@ export function H2HAnalysis({ team1Id, team2Id, team1Name, team2Name }: Props) {
     );
   }
 
-  if (error || !data || data.error || !data.response || data.response.length === 0) {
+  if (error || !data || data.error) {
     return (
       <div className="bg-white/5 border border-white/5 border-dashed rounded-2xl p-12 flex flex-col items-center justify-center text-center">
          <div className="w-16 h-16 bg-white/5 rounded-full flex items-center justify-center mb-4">
             <HelpCircle className="w-8 h-8 text-slate-400" />
          </div>
-         <h4 className="text-xl font-bold text-slate-300 mb-2">Henüz Açıklanmadı</h4>
+         <h4 className="text-xl font-bold text-slate-300 mb-2">Hata Oluştu</h4>
          <p className="text-sm text-slate-500 max-w-sm">
-            İki takım arasındaki detaylı form ve geçmiş karşılaşma analizleri sistem tarafından yakında yüklenecektir.
+            Veri çekilirken bir hata oluştu.
          </p>
       </div>
     );
   }
 
-  // data.response is an array of matches between these two teams
   const matches = data.response || [];
+  const apiT1 = data.apiT1;
   
+  if (matches.length === 0) {
+    return (
+      <div className="bg-black/30 border border-white/5 border-dashed rounded-2xl p-12 flex flex-col items-center justify-center text-center">
+         <div className="w-16 h-16 bg-white/5 rounded-full flex items-center justify-center mb-4">
+            <History className="w-8 h-8 text-slate-400" />
+         </div>
+         <h4 className="text-xl font-bold text-slate-300 mb-2">Tarihi Bir İlk!</h4>
+         <p className="text-sm text-slate-500 max-w-sm">
+            Bu iki takım tarihinde ilk kez karşılaşıyor. Geçmiş bir istatistik bulunmuyor.
+         </p>
+      </div>
+    );
+  }
+
   let t1Wins = 0;
   let t2Wins = 0;
   let draws = 0;
   
   matches.forEach((m: any) => {
+    // API-Football id'sini kullanarak kimin kazandığına tam isabetli karar ver
+    const isHomeT1 = Number(m.teams.home.id) === Number(apiT1);
+    
     if (m.teams.home.winner) {
-      if (m.teams.home.id === team1Id) t1Wins++;
+      if (isHomeT1) t1Wins++;
       else t2Wins++;
     } else if (m.teams.away.winner) {
-      if (m.teams.away.id === team1Id) t1Wins++;
+      if (!isHomeT1) t1Wins++;
       else t2Wins++;
     } else {
       draws++;
@@ -73,7 +100,7 @@ export function H2HAnalysis({ team1Id, team2Id, team1Name, team2Name }: Props) {
 
   return (
     <div className="space-y-8 animate-slide-up">
-      {/* Kazanma Olasılıkları (H2H Sonuçlarına Göre) */}
+      {/* Kazanma Olasılıkları */}
       <div className="bg-black/30 border border-white/5 p-6 rounded-2xl">
         <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2 mb-6">
            <TrendingUp className="w-4 h-4 text-electric-400" /> Geçmiş Eşleşmeler Analizi
@@ -111,7 +138,10 @@ export function H2HAnalysis({ team1Id, team2Id, team1Name, team2Name }: Props) {
         <div className="space-y-2">
            {recentH2H.map((m: any, idx: number) => {
              const date = new Date(m.fixture.date).toLocaleDateString("tr-TR", { year: 'numeric', month: 'short', day: 'numeric' });
-             const isT1Home = m.teams.home.id === team1Id;
+             
+             // apiT1 id'sini kullanarak tam isabet
+             const isT1Home = Number(m.teams.home.id) === Number(apiT1);
+             
              const t1Score = isT1Home ? m.goals.home : m.goals.away;
              const t2Score = isT1Home ? m.goals.away : m.goals.home;
              

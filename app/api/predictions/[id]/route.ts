@@ -1,17 +1,18 @@
-import fs from "fs";
-import path from "path";
 import { NextResponse } from "next/server";
+import { redis } from "@/lib/redis";
 
-const dataFilePath = path.join(process.cwd(), "data", "predictions.json");
+const REDIS_KEY = "worldcup:predictions";
 
 export async function DELETE(req: Request, { params }: { params: { id: string } }) {
   try {
-    if (!fs.existsSync(dataFilePath)) return NextResponse.json({ error: "Not found" }, { status: 404 });
-    const data = JSON.parse(fs.readFileSync(dataFilePath, "utf8"));
-    const newData = data.filter((d: any) => d.id !== params.id);
-    fs.writeFileSync(dataFilePath, JSON.stringify(newData, null, 2));
+    let data: any[] = (await redis.get(REDIS_KEY)) || [];
+    if (!Array.isArray(data)) data = [];
+    
+    const newData = data.filter((p: any) => p.id !== params.id);
+    await redis.set(REDIS_KEY, newData);
+    
     return NextResponse.json({ success: true });
   } catch (error) {
-    return NextResponse.json({ error: "Could not delete" }, { status: 500 });
+    return NextResponse.json({ error: "Veri silinemedi." }, { status: 500 });
   }
 }
